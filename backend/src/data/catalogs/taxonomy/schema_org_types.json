@@ -1,0 +1,324 @@
+{
+  "version": "26.0",
+  "lastUpdated": "2026-01-03T16:40:22.611Z",
+  "types": [
+    {
+      "id": "Thing",
+      "label": "Thing",
+      "comment": "The most generic type",
+      "parentTypes": [],
+      "properties": [
+        "name",
+        "description",
+        "url"
+      ],
+      "subTypes": [
+        "Product",
+        "Service",
+        "Organization"
+      ]
+    },
+    {
+      "id": "Product",
+      "label": "Product",
+      "comment": "Any offered product or service",
+      "parentTypes": [
+        "Thing"
+      ],
+      "properties": [
+        "brand",
+        "manufacturer",
+        "model",
+        "sku",
+        "gtin",
+        "category",
+        "color",
+        "material"
+      ],
+      "subTypes": [
+        "IndividualProduct",
+        "ProductModel",
+        "SomeProducts",
+        "Vehicle"
+      ]
+    },
+    {
+      "id": "IndividualProduct",
+      "label": "Individual Product",
+      "comment": "A single product identified by serial number",
+      "parentTypes": [
+        "Product"
+      ],
+      "properties": [
+        "serialNumber"
+      ],
+      "subTypes": []
+    },
+    {
+      "id": "ProductModel",
+      "label": "Product Model",
+      "comment": "A datasheet or vendor specification of a product",
+      "parentTypes": [
+        "Product"
+      ],
+      "properties": [
+        "isVariantOf",
+        "predecessorOf",
+        "successorOf"
+      ],
+      "subTypes": []
+    },
+    {
+      "id": "SoftwareApplication",
+      "label": "Software Application",
+      "comment": "A software application",
+      "parentTypes": [
+        "Thing"
+      ],
+      "properties": [
+        "applicationCategory",
+        "applicationSubCategory",
+        "downloadUrl",
+        "featureList",
+        "operatingSystem",
+        "softwareVersion"
+      ],
+      "subTypes": [
+        "MobileApplication",
+        "WebApplication",
+        "VideoGame"
+      ]
+    },
+    {
+      "id": "WebApplication",
+      "label": "Web Application",
+      "comment": "Web application",
+      "parentTypes": [
+        "SoftwareApplication"
+      ],
+      "properties": [
+        "browserRequirements"
+      ],
+      "subTypes": []
+    },
+    {
+      "id": "MobileApplication",
+      "label": "Mobile Application",
+      "comment": "A mobile software application",
+      "parentTypes": [
+        "SoftwareApplication"
+      ],
+      "properties": [],
+      "subTypes": []
+    },
+    {
+      "id": "VideoGame",
+      "label": "Video Game",
+      "comment": "A video game",
+      "parentTypes": [
+        "SoftwareApplication"
+      ],
+      "properties": [
+        "gamePlatform",
+        "gameServer"
+      ],
+      "subTypes": []
+    },
+    {
+      "id": "Vehicle",
+      "label": "Vehicle",
+      "comment": "A vehicle is a device designed for transportation",
+      "parentTypes": [
+        "Product"
+      ],
+      "properties": [
+        "vehicleConfiguration",
+        "vehicleEngine",
+        "vehicleModelDate",
+        "vehicleTransmission",
+        "fuelType",
+        "numberOfDoors"
+      ],
+      "subTypes": [
+        "Car",
+        "Motorcycle",
+        "BusOrCoach",
+        "MotorizedBicycle"
+      ]
+    },
+    {
+      "id": "Car",
+      "label": "Car",
+      "comment": "A car is a wheeled motor vehicle for transportation",
+      "parentTypes": [
+        "Vehicle"
+      ],
+      "properties": [
+        "acrissCode",
+        "bodyType",
+        "driveWheelConfiguration"
+      ],
+      "subTypes": []
+    },
+    {
+      "id": "Motorcycle",
+      "label": "Motorcycle",
+      "comment": "A motorcycle or motorbike",
+      "parentTypes": [
+        "Vehicle"
+      ],
+      "properties": [],
+      "subTypes": []
+    },
+    {
+      "id": "FoodProduct",
+      "label": "Food Product",
+      "comment": "A food product",
+      "parentTypes": [
+        "Product"
+      ],
+      "properties": [
+        "ingredients",
+        "nutrition"
+      ],
+      "subTypes": []
+    },
+    {
+      "id": "Drug",
+      "label": "Drug",
+      "comment": "A chemical or biologic substance used for medical treatment",
+      "parentTypes": [
+        "Product"
+      ],
+      "properties": [
+        "activeIngredient",
+        "dosageForm",
+        "drugClass",
+        "prescriptionStatus"
+      ],
+      "subTypes": []
+    },
+    {
+      "id": "MedicalDevice",
+      "label": "Medical Device",
+      "comment": "A medical device",
+      "parentTypes": [
+        "Product"
+      ],
+      "properties": [
+        "adverseOutcome",
+        "contraindication"
+      ],
+      "subTypes": []
+    },
+    {
+      "id": "DietarySupplement",
+      "label": "Dietary Supplement",
+      "comment": "A product taken orally to supplement the diet",
+      "parentTypes": [
+        "Product"
+      ],
+      "properties": [
+        "activeIngredient",
+        "isProprietary"
+      ],
+      "subTypes": []
+    },
+    {
+      "id": "ComputerHardware",
+      "label": "Computer Hardware",
+      "comment": "Computer hardware product",
+      "parentTypes": [
+        "Product"
+      ],
+      "properties": [],
+      "subTypes": []
+    },
+    {
+      "id": "ElectronicsProduct",
+      "label": "Electronics Product",
+      "comment": "An electronics product",
+      "parentTypes": [
+        "Product"
+      ],
+      "properties": [],
+      "subTypes": []
+    },
+    {
+      "id": "Service",
+      "label": "Service",
+      "comment": "A service provided by an organization",
+      "parentTypes": [
+        "Thing"
+      ],
+      "properties": [
+        "serviceType",
+        "provider",
+        "areaServed",
+        "serviceOutput",
+        "termsOfService"
+      ],
+      "subTypes": [
+        "FinancialProduct",
+        "BroadcastService",
+        "CableOrSatelliteService"
+      ]
+    },
+    {
+      "id": "FinancialProduct",
+      "label": "Financial Product",
+      "comment": "A product provided to consumers and businesses by financial institutions",
+      "parentTypes": [
+        "Service"
+      ],
+      "properties": [
+        "annualPercentageRate",
+        "feesAndCommissionsSpecification",
+        "interestRate"
+      ],
+      "subTypes": [
+        "BankAccount",
+        "CurrencyConversionService",
+        "InvestmentOrDeposit",
+        "LoanOrCredit",
+        "PaymentCard",
+        "PaymentService"
+      ]
+    },
+    {
+      "id": "Organization",
+      "label": "Organization",
+      "comment": "An organization",
+      "parentTypes": [
+        "Thing"
+      ],
+      "properties": [
+        "address",
+        "brand",
+        "contactPoint",
+        "email",
+        "employee",
+        "founder",
+        "foundingDate"
+      ],
+      "subTypes": [
+        "Corporation",
+        "LocalBusiness",
+        "NGO"
+      ]
+    },
+    {
+      "id": "Brand",
+      "label": "Brand",
+      "comment": "A brand",
+      "parentTypes": [
+        "Thing"
+      ],
+      "properties": [
+        "logo",
+        "slogan"
+      ],
+      "subTypes": []
+    }
+  ]
+}

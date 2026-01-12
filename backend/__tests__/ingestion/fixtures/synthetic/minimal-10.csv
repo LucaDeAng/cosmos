@@ -1,0 +1,11 @@
+name,description,category,type,vendor,price_monthly,users_included,features
+"Microsoft Power BI Professional","Microsoft Power BI - Professional edition for cloud services","Cloud Services","product","Microsoft",28,20,"Cloud Services features; API access; Support Business hours"
+"Google BigQuery Enterprise","Google BigQuery - Enterprise edition for security","Security","product","Google",41,35,"Security features; API access; Support 24/7"
+"Adobe Acrobat Pro Ultimate","Adobe Acrobat Pro - Ultimate edition for analytics","Analytics","product","Adobe",54,50,"Analytics features; API access; Support Business hours"
+"Salesforce Tableau Premium","Salesforce Tableau - Premium edition for collaboration","Collaboration","product","Salesforce",67,65,"Collaboration features; API access; Support Business hours"
+"SAP Analytics Cloud Plus","SAP Analytics Cloud - Plus edition for crm","CRM","product","SAP",80,80,"CRM features; API access; Support Business hours"
+"Oracle NetSuite Starter","Oracle NetSuite - Starter edition for erp","ERP","product","Oracle",93,95,"ERP features; API access; Support Business hours"
+"IBM Cloud Pak Professional","IBM Cloud Pak - Professional edition for software","Software","product","IBM",106,10,"Software features; API access; Support Business hours"
+"Apple iCloud for Business Enterprise","Apple iCloud for Business - Enterprise edition for cloud services","Cloud Services","product","Apple",119,25,"Cloud Services features; API access; Support 24/7"
+"Microsoft Dynamics 365 Ultimate","Microsoft Dynamics 365 - Ultimate edition for security","Security","product","Microsoft",132,40,"Security features; API access; Support Business hours"
+"Google Vertex AI Premium","Google Vertex AI - Premium edition for analytics","Analytics","product","Google",145,55,"Analytics features; API access; Support Business hours"

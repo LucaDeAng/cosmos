@@ -1,0 +1,962 @@
+{
+  "catalog_info": {
+    "name": "Stellantis Group Vehicles",
+    "version": "2025.1",
+    "last_updated": "2025-01-01",
+    "description": "Complete catalog of Stellantis automotive brands for European market"
+  },
+  "products": [
+    {
+      "id": "abarth-500e",
+      "vendor": "Abarth",
+      "name": "500e",
+      "category": "Veicoli Elettrici",
+      "subcategory": "City Car Sportiva",
+      "description": "Versione sportiva full electric della 500, prima Abarth elettrica",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Elettrico",
+        "potenza_cv": 155,
+        "potenza_kw": 113.7,
+        "coppia_nm": 235,
+        "batteria_kwh": 42,
+        "autonomia_km": 265,
+        "accelerazione_0_100": 7.0,
+        "velocita_max_kmh": 155
+      },
+      "industry_tags": ["EV", "City Car", "Sportiva", "Premium", "Elettrica"],
+      "use_cases": ["Urban mobility", "Sport driving", "Zero emissions"],
+      "integrations": ["Uconnect", "Apple CarPlay", "Android Auto"]
+    },
+    {
+      "id": "abarth-600e",
+      "vendor": "Abarth",
+      "name": "600e",
+      "category": "Veicoli Elettrici",
+      "subcategory": "Crossover Sportivo",
+      "description": "Crossover sportivo elettrico, versione più potente della gamma Abarth",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Elettrico",
+        "potenza_cv": 280,
+        "potenza_kw": 207,
+        "batteria_kwh": 54,
+        "trazione": "Anteriore"
+      },
+      "industry_tags": ["EV", "Crossover", "Sportiva", "Premium", "High Performance"],
+      "use_cases": ["Sport driving", "Daily commute", "Zero emissions"]
+    },
+    {
+      "id": "alfa-romeo-giulia",
+      "vendor": "Alfa Romeo",
+      "name": "Giulia",
+      "category": "Berline",
+      "subcategory": "Segmento D Premium",
+      "description": "Berlina sportiva premium del segmento D, icona del brand Alfa Romeo",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/PHEV",
+        "potenza_cv": "160-520",
+        "trazione": "RWD/AWD",
+        "piattaforma": "Giorgio"
+      },
+      "industry_tags": ["Berlina", "Premium", "Sportiva", "RWD", "Made in Italy"],
+      "use_cases": ["Business", "Sport driving", "Daily luxury"],
+      "integrations": ["Uconnect", "Apple CarPlay", "Android Auto", "Alfa Connect"]
+    },
+    {
+      "id": "alfa-romeo-stelvio",
+      "vendor": "Alfa Romeo",
+      "name": "Stelvio",
+      "category": "SUV",
+      "subcategory": "SUV Premium Segmento D",
+      "description": "SUV sportivo premium, primo SUV nella storia di Alfa Romeo",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/PHEV",
+        "potenza_cv": "160-520",
+        "trazione": "AWD Q4",
+        "piattaforma": "Giorgio"
+      },
+      "industry_tags": ["SUV", "Premium", "Sportiva", "AWD", "Made in Italy"],
+      "use_cases": ["Family", "Business", "Sport driving", "Off-road light"]
+    },
+    {
+      "id": "alfa-romeo-junior",
+      "vendor": "Alfa Romeo",
+      "name": "Junior",
+      "category": "Crossover",
+      "subcategory": "B-SUV Premium",
+      "description": "Crossover compatto entry-level per Alfa Romeo, disponibile in versione elettrica e ibrida",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Elettrico/MHEV",
+        "potenza_cv": "136-280",
+        "trazione": "FWD/AWD Q4",
+        "piattaforma": "e-CMP"
+      },
+      "industry_tags": ["Crossover", "Premium", "EV", "MHEV", "Compatto"],
+      "use_cases": ["Urban mobility", "Young professionals", "First Alfa"]
+    },
+    {
+      "id": "alfa-romeo-junior-mhev",
+      "vendor": "Alfa Romeo",
+      "name": "Junior MHEV",
+      "category": "Crossover",
+      "subcategory": "B-SUV Premium Ibrido",
+      "description": "Versione Mild Hybrid del crossover compatto Junior",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "MHEV",
+        "potenza_cv": 136,
+        "trazione": "FWD",
+        "cambio": "Automatico DCT"
+      },
+      "industry_tags": ["Crossover", "Premium", "MHEV", "Ibrido", "Compatto"],
+      "use_cases": ["Urban mobility", "Fuel efficiency", "Daily commute"]
+    },
+    {
+      "id": "alfa-romeo-tonale",
+      "vendor": "Alfa Romeo",
+      "name": "Tonale",
+      "category": "Crossover",
+      "subcategory": "C-SUV Premium",
+      "description": "Crossover compatto premium del segmento C",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "MHEV/PHEV",
+        "potenza_cv": "130-275",
+        "trazione": "FWD/AWD Q4"
+      },
+      "industry_tags": ["Crossover", "Premium", "PHEV", "MHEV"],
+      "use_cases": ["Family", "Business", "Daily commute"]
+    },
+    {
+      "id": "fiat-panda",
+      "vendor": "Fiat",
+      "name": "Panda",
+      "category": "City Car",
+      "subcategory": "Segmento A",
+      "description": "City car iconica italiana, best seller del mercato europeo",
+      "target_segment": "Consumer Mass Market",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/MHEV/GPL",
+        "potenza_cv": "70-70",
+        "trazione": "FWD/AWD 4x4",
+        "lunghezza_mm": 3686
+      },
+      "industry_tags": ["City Car", "Economica", "Versatile", "Best Seller"],
+      "use_cases": ["Urban mobility", "First car", "City commute", "Budget friendly"]
+    },
+    {
+      "id": "fiat-pandina",
+      "vendor": "Fiat",
+      "name": "Pandina",
+      "category": "City Car",
+      "subcategory": "Segmento A",
+      "description": "Evoluzione tecnologica della Panda con nuovi contenuti",
+      "target_segment": "Consumer Mass Market",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "MHEV",
+        "potenza_cv": 70,
+        "trazione": "FWD"
+      },
+      "industry_tags": ["City Car", "MHEV", "Tecnologica"],
+      "use_cases": ["Urban mobility", "Tech-savvy customers"]
+    },
+    {
+      "id": "fiat-grande-panda",
+      "vendor": "Fiat",
+      "name": "Grande Panda",
+      "category": "Crossover",
+      "subcategory": "B-SUV",
+      "description": "Nuovo crossover compatto che reinterpreta lo stile iconico della Panda",
+      "target_segment": "Consumer Mass Market",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "New 2025",
+      "specifications": {
+        "motorizzazione": "Elettrico/MHEV",
+        "potenza_cv": "100-136",
+        "piattaforma": "Smart Car"
+      },
+      "industry_tags": ["Crossover", "EV", "MHEV", "Nuovo Modello"],
+      "use_cases": ["Urban mobility", "Family", "Modern design"]
+    },
+    {
+      "id": "fiat-500e",
+      "vendor": "Fiat",
+      "name": "500e",
+      "category": "Veicoli Elettrici",
+      "subcategory": "City Car Elettrica",
+      "description": "Nuova 500 full electric, icona del design italiano in versione sostenibile",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Elettrico",
+        "potenza_cv": "95-118",
+        "batteria_kwh": "24-42",
+        "autonomia_km": "190-320"
+      },
+      "industry_tags": ["EV", "City Car", "Design Icon", "Made in Italy"],
+      "use_cases": ["Urban mobility", "Zero emissions", "Style conscious"]
+    },
+    {
+      "id": "fiat-600",
+      "vendor": "Fiat",
+      "name": "600",
+      "category": "Crossover",
+      "subcategory": "B-SUV",
+      "description": "Crossover compatto disponibile in versione elettrica e ibrida",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Elettrico/MHEV",
+        "potenza_cv": "100-156",
+        "batteria_kwh": 54,
+        "autonomia_km": 400
+      },
+      "industry_tags": ["Crossover", "EV", "MHEV", "Compatto"],
+      "use_cases": ["Family", "Urban mobility", "Versatile"]
+    },
+    {
+      "id": "fiat-tipo",
+      "vendor": "Fiat",
+      "name": "Tipo",
+      "category": "Berline",
+      "subcategory": "Segmento C",
+      "description": "Berlina/SW/Cross del segmento C, ottimo rapporto qualità-prezzo",
+      "target_segment": "Consumer Mass Market",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/GPL",
+        "potenza_cv": "100-130",
+        "carrozzeria": "Berlina/SW/Cross"
+      },
+      "industry_tags": ["Berlina", "Station Wagon", "Value for Money"],
+      "use_cases": ["Family", "Business", "Fleet"]
+    },
+    {
+      "id": "fiat-doblo",
+      "vendor": "Fiat",
+      "name": "Doblò",
+      "category": "Veicoli Commerciali",
+      "subcategory": "Multispazio/Van",
+      "description": "Veicolo multispazio versatile per famiglie e professionisti",
+      "target_segment": "Consumer/Professional",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/Elettrico",
+        "potenza_cv": "100-136",
+        "volume_carico_litri": "775-3500"
+      },
+      "industry_tags": ["Multispazio", "Van", "Versatile", "Famiglia Numerosa"],
+      "use_cases": ["Large family", "Professional", "Cargo transport"]
+    },
+    {
+      "id": "fiat-doblo-ice",
+      "vendor": "Fiat",
+      "name": "Doblò ICE",
+      "category": "Veicoli Commerciali",
+      "subcategory": "Multispazio",
+      "description": "Versione con motore termico del Doblò",
+      "target_segment": "Consumer/Professional",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel",
+        "potenza_cv": "100-130"
+      },
+      "industry_tags": ["Multispazio", "ICE", "Termico"],
+      "use_cases": ["Large family", "Professional", "Long distance"]
+    },
+    {
+      "id": "jeep-avenger",
+      "vendor": "Jeep",
+      "name": "Avenger",
+      "category": "SUV",
+      "subcategory": "B-SUV",
+      "description": "Primo SUV compatto Jeep, Car of the Year 2023",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Elettrico/MHEV/e-Hybrid",
+        "potenza_cv": "100-156",
+        "trazione": "FWD/AWD 4xe",
+        "autonomia_km": 400
+      },
+      "industry_tags": ["SUV", "Compatto", "Car of the Year", "EV", "4x4"],
+      "use_cases": ["Urban SUV", "Adventure", "Family"]
+    },
+    {
+      "id": "jeep-avenger-my24-my25",
+      "vendor": "Jeep",
+      "name": "Avenger MY24/MY25",
+      "category": "SUV",
+      "subcategory": "B-SUV",
+      "description": "Model Year 2024/2025 del SUV compatto Jeep Avenger",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Elettrico/MHEV/e-Hybrid/4xe",
+        "potenza_cv": "100-156",
+        "trazione": "FWD/AWD"
+      },
+      "industry_tags": ["SUV", "Compatto", "MY2024", "MY2025"],
+      "use_cases": ["Urban SUV", "Adventure", "Family"]
+    },
+    {
+      "id": "jeep-renegade",
+      "vendor": "Jeep",
+      "name": "Renegade",
+      "category": "SUV",
+      "subcategory": "B-SUV",
+      "description": "SUV compatto con capacità off-road, disponibile in versione 4xe",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/4xe PHEV",
+        "potenza_cv": "130-240",
+        "trazione": "FWD/AWD"
+      },
+      "industry_tags": ["SUV", "Compatto", "4x4", "PHEV", "Off-road"],
+      "use_cases": ["Adventure", "Off-road", "Urban SUV"]
+    },
+    {
+      "id": "jeep-compass",
+      "vendor": "Jeep",
+      "name": "Compass",
+      "category": "SUV",
+      "subcategory": "C-SUV",
+      "description": "SUV compatto premium con capacità 4x4",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/4xe PHEV",
+        "potenza_cv": "130-240",
+        "trazione": "FWD/AWD"
+      },
+      "industry_tags": ["SUV", "Premium", "4x4", "PHEV"],
+      "use_cases": ["Family", "Adventure", "Daily luxury"]
+    },
+    {
+      "id": "jeep-wrangler",
+      "vendor": "Jeep",
+      "name": "Wrangler",
+      "category": "SUV",
+      "subcategory": "Off-road Icon",
+      "description": "Icona off-road per eccellenza, disponibile in versione 4xe plug-in hybrid",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/4xe PHEV",
+        "potenza_cv": "272-380",
+        "trazione": "AWD 4x4",
+        "carrozzeria": "2 porte/4 porte"
+      },
+      "industry_tags": ["Off-road", "Icon", "4x4", "PHEV", "Adventure"],
+      "use_cases": ["Off-road extreme", "Adventure", "Lifestyle"]
+    },
+    {
+      "id": "jeep-grand-cherokee",
+      "vendor": "Jeep",
+      "name": "Grand Cherokee",
+      "category": "SUV",
+      "subcategory": "SUV Full Size Premium",
+      "description": "SUV premium full size, ammiraglia della gamma Jeep",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/4xe PHEV",
+        "potenza_cv": "272-380",
+        "trazione": "AWD Quadra-Trac"
+      },
+      "industry_tags": ["SUV", "Full Size", "Premium", "Luxury", "4x4"],
+      "use_cases": ["Luxury SUV", "Family", "Long trips"]
+    },
+    {
+      "id": "opel-corsa",
+      "vendor": "Opel",
+      "name": "Corsa",
+      "category": "City Car",
+      "subcategory": "Segmento B",
+      "description": "Compatta versatile, disponibile anche in versione full electric",
+      "target_segment": "Consumer Mass Market",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/Elettrico",
+        "potenza_cv": "75-156",
+        "autonomia_km": 402
+      },
+      "industry_tags": ["Compatta", "Segmento B", "EV", "Versatile"],
+      "use_cases": ["Urban mobility", "First car", "Young drivers"]
+    },
+    {
+      "id": "opel-corsa-benzina",
+      "vendor": "Opel",
+      "name": "Corsa Benzina",
+      "category": "City Car",
+      "subcategory": "Segmento B",
+      "description": "Versione benzina della compatta Opel Corsa",
+      "target_segment": "Consumer Mass Market",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina",
+        "potenza_cv": "75-130"
+      },
+      "industry_tags": ["Compatta", "Benzina", "ICE"],
+      "use_cases": ["Urban mobility", "Budget friendly"]
+    },
+    {
+      "id": "opel-astra",
+      "vendor": "Opel",
+      "name": "Astra",
+      "category": "Berline",
+      "subcategory": "Segmento C",
+      "description": "Compatta del segmento C, disponibile in versione berlina e Sports Tourer",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/PHEV/Elettrico",
+        "potenza_cv": "110-225",
+        "carrozzeria": "Hatchback/Sports Tourer"
+      },
+      "industry_tags": ["Compatta", "Segmento C", "PHEV", "EV"],
+      "use_cases": ["Family", "Business", "Commute"]
+    },
+    {
+      "id": "opel-mokka",
+      "vendor": "Opel",
+      "name": "Mokka",
+      "category": "Crossover",
+      "subcategory": "B-SUV",
+      "description": "Crossover compatto con design bold, disponibile elettrico",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/Elettrico",
+        "potenza_cv": "100-156",
+        "autonomia_km": 338
+      },
+      "industry_tags": ["Crossover", "Bold Design", "EV", "Compatto"],
+      "use_cases": ["Urban SUV", "Style conscious", "City life"]
+    },
+    {
+      "id": "opel-grandland",
+      "vendor": "Opel",
+      "name": "Grandland",
+      "category": "SUV",
+      "subcategory": "C-SUV",
+      "description": "SUV del segmento C con tecnologie avanzate",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/PHEV/Elettrico",
+        "potenza_cv": "130-300"
+      },
+      "industry_tags": ["SUV", "Segmento C", "PHEV", "EV", "Tech"],
+      "use_cases": ["Family", "Long trips", "Tech enthusiasts"]
+    },
+    {
+      "id": "opel-frontera",
+      "vendor": "Opel",
+      "name": "Frontera",
+      "category": "SUV",
+      "subcategory": "SUV Compatto",
+      "description": "Nuovo SUV compatto che riprende un nome storico Opel",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "New 2025",
+      "specifications": {
+        "motorizzazione": "MHEV/Elettrico",
+        "potenza_cv": "100-136"
+      },
+      "industry_tags": ["SUV", "Compatto", "Nuovo Modello", "EV"],
+      "use_cases": ["Family", "Urban SUV", "Value"]
+    },
+    {
+      "id": "ds-3",
+      "vendor": "DS Automobiles",
+      "name": "DS 3",
+      "category": "Crossover",
+      "subcategory": "B-SUV Premium",
+      "description": "Crossover premium compatto con design distintivo francese",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Elettrico",
+        "potenza_cv": "100-156",
+        "autonomia_km": 402
+      },
+      "industry_tags": ["Premium", "French Luxury", "Crossover", "EV"],
+      "use_cases": ["Urban luxury", "Style conscious", "Premium compact"]
+    },
+    {
+      "id": "ds-3-ice",
+      "vendor": "DS Automobiles",
+      "name": "DS 3 ICE",
+      "category": "Crossover",
+      "subcategory": "B-SUV Premium",
+      "description": "Versione con motore termico del crossover DS 3",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina",
+        "potenza_cv": "100-130"
+      },
+      "industry_tags": ["Premium", "French Luxury", "ICE", "Termico"],
+      "use_cases": ["Urban luxury", "Long distance"]
+    },
+    {
+      "id": "ds-4",
+      "vendor": "DS Automobiles",
+      "name": "DS 4",
+      "category": "Crossover",
+      "subcategory": "C-SUV Premium",
+      "description": "Crossover premium del segmento C con tecnologie avanzate",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/PHEV/Elettrico",
+        "potenza_cv": "130-225"
+      },
+      "industry_tags": ["Premium", "French Luxury", "PHEV", "Tech"],
+      "use_cases": ["Business", "Luxury commute", "Tech enthusiasts"]
+    },
+    {
+      "id": "ds-7",
+      "vendor": "DS Automobiles",
+      "name": "DS 7",
+      "category": "SUV",
+      "subcategory": "D-SUV Premium",
+      "description": "SUV premium ammiraglia della gamma DS",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/PHEV/Elettrico",
+        "potenza_cv": "130-360"
+      },
+      "industry_tags": ["Premium", "French Luxury", "SUV", "Flagship"],
+      "use_cases": ["Executive", "Luxury family", "Long trips"]
+    },
+    {
+      "id": "ds-8",
+      "vendor": "DS Automobiles",
+      "name": "DS 8",
+      "category": "Berlina",
+      "subcategory": "Berlina Premium",
+      "description": "Nuova berlina/coupé flagship elettrica DS",
+      "target_segment": "Consumer Luxury",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Coming 2025",
+      "specifications": {
+        "motorizzazione": "Elettrico",
+        "carrozzeria": "Berlina/Coupé"
+      },
+      "industry_tags": ["Premium", "Luxury", "EV", "Flagship", "New Model"],
+      "use_cases": ["Executive", "Luxury EV", "Statement car"]
+    },
+    {
+      "id": "lancia-ypsilon",
+      "vendor": "Lancia",
+      "name": "Ypsilon",
+      "category": "City Car",
+      "subcategory": "Segmento B Premium",
+      "description": "Prima auto del piano Renaissance Lancia, prima Lancia 100% elettrica",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "New 2024",
+      "specifications": {
+        "motorizzazione": "Elettrico/MHEV",
+        "potenza_cv": "100-156",
+        "autonomia_km": 403
+      },
+      "industry_tags": ["Premium", "Italian Design", "EV", "Renaissance"],
+      "use_cases": ["Urban luxury", "Style conscious", "Italian elegance"]
+    },
+    {
+      "id": "lancia-gamma",
+      "vendor": "Lancia",
+      "name": "Gamma",
+      "category": "Berlina",
+      "subcategory": "Segmento D Premium",
+      "description": "Futura ammiraglia Lancia, secondo modello del piano Renaissance",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Coming 2026",
+      "specifications": {
+        "motorizzazione": "Elettrico"
+      },
+      "industry_tags": ["Premium", "Italian Design", "EV", "Flagship", "Future"],
+      "use_cases": ["Executive", "Luxury EV", "Italian elegance"]
+    },
+    {
+      "id": "lancia-delta",
+      "vendor": "Lancia",
+      "name": "Delta",
+      "category": "Hatchback",
+      "subcategory": "Segmento C Premium",
+      "description": "Futura Lancia Delta, terzo modello del piano Renaissance",
+      "target_segment": "Consumer Premium",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Coming 2028",
+      "specifications": {
+        "motorizzazione": "Elettrico"
+      },
+      "industry_tags": ["Premium", "Italian Design", "EV", "Icon", "Future"],
+      "use_cases": ["Sport driving", "Heritage", "Italian elegance"]
+    },
+    {
+      "id": "peugeot-208",
+      "vendor": "Peugeot",
+      "name": "208",
+      "category": "City Car",
+      "subcategory": "Segmento B",
+      "description": "Compatta best seller, disponibile anche in versione elettrica e-208",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/Elettrico",
+        "potenza_cv": "75-156",
+        "autonomia_km": 400
+      },
+      "industry_tags": ["Compatta", "Best Seller", "EV", "French Design"],
+      "use_cases": ["Urban mobility", "First car", "Style conscious"]
+    },
+    {
+      "id": "peugeot-308",
+      "vendor": "Peugeot",
+      "name": "308",
+      "category": "Berline",
+      "subcategory": "Segmento C",
+      "description": "Compatta del segmento C con i-Cockpit di ultima generazione",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/PHEV",
+        "potenza_cv": "110-225",
+        "carrozzeria": "Hatchback/SW"
+      },
+      "industry_tags": ["Compatta", "i-Cockpit", "PHEV", "French Design"],
+      "use_cases": ["Family", "Business", "Commute"]
+    },
+    {
+      "id": "peugeot-2008",
+      "vendor": "Peugeot",
+      "name": "2008",
+      "category": "Crossover",
+      "subcategory": "B-SUV",
+      "description": "SUV compatto disponibile anche in versione full electric e-2008",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/Elettrico",
+        "potenza_cv": "100-156",
+        "autonomia_km": 345
+      },
+      "industry_tags": ["SUV", "Compatto", "EV", "French Design"],
+      "use_cases": ["Urban SUV", "Family", "City life"]
+    },
+    {
+      "id": "peugeot-3008",
+      "vendor": "Peugeot",
+      "name": "3008",
+      "category": "SUV",
+      "subcategory": "C-SUV",
+      "description": "SUV del segmento C con design futuristico e tecnologie avanzate",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/PHEV/Elettrico",
+        "potenza_cv": "130-300"
+      },
+      "industry_tags": ["SUV", "i-Cockpit", "PHEV", "EV", "Premium"],
+      "use_cases": ["Family", "Tech enthusiasts", "Long trips"]
+    },
+    {
+      "id": "peugeot-5008",
+      "vendor": "Peugeot",
+      "name": "5008",
+      "category": "SUV",
+      "subcategory": "SUV 7 Posti",
+      "description": "SUV 7 posti per famiglie numerose",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/PHEV/Elettrico",
+        "potenza_cv": "130-300",
+        "posti": 7
+      },
+      "industry_tags": ["SUV", "7 Posti", "Family", "PHEV", "EV"],
+      "use_cases": ["Large family", "Long trips", "Versatile"]
+    },
+    {
+      "id": "citroen-c3",
+      "vendor": "Citroën",
+      "name": "C3",
+      "category": "City Car",
+      "subcategory": "Segmento B",
+      "description": "Compatta confortevole con design originale",
+      "target_segment": "Consumer Mass Market",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Elettrico",
+        "potenza_cv": "83-113"
+      },
+      "industry_tags": ["Compatta", "Comfort", "French Design", "EV"],
+      "use_cases": ["Urban mobility", "Comfort focused", "Budget friendly"]
+    },
+    {
+      "id": "citroen-c3-aircross",
+      "vendor": "Citroën",
+      "name": "C3 Aircross",
+      "category": "Crossover",
+      "subcategory": "B-SUV",
+      "description": "SUV compatto spazioso con fino a 7 posti",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/Elettrico",
+        "potenza_cv": "100-136",
+        "posti": "5-7"
+      },
+      "industry_tags": ["SUV", "Compatto", "Spazioso", "7 Posti"],
+      "use_cases": ["Family", "Space", "Urban SUV"]
+    },
+    {
+      "id": "citroen-c4",
+      "vendor": "Citroën",
+      "name": "C4",
+      "category": "Crossover",
+      "subcategory": "C-Crossover",
+      "description": "Crossover del segmento C con design unico, disponibile elettrico",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/Elettrico",
+        "potenza_cv": "100-156",
+        "autonomia_km": 420
+      },
+      "industry_tags": ["Crossover", "Comfort", "EV", "Unique Design"],
+      "use_cases": ["Comfort driving", "Long trips", "Style"]
+    },
+    {
+      "id": "citroen-c5-aircross",
+      "vendor": "Citroën",
+      "name": "C5 Aircross",
+      "category": "SUV",
+      "subcategory": "C-SUV",
+      "description": "SUV confortevole con sospensioni Progressive Hydraulic Cushions",
+      "target_segment": "Consumer",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/Diesel/PHEV",
+        "potenza_cv": "130-225"
+      },
+      "industry_tags": ["SUV", "Comfort", "PHEV", "Advanced Comfort"],
+      "use_cases": ["Family", "Comfort", "Long trips"]
+    },
+    {
+      "id": "maserati-grecale",
+      "vendor": "Maserati",
+      "name": "Grecale",
+      "category": "SUV",
+      "subcategory": "SUV Luxury",
+      "description": "SUV di lusso sportivo, entry-level nella gamma Maserati",
+      "target_segment": "Consumer Luxury",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina/MHEV/Elettrico Folgore",
+        "potenza_cv": "300-557"
+      },
+      "industry_tags": ["Luxury", "SUV", "Italian", "Performance", "EV"],
+      "use_cases": ["Luxury lifestyle", "Sport driving", "Status"]
+    },
+    {
+      "id": "maserati-levante",
+      "vendor": "Maserati",
+      "name": "Levante",
+      "category": "SUV",
+      "subcategory": "SUV Luxury Full Size",
+      "description": "SUV di lusso full size con motori V6 e V8",
+      "target_segment": "Consumer Luxury",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina V6/V8",
+        "potenza_cv": "350-590",
+        "trazione": "AWD"
+      },
+      "industry_tags": ["Luxury", "SUV", "V8", "Performance", "Italian"],
+      "use_cases": ["Ultimate luxury", "Performance SUV", "Status"]
+    },
+    {
+      "id": "maserati-ghibli",
+      "vendor": "Maserati",
+      "name": "Ghibli",
+      "category": "Berlina",
+      "subcategory": "Berlina Luxury Sport",
+      "description": "Berlina sportiva di lusso, entry-level nelle berline Maserati",
+      "target_segment": "Consumer Luxury",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "End of Production",
+      "specifications": {
+        "motorizzazione": "Benzina V6/MHEV",
+        "potenza_cv": "350-580",
+        "trazione": "RWD/AWD"
+      },
+      "industry_tags": ["Luxury", "Berlina", "Sport", "Italian", "V6"],
+      "use_cases": ["Executive", "Sport luxury", "Italian elegance"]
+    },
+    {
+      "id": "maserati-quattroporte",
+      "vendor": "Maserati",
+      "name": "Quattroporte",
+      "category": "Berlina",
+      "subcategory": "Berlina Luxury Flagship",
+      "description": "Ammiraglia Maserati, berlina di lusso per eccellenza",
+      "target_segment": "Consumer Luxury",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "End of Production",
+      "specifications": {
+        "motorizzazione": "Benzina V6/V8",
+        "potenza_cv": "430-580",
+        "trazione": "RWD/AWD"
+      },
+      "industry_tags": ["Luxury", "Flagship", "V8", "Italian", "Executive"],
+      "use_cases": ["Ultimate luxury", "Chauffeur", "Executive"]
+    },
+    {
+      "id": "maserati-granturismo",
+      "vendor": "Maserati",
+      "name": "GranTurismo",
+      "category": "Coupé",
+      "subcategory": "GT Luxury",
+      "description": "Gran Turismo di lusso, disponibile anche in versione Folgore elettrica",
+      "target_segment": "Consumer Luxury",
+      "segment": "Automotive",
+      "pricing_model": "Purchase/Leasing",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina V6/Elettrico Folgore",
+        "potenza_cv": "490-760"
+      },
+      "industry_tags": ["Luxury", "GT", "Coupé", "EV", "Performance"],
+      "use_cases": ["Grand touring", "Collector", "Ultimate performance"]
+    },
+    {
+      "id": "maserati-mc20",
+      "vendor": "Maserati",
+      "name": "MC20",
+      "category": "Supercar",
+      "subcategory": "Supercar",
+      "description": "Supercar Maserati con motore Nettuno V6 biturbo",
+      "target_segment": "Consumer Ultra Luxury",
+      "segment": "Automotive",
+      "pricing_model": "Purchase",
+      "lifecycle_stage": "Current",
+      "specifications": {
+        "motorizzazione": "Benzina V6 Nettuno/Elettrico",
+        "potenza_cv": "630-760",
+        "velocita_max_kmh": 325,
+        "accelerazione_0_100": 2.9
+      },
+      "industry_tags": ["Supercar", "Nettuno", "V6", "Performance", "Collector"],
+      "use_cases": ["Track", "Collector", "Ultimate performance"]
+    }
+  ]
+}

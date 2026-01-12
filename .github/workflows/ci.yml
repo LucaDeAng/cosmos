@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      NODE_ENV: test
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: |
+          cd backend
+          npm ci
+
+      - name: Build backend
+        run: |
+          cd backend
+          npm run build
+
+      - name: Run migrations against test DB (if available)
+        if: ${{ secrets.SUPABASE_URL && secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          cd backend
+          npm run migrate
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
+      - name: Run unit tests
+        run: |
+          cd backend
+          npm test
+
+      - name: Run e2e tests (if test DB is configured)
+        if: ${{ secrets.SUPABASE_URL && secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          cd backend
+          npm run test:e2e
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

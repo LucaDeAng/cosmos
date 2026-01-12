@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battery Test Report - 2026-01-07</title>
+  <style>
+    :root {
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #eab308;
+      --blue: #3b82f6;
+      --gray: #6b7280;
+      --bg: #f9fafb;
+      --card: #ffffff;
+    }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      margin: 0;
+      padding: 20px;
+      color: #1f2937;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.875rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    .subtitle {
+      color: var(--gray);
+      margin-bottom: 2rem;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .card h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .stat-card {
+      background: var(--bg);
+      border-radius: 0.5rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-value {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    .stat-label {
+      color: var(--gray);
+      font-size: 0.875rem;
+    }
+    .passed { color: var(--green); }
+    .failed { color: var(--red); }
+    .warning { color: var(--yellow); }
+    .metrics-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .metrics-table th,
+    .metrics-table td {
+      padding: 0.75rem;
+      text-align: left;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .metrics-table th {
+      font-weight: 600;
+      color: var(--gray);
+      font-size: 0.875rem;
+      text-transform: uppercase;
+    }
+    .progress-bar {
+      background: #e5e7eb;
+      border-radius: 9999px;
+      height: 8px;
+      overflow: hidden;
+      width: 100px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 0.5rem;
+    }
+    .progress-fill {
+      height: 100%;
+      border-radius: 9999px;
+      transition: width 0.3s;
+    }
+    .test-result {
+      display: flex;
+      align-items: center;
+      padding: 0.75rem;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .test-result:last-child {
+      border-bottom: none;
+    }
+    .test-status {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1rem;
+      font-size: 0.75rem;
+    }
+    .test-status.pass {
+      background: #dcfce7;
+      color: var(--green);
+    }
+    .test-status.fail {
+      background: #fee2e2;
+      color: var(--red);
+    }
+    .test-info {
+      flex: 1;
+    }
+    .test-name {
+      font-weight: 500;
+    }
+    .test-details {
+      font-size: 0.875rem;
+      color: var(--gray);
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.5rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+    .badge-green { background: #dcfce7; color: #166534; }
+    .badge-red { background: #fee2e2; color: #991b1b; }
+    .badge-yellow { background: #fef3c7; color: #92400e; }
+    .badge-blue { background: #dbeafe; color: #1e40af; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🧪 Ingestion Battery Test Report</h1>
+    <p class="subtitle">2026-01-07T13:01:43.825Z | Duration: 243ms</p>
+
+    <!-- Summary -->
+    <div class="card">
+      <h2>Summary</h2>
+      <div class="summary-grid">
+        <div class="stat-card">
+          <div class="stat-value passed">✅ 100.0%</div>
+          <div class="stat-label">Success Rate</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">20</div>
+          <div class="stat-label">Total Tests</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value passed">20</div>
+          <div class="stat-label">Passed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value failed">0</div>
+          <div class="stat-label">Failed</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quality Metrics -->
+    <div class="card">
+      <h2>Quality Metrics</h2>
+      <table class="metrics-table">
+        <thead>
+          <tr>
+            <th>Metric</th>
+            <th>Value</th>
+            <th>Progress</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+      <tr>
+        <td>Completeness</td>
+        <td>100.0%</td>
+        <td>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 99.98890860692103%; background: #22c55e"></div>
+          </div>
+        </td>
+        <td><span class="badge badge-green">Good</span></td>
+      </tr>
+    
+          
+      <tr>
+        <td>Accuracy</td>
+        <td>99.8%</td>
+        <td>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 99.76150859678314%; background: #22c55e"></div>
+          </div>
+        </td>
+        <td><span class="badge badge-green">Good</span></td>
+      </tr>
+    
+          
+      <tr>
+        <td>Noise Rate</td>
+        <td>0.3%</td>
+        <td>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 0.2773155851358844%; background: #ef4444"></div>
+          </div>
+        </td>
+        <td><span class="badge badge-red">Needs Work</span></td>
+      </tr>
+    
+          
+      <tr>
+        <td>Avg Confidence</td>
+        <td>91.5%</td>
+        <td>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 91.49999999999976%; background: #22c55e"></div>
+          </div>
+        </td>
+        <td><span class="badge badge-green">Good</span></td>
+      </tr>
+    
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Performance -->
+    <div class="card">
+      <h2>Performance</h2>
+      <table class="metrics-table">
+        <thead>
+          <tr>
+            <th>Metric</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Average Extraction Time</td>
+            <td>10ms</td>
+          </tr>
+          <tr>
+            <td>Min Extraction Time</td>
+            <td>1ms</td>
+          </tr>
+          <tr>
+            <td>Max Extraction Time</td>
+            <td>58ms</td>
+          </tr>
+          <tr>
+            <td>Items Extracted</td>
+            <td>9015 / 9016 expected</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- By Type -->
+    <div class="card">
+      <h2>Results by Type</h2>
+      <table class="metrics-table">
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Tests</th>
+            <th>Passed</th>
+            <th>Avg Time</th>
+            <th>Avg Completeness</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="badge badge-blue">PDF</span></td>
+            <td>4</td>
+            <td>4</td>
+            <td>2ms</td>
+            <td>96.9%</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-green">CSV/JSON</span></td>
+            <td>16</td>
+            <td>16</td>
+            <td>12ms</td>
+            <td>100.0%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    
+
+    
+
+    <!-- Detailed Results -->
+    <div class="card">
+      <h2>Detailed Results</h2>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">CSV-synthetic-automotive-100</div>
+            <div class="test-details">
+              100 items | 9ms |
+              Confidence: 95%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            CSV
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">CSV-synthetic-tech-50</div>
+            <div class="test-details">
+              50 items | 5ms |
+              Confidence: 95%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            CSV
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">CSV-synthetic-services-30</div>
+            <div class="test-details">
+              30 items | 23ms |
+              Confidence: 95%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            CSV
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">CSV-synthetic-mixed-200</div>
+            <div class="test-details">
+              200 items | 8ms |
+              Confidence: 95%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            CSV
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">CSV-synthetic-large-500</div>
+            <div class="test-details">
+              500 items | 24ms |
+              Confidence: 95%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            CSV
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">CSV-synthetic-minimal-10</div>
+            <div class="test-details">
+              10 items | 1ms |
+              Confidence: 95%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            CSV
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">CSV-stress-1000</div>
+            <div class="test-details">
+              1000 items | 14ms |
+              Confidence: 95%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            CSV
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">CSV-stress-2000</div>
+            <div class="test-details">
+              2000 items | 24ms |
+              Confidence: 95%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            CSV
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">CSV-stress-5000</div>
+            <div class="test-details">
+              5000 items | 58ms |
+              Confidence: 95%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            CSV
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">CSV-csv-saas-software</div>
+            <div class="test-details">
+              15 items | 5ms |
+              Confidence: 70%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            CSV
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">CSV-csv-electronics-products</div>
+            <div class="test-details">
+              15 items | 3ms |
+              Confidence: 95%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            CSV
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">CSV-csv-cloud-services</div>
+            <div class="test-details">
+              15 items | 3ms |
+              Confidence: 70%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            CSV
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">JSON-json-apple</div>
+            <div class="test-details">
+              8 items | 2ms |
+              Confidence: 100%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            JSON
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">JSON-json-microsoft</div>
+            <div class="test-details">
+              12 items | 2ms |
+              Confidence: 100%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            JSON
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">JSON-json-stellantis</div>
+            <div class="test-details">
+              15 items | 2ms |
+              Confidence: 100%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            JSON
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">JSON-json-consulting-services</div>
+            <div class="test-details">
+              17 items | 1ms |
+              Confidence: 100%
+              
+            </div>
+          </div>
+          <span class="badge badge-green">
+            JSON
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">PDF-pdf-tech-products-2026</div>
+            <div class="test-details">
+              7 items | 4ms |
+              Confidence: 85%
+              
+            </div>
+          </div>
+          <span class="badge badge-blue">
+            PDF
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">PDF-pdf-cloud-services-2026</div>
+            <div class="test-details">
+              7 items | 3ms |
+              Confidence: 85%
+              
+            </div>
+          </div>
+          <span class="badge badge-blue">
+            PDF
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">PDF-pdf-enterprise-software-licenses</div>
+            <div class="test-details">
+              7 items | 1ms |
+              Confidence: 85%
+              
+            </div>
+          </div>
+          <span class="badge badge-blue">
+            PDF
+          </span>
+        </div>
+      
+        <div class="test-result">
+          <div class="test-status pass">✓</div>
+          <div class="test-info">
+            <div class="test-name">PDF-pdf-saas-analytics-2026</div>
+            <div class="test-details">
+              7 items | 1ms |
+              Confidence: 85%
+              
+            </div>
+          </div>
+          <span class="badge badge-blue">
+            PDF
+          </span>
+        </div>
+      
+    </div>
+
+  </div>
+</body>
+</html>

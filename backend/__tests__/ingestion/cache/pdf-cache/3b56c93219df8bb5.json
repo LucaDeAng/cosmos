@@ -1,0 +1,90 @@
+[
+  {
+    "id": "pdf-1-nqlci1",
+    "name": "EC2 Instance",
+    "type": "product",
+    "description": "t3.medium, 4GB RAM, 20GB SSD",
+    "confidence": 0.85,
+    "price": 10,
+    "metadata": {
+      "ServiceProvider": "AWS",
+      "Monthly Cost": "$10-50",
+      "Key Features": "t3.medium, 4GB RAM, 20GB SSD"
+    }
+  },
+  {
+    "id": "pdf-2-dmig5g",
+    "name": "Cloud SQL",
+    "type": "product",
+    "description": "PostgreSQL, 1TB Storage, HA",
+    "confidence": 0.85,
+    "price": 15,
+    "metadata": {
+      "ServiceProvider": "GCP",
+      "Monthly Cost": "$15-100",
+      "Key Features": "PostgreSQL, 1TB Storage, HA"
+    }
+  },
+  {
+    "id": "pdf-3-5cz329",
+    "name": "App Service",
+    "type": "product",
+    "description": "Custom Domain, SSL, Auto-scale",
+    "confidence": 0.85,
+    "price": 13,
+    "metadata": {
+      "ServiceProvider": "Azure",
+      "Monthly Cost": "$13-99",
+      "Key Features": "Custom Domain, SSL, Auto-scale"
+    }
+  },
+  {
+    "id": "pdf-4-pl4zfz",
+    "name": "Cloud Run",
+    "type": "product",
+    "description": "Containers, Auto-scaling, 2M/month free",
+    "confidence": 0.85,
+    "metadata": {
+      "ServiceProvider": "GCP",
+      "Monthly Cost": "Pay-as-you-go",
+      "Key Features": "Containers, Auto-scaling, 2M/month free"
+    }
+  },
+  {
+    "id": "pdf-5-e4qsft",
+    "name": "RDS Database",
+    "type": "product",
+    "description": "Managed, Automated Backups, Multi-AZ",
+    "confidence": 0.85,
+    "price": 15,
+    "metadata": {
+      "ServiceProvider": "AWS",
+      "Monthly Cost": "$15-200",
+      "Key Features": "Managed, Automated Backups, Multi-AZ"
+    }
+  },
+  {
+    "id": "pdf-6-i5hsak",
+    "name": "Lambda Functions",
+    "type": "product",
+    "description": "1M requests/month free",
+    "confidence": 0.85,
+    "metadata": {
+      "ServiceProvider": "AWS",
+      "Monthly Cost": "Pay-as-you-go",
+      "Key Features": "1M requests/month free"
+    }
+  },
+  {
+    "id": "pdf-7-fokay4",
+    "name": "Cloud Functions",
+    "type": "product",
+    "description": "Event-driven, Serverless",
+    "confidence": 0.85,
+    "metadata": {
+      "ServiceProvider": "GCP",
+      "Monthly Cost": "Pay-as-you-go",
+      "Key Features": "Event-driven, Serverless"
+    }
+  }
+]

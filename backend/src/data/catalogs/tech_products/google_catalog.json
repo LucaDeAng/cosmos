@@ -1,0 +1,381 @@
+{
+  "vendor": "Google",
+  "last_updated": "2026-01-03",
+  "version": "1.0",
+  "products": [
+    {
+      "id": "google-workspace-business-starter",
+      "name": "Google Workspace Business Starter",
+      "vendor": "Google",
+      "category": "Productivity Software",
+      "subcategory": "Office Suite",
+      "description": "Business email with Gmail, 30GB storage per user, video meetings up to 100 participants.",
+      "attributes": {
+        "includes": [
+          "Gmail",
+          "Drive (30GB)",
+          "Meet",
+          "Chat",
+          "Docs",
+          "Sheets",
+          "Slides"
+        ]
+      },
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 6,
+        "currency": "EUR",
+        "unit": "user/month"
+      },
+      "deployment": "saas",
+      "target_segment": "smb",
+      "use_cases": [
+        "Email",
+        "Collaboration",
+        "Video Conferencing",
+        "Document Editing"
+      ],
+      "aliases": [
+        "G Suite",
+        "GSuite",
+        "Google Apps",
+        "Google Apps for Work"
+      ],
+      "keywords": [
+        "Google",
+        "Google Google Workspace Business Starter",
+        "GWBS"
+      ]
+    },
+    {
+      "id": "google-workspace-business-standard",
+      "name": "Google Workspace Business Standard",
+      "vendor": "Google",
+      "category": "Productivity Software",
+      "subcategory": "Office Suite",
+      "description": "2TB storage per user, 150-participant meetings with recording, shared drives.",
+      "attributes": {
+        "includes": [
+          "Gmail",
+          "Drive (2TB)",
+          "Meet with recording",
+          "Shared Drives",
+          "AppSheet"
+        ]
+      },
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 12,
+        "currency": "EUR",
+        "unit": "user/month"
+      },
+      "deployment": "saas",
+      "target_segment": "smb",
+      "use_cases": [
+        "Email",
+        "Collaboration",
+        "Video Conferencing",
+        "Team Storage"
+      ],
+      "aliases": [
+        "G Suite",
+        "GSuite",
+        "Google Apps",
+        "Google Apps for Work"
+      ],
+      "keywords": [
+        "Google",
+        "Google Google Workspace Business Standard",
+        "GWBS"
+      ]
+    },
+    {
+      "id": "google-workspace-enterprise",
+      "name": "Google Workspace Enterprise",
+      "vendor": "Google",
+      "category": "Productivity Software",
+      "subcategory": "Enterprise Suite",
+      "description": "Advanced security, compliance, and admin controls. 5TB storage, DLP, Vault, advanced endpoint management.",
+      "attributes": {
+        "includes": [
+          "Enterprise Plus",
+          "Advanced Security",
+          "Vault",
+          "DLP",
+          "Context-Aware Access"
+        ]
+      },
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Enterprise Collaboration",
+        "Compliance",
+        "Security",
+        "eDiscovery"
+      ],
+      "aliases": [
+        "G Suite",
+        "GSuite",
+        "Google Apps",
+        "Google Apps for Work"
+      ],
+      "keywords": [
+        "Google",
+        "Google Google Workspace Enterprise",
+        "GWE"
+      ]
+    },
+    {
+      "id": "gcp-compute-engine",
+      "name": "Google Compute Engine",
+      "vendor": "Google",
+      "category": "Cloud Computing",
+      "subcategory": "IaaS",
+      "description": "Scalable, high-performance virtual machines. Custom machine types, preemptible VMs, sole-tenant nodes.",
+      "attributes": {
+        "machine_families": [
+          "General Purpose",
+          "Compute Optimized",
+          "Memory Optimized",
+          "Accelerator Optimized"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "iaas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Web Hosting",
+        "Batch Processing",
+        "HPC",
+        "Machine Learning"
+      ],
+      "keywords": [
+        "Google",
+        "Google Google Compute Engine",
+        "GCE"
+      ]
+    },
+    {
+      "id": "gcp-gke",
+      "name": "Google Kubernetes Engine (GKE)",
+      "vendor": "Google",
+      "category": "Cloud Computing",
+      "subcategory": "Container Platform",
+      "description": "Managed Kubernetes service. Auto-upgrade, auto-repair, and integrated with Cloud Build.",
+      "attributes": {
+        "features": [
+          "Autopilot",
+          "Standard",
+          "Multi-cluster",
+          "Anthos integration"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "paas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Microservices",
+        "Container Orchestration",
+        "CI/CD",
+        "Hybrid Cloud"
+      ],
+      "integrations": [
+        "Cloud Build",
+        "Artifact Registry",
+        "Cloud Run",
+        "Anthos"
+      ],
+      "aliases": [
+        "GKE",
+        "Google Kubernetes",
+        "Google Kubernetes Engine"
+      ],
+      "keywords": [
+        "Google",
+        "Google Google Kubernetes Engine (GKE)",
+        "GKE("
+      ]
+    },
+    {
+      "id": "gcp-bigquery",
+      "name": "BigQuery",
+      "vendor": "Google",
+      "category": "Database",
+      "subcategory": "Data Warehouse",
+      "description": "Serverless, highly scalable enterprise data warehouse with built-in ML capabilities.",
+      "attributes": {
+        "features": [
+          "Serverless",
+          "BI Engine",
+          "ML",
+          "Omni (multi-cloud)",
+          "Streaming"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "paas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Data Warehousing",
+        "Business Intelligence",
+        "ML",
+        "Real-time Analytics"
+      ],
+      "integrations": [
+        "Looker",
+        "Data Studio",
+        "Vertex AI",
+        "Dataflow"
+      ],
+      "aliases": [
+        "BQ",
+        "Google BigQuery"
+      ],
+      "keywords": [
+        "Google",
+        "Google BigQuery"
+      ]
+    },
+    {
+      "id": "gcp-vertex-ai",
+      "name": "Vertex AI",
+      "vendor": "Google",
+      "category": "AI & Machine Learning",
+      "subcategory": "ML Platform",
+      "description": "Unified AI platform for building, deploying, and scaling ML models and AI applications.",
+      "attributes": {
+        "capabilities": [
+          "AutoML",
+          "Custom Training",
+          "Model Garden",
+          "Generative AI Studio",
+          "MLOps"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "paas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "ML Model Development",
+        "Generative AI",
+        "Computer Vision",
+        "NLP"
+      ],
+      "integrations": [
+        "BigQuery",
+        "Cloud Storage",
+        "Dataflow",
+        "TensorFlow"
+      ],
+      "keywords": [
+        "Google",
+        "Google Vertex AI",
+        "VA"
+      ]
+    },
+    {
+      "id": "gcp-cloud-sql",
+      "name": "Cloud SQL",
+      "vendor": "Google",
+      "category": "Database",
+      "subcategory": "Managed Database",
+      "description": "Fully managed relational database service for MySQL, PostgreSQL, and SQL Server.",
+      "attributes": {
+        "engines": [
+          "MySQL",
+          "PostgreSQL",
+          "SQL Server"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "paas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Web Applications",
+        "E-commerce",
+        "Line of Business Apps"
+      ],
+      "integrations": [
+        "App Engine",
+        "Cloud Run",
+        "GKE",
+        "Data Studio"
+      ],
+      "keywords": [
+        "Google",
+        "Google Cloud SQL",
+        "CS"
+      ]
+    },
+    {
+      "id": "gcp-looker",
+      "name": "Looker",
+      "vendor": "Google",
+      "category": "Business Intelligence",
+      "subcategory": "Analytics Platform",
+      "description": "Modern business intelligence platform with embedded analytics and semantic modeling.",
+      "attributes": {
+        "features": [
+          "LookML",
+          "Embedded Analytics",
+          "Data Modeling",
+          "API Access"
+        ]
+      },
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Business Intelligence",
+        "Data Exploration",
+        "Embedded Analytics",
+        "Data Governance"
+      ],
+      "integrations": [
+        "BigQuery",
+        "Snowflake",
+        "Redshift",
+        "Cloud SQL"
+      ],
+      "keywords": [
+        "Google",
+        "Google Looker"
+      ]
+    },
+    {
+      "id": "google-chronicle",
+      "name": "Google Chronicle",
+      "vendor": "Google",
+      "category": "Security Software",
+      "subcategory": "SIEM & SOAR",
+      "description": "Cloud-native security analytics platform with petabyte-scale data retention and analysis.",
+      "attributes": {
+        "features": [
+          "SIEM",
+          "SOAR",
+          "Threat Intelligence",
+          "Detection Rules"
+        ]
+      },
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Security Operations",
+        "Threat Detection",
+        "Incident Response",
+        "Threat Hunting"
+      ],
+      "integrations": [
+        "Google Security Command Center",
+        "Third-party tools"
+      ],
+      "keywords": [
+        "Google",
+        "Google Google Chronicle",
+        "GC"
+      ]
+    }
+  ]
+}

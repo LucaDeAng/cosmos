@@ -1,0 +1,422 @@
+{
+  "version": "ATECO 2025",
+  "source": "ISTAT",
+  "lastUpdated": "2026-01-03T16:40:22.615Z",
+  "codes": [
+    {
+      "code": "10",
+      "description": "Industrie alimentari",
+      "descriptionEn": "Food products manufacturing",
+      "level": 2,
+      "naceCode": "10"
+    },
+    {
+      "code": "10.1",
+      "description": "Lavorazione e conservazione di carne",
+      "descriptionEn": "Meat processing and preserving",
+      "level": 3,
+      "parentCode": "10",
+      "naceCode": "10.1"
+    },
+    {
+      "code": "10.7",
+      "description": "Produzione di prodotti da forno e farinacei",
+      "descriptionEn": "Bakery and farinaceous products",
+      "level": 3,
+      "parentCode": "10",
+      "naceCode": "10.7"
+    },
+    {
+      "code": "11",
+      "description": "Industria delle bevande",
+      "descriptionEn": "Beverages manufacturing",
+      "level": 2,
+      "naceCode": "11"
+    },
+    {
+      "code": "11.01",
+      "description": "Distillazione, rettifica e miscelatura degli alcolici",
+      "descriptionEn": "Distilling and blending of spirits",
+      "level": 4,
+      "parentCode": "11",
+      "naceCode": "11.01"
+    },
+    {
+      "code": "11.02",
+      "description": "Produzione di vini da uve",
+      "descriptionEn": "Wine production",
+      "level": 4,
+      "parentCode": "11",
+      "naceCode": "11.02"
+    },
+    {
+      "code": "21",
+      "description": "Fabbricazione di prodotti farmaceutici di base e preparati",
+      "descriptionEn": "Pharmaceutical products manufacturing",
+      "level": 2,
+      "naceCode": "21"
+    },
+    {
+      "code": "21.10",
+      "description": "Fabbricazione di prodotti farmaceutici di base",
+      "descriptionEn": "Basic pharmaceutical products",
+      "level": 4,
+      "parentCode": "21",
+      "naceCode": "21.10"
+    },
+    {
+      "code": "21.20",
+      "description": "Fabbricazione di medicinali e preparati farmaceutici",
+      "descriptionEn": "Pharmaceutical preparations",
+      "level": 4,
+      "parentCode": "21",
+      "naceCode": "21.20"
+    },
+    {
+      "code": "26",
+      "description": "Fabbricazione di computer e prodotti elettronici",
+      "descriptionEn": "Computer and electronic products manufacturing",
+      "level": 2,
+      "naceCode": "26"
+    },
+    {
+      "code": "26.1",
+      "description": "Fabbricazione di componenti elettronici",
+      "descriptionEn": "Electronic components",
+      "level": 3,
+      "parentCode": "26",
+      "naceCode": "26.1"
+    },
+    {
+      "code": "26.2",
+      "description": "Fabbricazione di computer e unità periferiche",
+      "descriptionEn": "Computers and peripherals",
+      "level": 3,
+      "parentCode": "26",
+      "naceCode": "26.2"
+    },
+    {
+      "code": "26.20",
+      "description": "Fabbricazione di computer e unità periferiche",
+      "descriptionEn": "Computers and peripheral equipment",
+      "level": 4,
+      "parentCode": "26.2",
+      "naceCode": "26.20"
+    },
+    {
+      "code": "26.3",
+      "description": "Fabbricazione di apparecchiature per le comunicazioni",
+      "descriptionEn": "Communication equipment",
+      "level": 3,
+      "parentCode": "26",
+      "naceCode": "26.3"
+    },
+    {
+      "code": "29",
+      "description": "Fabbricazione di autoveicoli, rimorchi e semirimorchi",
+      "descriptionEn": "Motor vehicles manufacturing",
+      "level": 2,
+      "naceCode": "29"
+    },
+    {
+      "code": "29.1",
+      "description": "Fabbricazione di autoveicoli",
+      "descriptionEn": "Motor vehicles",
+      "level": 3,
+      "parentCode": "29",
+      "naceCode": "29.1"
+    },
+    {
+      "code": "29.10",
+      "description": "Fabbricazione di autoveicoli",
+      "descriptionEn": "Motor vehicles manufacturing",
+      "level": 4,
+      "parentCode": "29.1",
+      "naceCode": "29.10"
+    },
+    {
+      "code": "29.3",
+      "description": "Fabbricazione di parti e accessori per autoveicoli",
+      "descriptionEn": "Parts and accessories for motor vehicles",
+      "level": 3,
+      "parentCode": "29",
+      "naceCode": "29.3"
+    },
+    {
+      "code": "31",
+      "description": "Fabbricazione di mobili",
+      "descriptionEn": "Furniture manufacturing",
+      "level": 2,
+      "naceCode": "31"
+    },
+    {
+      "code": "31.0",
+      "description": "Fabbricazione di mobili",
+      "descriptionEn": "Furniture manufacturing",
+      "level": 3,
+      "parentCode": "31",
+      "naceCode": "31.0"
+    },
+    {
+      "code": "31.01",
+      "description": "Fabbricazione di mobili per ufficio e negozi",
+      "descriptionEn": "Office and shop furniture",
+      "level": 4,
+      "parentCode": "31.0",
+      "naceCode": "31.01"
+    },
+    {
+      "code": "31.01.1",
+      "description": "Fabbricazione di sedie e sedili per ufficio",
+      "descriptionEn": "Office chairs and seating",
+      "level": 5,
+      "parentCode": "31.01",
+      "naceCode": "31.01"
+    },
+    {
+      "code": "31.01.2",
+      "description": "Fabbricazione di mobili metallici per ufficio",
+      "descriptionEn": "Metal office furniture",
+      "level": 5,
+      "parentCode": "31.01",
+      "naceCode": "31.01"
+    },
+    {
+      "code": "31.02",
+      "description": "Fabbricazione di mobili per cucina",
+      "descriptionEn": "Kitchen furniture",
+      "level": 4,
+      "parentCode": "31.0",
+      "naceCode": "31.02"
+    },
+    {
+      "code": "31.03",
+      "description": "Fabbricazione di materassi",
+      "descriptionEn": "Mattresses manufacturing",
+      "level": 4,
+      "parentCode": "31.0",
+      "naceCode": "31.03"
+    },
+    {
+      "code": "31.09",
+      "description": "Fabbricazione di altri mobili",
+      "descriptionEn": "Other furniture",
+      "level": 4,
+      "parentCode": "31.0",
+      "naceCode": "31.09"
+    },
+    {
+      "code": "31.09.1",
+      "description": "Fabbricazione di mobili per arredo domestico",
+      "descriptionEn": "Domestic furniture",
+      "level": 5,
+      "parentCode": "31.09",
+      "naceCode": "31.09"
+    },
+    {
+      "code": "31.09.2",
+      "description": "Fabbricazione di sedie e sedili (escluso ufficio)",
+      "descriptionEn": "Chairs and seating (non-office)",
+      "level": 5,
+      "parentCode": "31.09",
+      "naceCode": "31.09"
+    },
+    {
+      "code": "31.09.3",
+      "description": "Fabbricazione di poltrone e divani",
+      "descriptionEn": "Armchairs and sofas",
+      "level": 5,
+      "parentCode": "31.09",
+      "naceCode": "31.09"
+    },
+    {
+      "code": "31.09.4",
+      "description": "Fabbricazione di mobili per giardino",
+      "descriptionEn": "Garden furniture",
+      "level": 5,
+      "parentCode": "31.09",
+      "naceCode": "31.09"
+    },
+    {
+      "code": "31.09.5",
+      "description": "Finitura di mobili",
+      "descriptionEn": "Furniture finishing",
+      "level": 5,
+      "parentCode": "31.09",
+      "naceCode": "31.09"
+    },
+    {
+      "code": "62",
+      "description": "Produzione di software, consulenza informatica",
+      "descriptionEn": "Software publishing and IT consulting",
+      "level": 2,
+      "naceCode": "62"
+    },
+    {
+      "code": "62.01",
+      "description": "Produzione di software non connesso all'edizione",
+      "descriptionEn": "Computer programming activities",
+      "level": 4,
+      "parentCode": "62",
+      "naceCode": "62.01"
+    },
+    {
+      "code": "62.02",
+      "description": "Consulenza nel settore delle tecnologie dell'informatica",
+      "descriptionEn": "IT consultancy activities",
+      "level": 4,
+      "parentCode": "62",
+      "naceCode": "62.02"
+    },
+    {
+      "code": "62.03",
+      "description": "Gestione di strutture informatiche",
+      "descriptionEn": "Computer facilities management",
+      "level": 4,
+      "parentCode": "62",
+      "naceCode": "62.03"
+    },
+    {
+      "code": "62.09",
+      "description": "Altre attività dei servizi connessi alle tecnologie",
+      "descriptionEn": "Other IT service activities",
+      "level": 4,
+      "parentCode": "62",
+      "naceCode": "62.09"
+    },
+    {
+      "code": "63",
+      "description": "Attività dei servizi d'informazione",
+      "descriptionEn": "Information service activities",
+      "level": 2,
+      "naceCode": "63"
+    },
+    {
+      "code": "63.1",
+      "description": "Elaborazione dei dati, hosting e attività connesse",
+      "descriptionEn": "Data processing and hosting",
+      "level": 3,
+      "parentCode": "63",
+      "naceCode": "63.1"
+    },
+    {
+      "code": "63.11",
+      "description": "Elaborazione dei dati, hosting e attività connesse",
+      "descriptionEn": "Data processing and hosting activities",
+      "level": 4,
+      "parentCode": "63.1",
+      "naceCode": "63.11"
+    },
+    {
+      "code": "64",
+      "description": "Attività di servizi finanziari",
+      "descriptionEn": "Financial service activities",
+      "level": 2,
+      "naceCode": "64"
+    },
+    {
+      "code": "64.1",
+      "description": "Intermediazione monetaria",
+      "descriptionEn": "Monetary intermediation",
+      "level": 3,
+      "parentCode": "64",
+      "naceCode": "64.1"
+    },
+    {
+      "code": "65",
+      "description": "Assicurazioni, riassicurazioni e fondi pensione",
+      "descriptionEn": "Insurance, reinsurance and pension",
+      "level": 2,
+      "naceCode": "65"
+    },
+    {
+      "code": "66",
+      "description": "Attività ausiliarie dei servizi finanziari",
+      "descriptionEn": "Auxiliary financial services",
+      "level": 2,
+      "naceCode": "66"
+    },
+    {
+      "code": "69",
+      "description": "Attività legali e contabilità",
+      "descriptionEn": "Legal and accounting activities",
+      "level": 2,
+      "naceCode": "69"
+    },
+    {
+      "code": "69.1",
+      "description": "Attività degli studi legali",
+      "descriptionEn": "Legal activities",
+      "level": 3,
+      "parentCode": "69",
+      "naceCode": "69.1"
+    },
+    {
+      "code": "69.2",
+      "description": "Contabilità, consulenza societaria, revisione",
+      "descriptionEn": "Accounting and auditing",
+      "level": 3,
+      "parentCode": "69",
+      "naceCode": "69.2"
+    },
+    {
+      "code": "70",
+      "description": "Attività di direzione aziendale e consulenza gestionale",
+      "descriptionEn": "Management consultancy activities",
+      "level": 2,
+      "naceCode": "70"
+    },
+    {
+      "code": "70.2",
+      "description": "Attività di consulenza gestionale",
+      "descriptionEn": "Management consultancy",
+      "level": 3,
+      "parentCode": "70",
+      "naceCode": "70.2"
+    },
+    {
+      "code": "71",
+      "description": "Attività degli studi di architettura e ingegneria",
+      "descriptionEn": "Architecture and engineering",
+      "level": 2,
+      "naceCode": "71"
+    },
+    {
+      "code": "72",
+      "description": "Ricerca scientifica e sviluppo",
+      "descriptionEn": "Scientific research and development",
+      "level": 2,
+      "naceCode": "72"
+    },
+    {
+      "code": "73",
+      "description": "Pubblicità e ricerche di mercato",
+      "descriptionEn": "Advertising and market research",
+      "level": 2,
+      "naceCode": "73"
+    },
+    {
+      "code": "74",
+      "description": "Altre attività professionali, scientifiche e tecniche",
+      "descriptionEn": "Other professional activities",
+      "level": 2,
+      "naceCode": "74"
+    },
+    {
+      "code": "74.1",
+      "description": "Attività di design specializzate",
+      "descriptionEn": "Specialized design activities",
+      "level": 3,
+      "parentCode": "74",
+      "naceCode": "74.1"
+    },
+    {
+      "code": "74.10",
+      "description": "Attività di design specializzate",
+      "descriptionEn": "Industrial and product design",
+      "level": 4,
+      "parentCode": "74.1",
+      "naceCode": "74.10"
+    }
+  ]
+}

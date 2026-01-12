@@ -1,0 +1,151 @@
+{
+  "catalog_name": "SaaS Enterprise Applications Real Catalog",
+  "catalog_type": "real_saas_applications",
+  "last_updated": "2026-01-07",
+  "version": "1.0",
+  "description": "Real SaaS applications and enterprise software widely used in production",
+  "source": "Public Company Offerings",
+  "products": [
+    {
+      "id": "salesforce-crm",
+      "name": "Salesforce CRM",
+      "vendor": "Salesforce",
+      "category": "CRM",
+      "subcategory": "Sales Management",
+      "description": "Customer relationship management platform for managing sales processes and customer data",
+      "url": "https://www.salesforce.com/crm/",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 165,
+        "currency": "USD",
+        "unit": "user/month (Professional)"
+      },
+      "deployment": "saas",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "uptime_sla": "99.99%",
+      "deployment_time": "immediate"
+    },
+    {
+      "id": "slack-messaging",
+      "name": "Slack",
+      "vendor": "Slack Technologies",
+      "category": "Team Collaboration",
+      "subcategory": "Messaging",
+      "description": "Platform for team communication and collaboration with real-time messaging",
+      "url": "https://slack.com/",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 8,
+        "currency": "USD",
+        "unit": "user/month (Pro)"
+      },
+      "deployment": "saas",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "uptime_sla": "99.99%",
+      "deployment_time": "immediate"
+    },
+    {
+      "id": "jira-project-management",
+      "name": "Jira",
+      "vendor": "Atlassian",
+      "category": "Project Management",
+      "subcategory": "Issue Tracking",
+      "description": "Agile project management and issue tracking platform for software teams",
+      "url": "https://www.atlassian.com/software/jira",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 7.50,
+        "currency": "USD",
+        "unit": "user/month"
+      },
+      "deployment": "saas_or_cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "development_teams",
+      "uptime_sla": "99.9%",
+      "deployment_time": "immediate"
+    },
+    {
+      "id": "github-vcs",
+      "name": "GitHub",
+      "vendor": "Microsoft",
+      "category": "Developer Platform",
+      "subcategory": "Version Control",
+      "description": "Web-based version control platform with git repositories, CI/CD, and collaboration",
+      "url": "https://github.com/",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 4,
+        "currency": "USD",
+        "unit": "user/month (Pro)"
+      },
+      "deployment": "saas",
+      "lifecycle_stage": "maturity",
+      "target_segment": "developers",
+      "uptime_sla": "99.9%",
+      "deployment_time": "immediate"
+    },
+    {
+      "id": "okta-iam",
+      "name": "Okta Identity Management",
+      "vendor": "Okta",
+      "category": "Security",
+      "subcategory": "Identity & Access",
+      "description": "Cloud-based identity platform for secure authentication and authorization",
+      "url": "https://www.okta.com/",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise pricing"
+      },
+      "deployment": "saas",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "uptime_sla": "99.99%",
+      "deployment_time": "1-2 weeks"
+    },
+    {
+      "id": "datadog-monitoring",
+      "name": "Datadog",
+      "vendor": "Datadog Inc.",
+      "category": "Monitoring & Analytics",
+      "subcategory": "Infrastructure Monitoring",
+      "description": "Cloud monitoring and analytics platform for infrastructure and application performance",
+      "url": "https://www.datadoghq.com/",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 15,
+        "currency": "USD",
+        "unit": "per host/month"
+      },
+      "deployment": "saas",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "uptime_sla": "99.99%",
+      "deployment_time": "immediate"
+    },
+    {
+      "id": "stripe-payments",
+      "name": "Stripe",
+      "vendor": "Stripe Inc.",
+      "category": "Payment Processing",
+      "subcategory": "Online Payments",
+      "description": "Payment processing platform for online businesses and e-commerce",
+      "url": "https://stripe.com/",
+      "pricing_model": "transaction_based",
+      "pricing_details": {
+        "amount": 2.9,
+        "percentage": 0.3,
+        "currency": "USD + %",
+        "unit": "per transaction"
+      },
+      "deployment": "saas",
+      "lifecycle_stage": "maturity",
+      "target_segment": "ecommerce",
+      "uptime_sla": "99.99%",
+      "deployment_time": "hours"
+    }
+  ]
+}

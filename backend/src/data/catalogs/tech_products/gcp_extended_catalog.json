@@ -1,0 +1,94 @@
+{
+  "vendor": "Google Cloud",
+  "catalog_name": "Google Cloud Platform Services",
+  "last_updated": "2026-01-07",
+  "version": "1.0",
+  "products": [
+    {
+      "id": "gcp-compute-engine",
+      "name": "Google Compute Engine",
+      "vendor": "Google Cloud",
+      "category": "Compute",
+      "subcategory": "Virtual Machines",
+      "description": "Scalable virtual machines running on Google infrastructure with pay-as-you-go pricing",
+      "pricing_model": "pay_as_you_go",
+      "pricing_details": {
+        "amount": "varies",
+        "currency": "USD",
+        "unit": "per hour"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Web Applications",
+        "Data Analysis",
+        "Machine Learning",
+        "Development Environments"
+      ],
+      "tags": ["gcp", "compute", "vm", "cloud"],
+      "specifications": {
+        "machine_types": "30+",
+        "os_support": "Linux, Windows",
+        "custom_machines": "Yes"
+      }
+    },
+    {
+      "id": "gcp-bigquery",
+      "name": "BigQuery",
+      "vendor": "Google Cloud",
+      "category": "Analytics",
+      "subcategory": "Data Warehouse",
+      "description": "Fully managed, serverless data warehouse for analyzing massive datasets with SQL",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "6.25",
+        "currency": "USD",
+        "unit": "per TB analyzed"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Data Analytics",
+        "Business Intelligence",
+        "Real-time Analytics",
+        "Machine Learning"
+      ],
+      "tags": ["gcp", "bigquery", "analytics", "data-warehouse"],
+      "specifications": {
+        "storage": "Exabyte scale",
+        "query": "SQL standard",
+        "integration": "Native with GCP services"
+      }
+    },
+    {
+      "id": "gcp-cloud-sql",
+      "name": "Cloud SQL",
+      "vendor": "Google Cloud",
+      "category": "Database",
+      "subcategory": "Managed Database",
+      "description": "Fully managed relational database service supporting MySQL, PostgreSQL, and SQL Server",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "varies",
+        "currency": "USD",
+        "unit": "per instance"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Web Applications",
+        "OLTP",
+        "Transactional Workloads"
+      ],
+      "tags": ["gcp", "cloudsql", "database", "managed"],
+      "specifications": {
+        "engines": "MySQL, PostgreSQL, SQL Server",
+        "backup": "Automated backups",
+        "replication": "Cross-region replication"
+      }
+    }
+  ]
+}

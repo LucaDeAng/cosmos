@@ -1,0 +1,19 @@
+# Ignore all markdown files - knowledge base
+**/*.md
+src/agents/knowledge/**/*.md
+knowledge/**/*.md
+
+# Ignore build and dependencies
+node_modules/
+dist/
+build/
+.next/
+
+# Ignore test files
+**/*.test.ts
+**/*.spec.ts
+__tests__/**
+
+# Ignore migrations
+migrations/**
+supabase/migrations/**

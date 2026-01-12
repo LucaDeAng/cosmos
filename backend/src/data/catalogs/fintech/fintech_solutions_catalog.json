@@ -1,0 +1,104 @@
+{
+  "catalog_name": "Financial Services Technology",
+  "catalog_type": "fintech",
+  "last_updated": "2026-01-07",
+  "version": "1.0",
+  "products": [
+    {
+      "id": "bloomberg-terminal",
+      "name": "Bloomberg Terminal",
+      "vendor": "Bloomberg L.P.",
+      "category": "Financial Data",
+      "subcategory": "Market Data & Analytics",
+      "description": "Professional terminal providing real-time market data, analytics, and trading tools",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 24000,
+        "currency": "USD",
+        "unit": "per year"
+      },
+      "deployment": "desktop",
+      "lifecycle_stage": "maturity",
+      "target_segment": "financial_enterprise",
+      "use_cases": [
+        "Trading",
+        "Market Research",
+        "Portfolio Analysis",
+        "Financial News"
+      ],
+      "tags": ["bloomberg", "trading", "data", "finance"]
+    },
+    {
+      "id": "refinitiv-workspace",
+      "name": "Refinitiv Workspace",
+      "vendor": "Refinitiv",
+      "category": "Financial Services",
+      "subcategory": "Trading & Analytics",
+      "description": "Unified trading, investment and risk platform for financial professionals",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise"
+      },
+      "deployment": "hybrid",
+      "lifecycle_stage": "maturity",
+      "target_segment": "financial_enterprise",
+      "use_cases": [
+        "Trading",
+        "Risk Management",
+        "Investment Analytics",
+        "Compliance"
+      ],
+      "tags": ["refinitiv", "trading", "risk", "finance"]
+    },
+    {
+      "id": "stripe-payments",
+      "name": "Stripe Payment Platform",
+      "vendor": "Stripe",
+      "category": "Payment Processing",
+      "subcategory": "Payments",
+      "description": "Complete payment and financial infrastructure for businesses of all sizes",
+      "pricing_model": "transaction_based",
+      "pricing_details": {
+        "amount": 2.9,
+        "currency": "USD",
+        "unit": "per transaction (%) + $0.30"
+      },
+      "deployment": "saas",
+      "lifecycle_stage": "growth",
+      "target_segment": "business",
+      "use_cases": [
+        "Online Payments",
+        "Subscription Management",
+        "Marketplace Payments",
+        "Invoicing"
+      ],
+      "tags": ["stripe", "payments", "fintech"]
+    },
+    {
+      "id": "twilio-communications",
+      "name": "Twilio Communications Platform",
+      "vendor": "Twilio",
+      "category": "Communications",
+      "subcategory": "APIs & SDKs",
+      "description": "Cloud communications platform enabling SMS, voice, video, and messaging",
+      "pricing_model": "pay_as_you_go",
+      "pricing_details": {
+        "amount": "varies",
+        "currency": "USD",
+        "unit": "per usage"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "business",
+      "use_cases": [
+        "SMS Marketing",
+        "OTP Verification",
+        "Customer Support",
+        "Notifications"
+      ],
+      "tags": ["twilio", "communications", "api"]
+    }
+  ]
+}

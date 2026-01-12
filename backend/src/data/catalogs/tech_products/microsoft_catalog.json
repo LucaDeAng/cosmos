@@ -1,0 +1,566 @@
+{
+  "vendor": "Microsoft",
+  "last_updated": "2026-01-03",
+  "version": "1.0",
+  "products": [
+    {
+      "id": "ms-365-business-basic",
+      "name": "Microsoft 365 Business Basic",
+      "vendor": "Microsoft",
+      "category": "Productivity Software",
+      "subcategory": "Office Suite",
+      "description": "Cloud-based Office apps including Teams, Exchange, SharePoint, OneDrive. Web and mobile versions of Word, Excel, PowerPoint.",
+      "attributes": {
+        "includes": [
+          "Exchange Online",
+          "SharePoint Online",
+          "OneDrive",
+          "Teams",
+          "Web Office Apps"
+        ]
+      },
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 6,
+        "currency": "EUR",
+        "unit": "user/month"
+      },
+      "deployment": "saas",
+      "target_segment": "smb",
+      "use_cases": [
+        "Email",
+        "Collaboration",
+        "Document Management",
+        "Video Conferencing"
+      ],
+      "integrations": [
+        "Azure AD",
+        "Power Platform",
+        "Dynamics 365"
+      ],
+      "industry_tags": [
+        "General Business",
+        "Education",
+        "Non-Profit"
+      ],
+      "aliases": [
+        "M365",
+        "Office 365",
+        "O365",
+        "MS365",
+        "Microsoft Office 365"
+      ],
+      "keywords": [
+        "Microsoft",
+        "Microsoft Microsoft 365 Business Basic",
+        "M3BB"
+      ]
+    },
+    {
+      "id": "ms-365-business-standard",
+      "name": "Microsoft 365 Business Standard",
+      "vendor": "Microsoft",
+      "category": "Productivity Software",
+      "subcategory": "Office Suite",
+      "description": "Full Office desktop apps plus cloud services. Word, Excel, PowerPoint, Outlook desktop apps with Teams, Exchange, SharePoint.",
+      "attributes": {
+        "includes": [
+          "Desktop Office Apps",
+          "Exchange Online",
+          "SharePoint Online",
+          "OneDrive",
+          "Teams"
+        ]
+      },
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 12.5,
+        "currency": "EUR",
+        "unit": "user/month"
+      },
+      "deployment": "hybrid",
+      "target_segment": "smb",
+      "use_cases": [
+        "Email",
+        "Collaboration",
+        "Document Editing",
+        "Presentations"
+      ],
+      "integrations": [
+        "Azure AD",
+        "Power Platform",
+        "Dynamics 365",
+        "OneDrive Sync"
+      ],
+      "aliases": [
+        "M365",
+        "Office 365",
+        "O365",
+        "MS365",
+        "Microsoft Office 365"
+      ],
+      "keywords": [
+        "Microsoft",
+        "Microsoft Microsoft 365 Business Standard",
+        "M3BS"
+      ]
+    },
+    {
+      "id": "ms-365-business-premium",
+      "name": "Microsoft 365 Business Premium",
+      "vendor": "Microsoft",
+      "category": "Productivity Software",
+      "subcategory": "Office Suite",
+      "description": "Complete productivity and security solution for SMBs. Includes Intune, Defender for Business, Azure AD Premium P1.",
+      "attributes": {
+        "includes": [
+          "M365 Business Standard",
+          "Intune",
+          "Defender for Business",
+          "Azure AD Premium P1"
+        ]
+      },
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 22,
+        "currency": "EUR",
+        "unit": "user/month"
+      },
+      "deployment": "hybrid",
+      "target_segment": "smb",
+      "use_cases": [
+        "Productivity",
+        "Security",
+        "Device Management",
+        "Advanced Threat Protection"
+      ],
+      "integrations": [
+        "Intune",
+        "Defender",
+        "Azure AD Premium",
+        "Conditional Access"
+      ],
+      "aliases": [
+        "M365",
+        "Office 365",
+        "O365",
+        "MS365",
+        "Microsoft Office 365"
+      ],
+      "keywords": [
+        "Microsoft",
+        "Microsoft Microsoft 365 Business Premium",
+        "M3BP"
+      ]
+    },
+    {
+      "id": "ms-365-e3",
+      "name": "Microsoft 365 E3",
+      "vendor": "Microsoft",
+      "category": "Productivity Software",
+      "subcategory": "Enterprise Suite",
+      "description": "Enterprise productivity suite with advanced compliance, analytics, and security. Windows E3 included.",
+      "attributes": {
+        "includes": [
+          "Office 365 E3",
+          "Windows 11 Enterprise E3",
+          "Enterprise Mobility + Security E3"
+        ]
+      },
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 38.4,
+        "currency": "EUR",
+        "unit": "user/month"
+      },
+      "deployment": "hybrid",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Enterprise Productivity",
+        "Compliance",
+        "eDiscovery",
+        "Information Protection"
+      ],
+      "integrations": [
+        "Azure AD",
+        "Intune",
+        "Defender",
+        "Power Platform",
+        "Viva"
+      ],
+      "aliases": [
+        "M365",
+        "Office 365",
+        "O365",
+        "MS365",
+        "Microsoft Office 365"
+      ],
+      "keywords": [
+        "Microsoft",
+        "Microsoft Microsoft 365 E3",
+        "M3E"
+      ]
+    },
+    {
+      "id": "ms-365-e5",
+      "name": "Microsoft 365 E5",
+      "vendor": "Microsoft",
+      "category": "Productivity Software",
+      "subcategory": "Enterprise Suite",
+      "description": "Most comprehensive Microsoft 365 plan with advanced security, compliance, voice, and analytics.",
+      "attributes": {
+        "includes": [
+          "M365 E3",
+          "Defender for Endpoint P2",
+          "Defender for Identity",
+          "Phone System",
+          "Power BI Pro"
+        ]
+      },
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 59.7,
+        "currency": "EUR",
+        "unit": "user/month"
+      },
+      "deployment": "hybrid",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Advanced Security",
+        "Voice/Telephony",
+        "Advanced Analytics",
+        "Zero Trust"
+      ],
+      "integrations": [
+        "Microsoft Sentinel",
+        "Defender XDR",
+        "Purview",
+        "Viva Insights"
+      ],
+      "aliases": [
+        "M365",
+        "Office 365",
+        "O365",
+        "MS365",
+        "Microsoft Office 365"
+      ],
+      "keywords": [
+        "Microsoft",
+        "Microsoft Microsoft 365 E5",
+        "M3E"
+      ]
+    },
+    {
+      "id": "azure-virtual-machines",
+      "name": "Azure Virtual Machines",
+      "vendor": "Microsoft",
+      "category": "Cloud Computing",
+      "subcategory": "IaaS",
+      "description": "Scalable virtual machines in Azure cloud. Wide range of VM sizes for various workloads from general purpose to GPU-optimized.",
+      "attributes": {
+        "series": [
+          "B-series",
+          "D-series",
+          "E-series",
+          "F-series",
+          "N-series (GPU)"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "iaas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Compute",
+        "Development",
+        "Testing",
+        "Production Workloads",
+        "SAP",
+        "HPC"
+      ],
+      "aliases": [
+        "Microsoft Azure",
+        "Azure",
+        "MS Azure",
+        "Azure Cloud"
+      ],
+      "keywords": [
+        "Microsoft",
+        "Microsoft Azure Virtual Machines",
+        "AVM"
+      ]
+    },
+    {
+      "id": "azure-sql-database",
+      "name": "Azure SQL Database",
+      "vendor": "Microsoft",
+      "category": "Database",
+      "subcategory": "Managed Database",
+      "description": "Fully managed relational database with built-in intelligence. Automatic tuning, scaling, and high availability.",
+      "attributes": {
+        "tiers": [
+          "Basic",
+          "Standard",
+          "Premium",
+          "Hyperscale",
+          "Serverless"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "paas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "OLTP",
+        "Data Warehousing",
+        "Application Database",
+        "Reporting"
+      ],
+      "integrations": [
+        "Azure Data Factory",
+        "Power BI",
+        "Azure Synapse",
+        "Logic Apps"
+      ],
+      "aliases": [
+        "Microsoft Azure",
+        "Azure",
+        "MS Azure",
+        "Azure Cloud"
+      ],
+      "keywords": [
+        "Microsoft",
+        "Microsoft Azure SQL Database",
+        "ASD"
+      ]
+    },
+    {
+      "id": "azure-kubernetes-service",
+      "name": "Azure Kubernetes Service (AKS)",
+      "vendor": "Microsoft",
+      "category": "Cloud Computing",
+      "subcategory": "Container Platform",
+      "description": "Managed Kubernetes container orchestration service. Simplified deployment and operations of containerized applications.",
+      "attributes": {
+        "features": [
+          "Auto-scaling",
+          "Azure Monitor integration",
+          "Azure Policy",
+          "GitOps"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "paas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Microservices",
+        "Container Orchestration",
+        "DevOps",
+        "Cloud Native Apps"
+      ],
+      "integrations": [
+        "Azure DevOps",
+        "GitHub Actions",
+        "Azure Container Registry",
+        "Azure Monitor"
+      ],
+      "aliases": [
+        "Microsoft Azure",
+        "Azure",
+        "MS Azure",
+        "Azure Cloud"
+      ],
+      "keywords": [
+        "Microsoft",
+        "Microsoft Azure Kubernetes Service (AKS)",
+        "AKS("
+      ]
+    },
+    {
+      "id": "dynamics-365-sales",
+      "name": "Dynamics 365 Sales",
+      "vendor": "Microsoft",
+      "category": "Customer Relationship Management",
+      "subcategory": "Sales Automation",
+      "description": "AI-powered sales solution with relationship insights, sales forecasting, and LinkedIn integration.",
+      "attributes": {
+        "editions": [
+          "Professional",
+          "Enterprise",
+          "Premium"
+        ]
+      },
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 65,
+        "currency": "EUR",
+        "unit": "user/month"
+      },
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Sales Management",
+        "Lead Scoring",
+        "Pipeline Management",
+        "Forecasting"
+      ],
+      "integrations": [
+        "Microsoft 365",
+        "LinkedIn Sales Navigator",
+        "Power Platform",
+        "Teams"
+      ],
+      "aliases": [
+        "Microsoft Dynamics 365",
+        "Dynamics 365",
+        "D365",
+        "MS Dynamics",
+        "Dynamics CRM"
+      ],
+      "keywords": [
+        "Microsoft",
+        "Microsoft Dynamics 365 Sales",
+        "D3S"
+      ]
+    },
+    {
+      "id": "power-platform",
+      "name": "Microsoft Power Platform",
+      "vendor": "Microsoft",
+      "category": "Low-Code Platform",
+      "subcategory": "Business Applications",
+      "description": "Low-code platform including Power Apps, Power Automate, Power BI, and Power Virtual Agents.",
+      "attributes": {
+        "components": [
+          "Power Apps",
+          "Power Automate",
+          "Power BI",
+          "Power Virtual Agents",
+          "Power Pages"
+        ]
+      },
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Custom Apps",
+        "Workflow Automation",
+        "Business Intelligence",
+        "Chatbots"
+      ],
+      "integrations": [
+        "Microsoft 365",
+        "Dynamics 365",
+        "Azure",
+        "Dataverse",
+        "Third-party connectors"
+      ],
+      "aliases": [
+        "Power Platform",
+        "PowerApps",
+        "Power Apps",
+        "Power Automate",
+        "Microsoft Power Platform"
+      ],
+      "keywords": [
+        "Microsoft",
+        "Microsoft Microsoft Power Platform",
+        "MPP"
+      ]
+    },
+    {
+      "id": "microsoft-sentinel",
+      "name": "Microsoft Sentinel",
+      "vendor": "Microsoft",
+      "category": "Security Software",
+      "subcategory": "SIEM & SOAR",
+      "description": "Cloud-native SIEM and SOAR solution. AI-powered threat detection, investigation, and response.",
+      "attributes": {
+        "capabilities": [
+          "Log Analytics",
+          "Threat Detection",
+          "Incident Response",
+          "Automation",
+          "Threat Hunting"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Security Operations",
+        "Threat Detection",
+        "Incident Response",
+        "Compliance"
+      ],
+      "integrations": [
+        "Microsoft 365 Defender",
+        "Azure AD",
+        "Third-party security tools"
+      ],
+      "aliases": [
+        "Sentinel",
+        "Azure Sentinel",
+        "MS Sentinel",
+        "Microsoft Sentinel"
+      ],
+      "keywords": [
+        "Microsoft",
+        "Microsoft Microsoft Sentinel",
+        "MS"
+      ]
+    },
+    {
+      "id": "microsoft-copilot-365",
+      "name": "Microsoft 365 Copilot",
+      "vendor": "Microsoft",
+      "category": "AI & Machine Learning",
+      "subcategory": "Generative AI",
+      "description": "AI-powered assistant integrated into Microsoft 365 apps. Uses GPT-4 and Microsoft Graph for intelligent assistance.",
+      "attributes": {
+        "apps": [
+          "Word",
+          "Excel",
+          "PowerPoint",
+          "Outlook",
+          "Teams",
+          "OneNote"
+        ]
+      },
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 30,
+        "currency": "EUR",
+        "unit": "user/month"
+      },
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Content Generation",
+        "Data Analysis",
+        "Meeting Summaries",
+        "Email Drafting"
+      ],
+      "integrations": [
+        "Microsoft 365",
+        "Microsoft Graph",
+        "SharePoint",
+        "OneDrive"
+      ],
+      "aliases": [
+        "M365",
+        "Office 365",
+        "O365",
+        "MS365",
+        "Microsoft Office 365",
+        "Microsoft Copilot",
+        "Copilot",
+        "M365 Copilot",
+        "GitHub Copilot"
+      ],
+      "keywords": [
+        "Microsoft",
+        "Microsoft Microsoft 365 Copilot",
+        "M3C"
+      ]
+    }
+  ]
+}

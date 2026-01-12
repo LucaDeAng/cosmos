@@ -1,0 +1,104 @@
+{
+  "catalog_name": "Supply Chain & Logistics Solutions",
+  "catalog_type": "logistics",
+  "last_updated": "2026-01-07",
+  "version": "1.0",
+  "products": [
+    {
+      "id": "jda-supply-chain",
+      "name": "JDA Supply Chain Management",
+      "vendor": "Blue Yonder",
+      "category": "Supply Chain",
+      "subcategory": "Planning",
+      "description": "AI-powered supply chain planning and optimization for enterprises",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise_logistics",
+      "use_cases": [
+        "Demand Planning",
+        "Network Optimization",
+        "Supplier Management",
+        "Inventory Optimization"
+      ],
+      "tags": ["jda", "supply-chain", "planning"]
+    },
+    {
+      "id": "sap-logistics",
+      "name": "SAP Logistics Business Suite",
+      "vendor": "SAP",
+      "category": "Supply Chain",
+      "subcategory": "ERP",
+      "description": "Comprehensive logistics and transportation management from SAP",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise"
+      },
+      "deployment": "on_premise",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise_logistics",
+      "use_cases": [
+        "Warehouse Management",
+        "Transportation Management",
+        "Supply Chain Visibility",
+        "Order Management"
+      ],
+      "tags": ["sap", "logistics", "erp"]
+    },
+    {
+      "id": "flexport-shipping",
+      "name": "Flexport Logistics Platform",
+      "vendor": "Flexport",
+      "category": "Logistics",
+      "subcategory": "Shipping",
+      "description": "Cloud-based platform for global trade and logistics management",
+      "pricing_model": "transaction_based",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "per shipment"
+      },
+      "deployment": "saas",
+      "lifecycle_stage": "growth",
+      "target_segment": "business_logistics",
+      "use_cases": [
+        "International Shipping",
+        "Customs Clearance",
+        "Shipment Tracking",
+        "Freight Forwarding"
+      ],
+      "tags": ["flexport", "logistics", "shipping"]
+    },
+    {
+      "id": "descartes-route",
+      "name": "Descartes Route Planning",
+      "vendor": "Descartes",
+      "category": "Logistics",
+      "subcategory": "Route Optimization",
+      "description": "AI-powered route optimization and delivery management",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise_logistics",
+      "use_cases": [
+        "Route Optimization",
+        "Last-Mile Delivery",
+        "Fleet Management",
+        "Real-time Tracking"
+      ],
+      "tags": ["descartes", "routing", "logistics"]
+    }
+  ]
+}

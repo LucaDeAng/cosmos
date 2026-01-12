@@ -1,0 +1,726 @@
+{
+  "version": "1.0",
+  "source": "UNSPSC v25.0 - Industrial Subset for THEMIS",
+  "description": "United Nations Standard Products and Services Code",
+  "last_updated": "2025-12-27",
+  "hierarchy": {
+    "levels": ["segment", "family", "class", "commodity"],
+    "code_lengths": [2, 4, 6, 8]
+  },
+  "entries": [
+    {
+      "segment": { "code": "23", "name": "Industrial Manufacturing and Processing Machinery" },
+      "family": { "code": "2310", "name": "Raw Materials Processing Machinery" },
+      "class": { "code": "231015", "name": "Crushing and Grinding Machinery" },
+      "commodity": { "code": "23101501", "name": "Jaw Crushers" },
+      "keywords": ["crusher", "grinding", "frantumatore", "macinatore", "crushing equipment"]
+    },
+    {
+      "segment": { "code": "23", "name": "Industrial Manufacturing and Processing Machinery" },
+      "family": { "code": "2310", "name": "Raw Materials Processing Machinery" },
+      "class": { "code": "231015", "name": "Crushing and Grinding Machinery" },
+      "commodity": { "code": "23101502", "name": "Ball Mills" },
+      "keywords": ["ball mill", "mulino a sfere", "grinding mill", "milling equipment"]
+    },
+    {
+      "segment": { "code": "23", "name": "Industrial Manufacturing and Processing Machinery" },
+      "family": { "code": "2311", "name": "Petroleum Processing Machinery" },
+      "class": { "code": "231110", "name": "Refining Equipment" },
+      "commodity": { "code": "23111001", "name": "Distillation Columns" },
+      "keywords": ["distillation", "refinery", "colonna distillazione", "petrolio", "refining"]
+    },
+    {
+      "segment": { "code": "23", "name": "Industrial Manufacturing and Processing Machinery" },
+      "family": { "code": "2312", "name": "Textile Manufacturing Machinery" },
+      "class": { "code": "231210", "name": "Spinning Machinery" },
+      "commodity": { "code": "23121001", "name": "Spinning Frames" },
+      "keywords": ["spinning", "textile", "filatura", "tessile", "yarn production"]
+    },
+    {
+      "segment": { "code": "23", "name": "Industrial Manufacturing and Processing Machinery" },
+      "family": { "code": "2312", "name": "Textile Manufacturing Machinery" },
+      "class": { "code": "231215", "name": "Weaving Machinery" },
+      "commodity": { "code": "23121501", "name": "Power Looms" },
+      "keywords": ["weaving", "loom", "telaio", "tessitura", "fabric production"]
+    },
+    {
+      "segment": { "code": "23", "name": "Industrial Manufacturing and Processing Machinery" },
+      "family": { "code": "2313", "name": "Lapidary Machinery" },
+      "class": { "code": "231310", "name": "Cutting and Polishing Equipment" },
+      "commodity": { "code": "23131001", "name": "Diamond Cutting Machines" },
+      "keywords": ["lapidary", "gem cutting", "taglio gemme", "diamond processing"]
+    },
+    {
+      "segment": { "code": "23", "name": "Industrial Manufacturing and Processing Machinery" },
+      "family": { "code": "2314", "name": "Leatherworking Machinery" },
+      "class": { "code": "231410", "name": "Leather Processing Equipment" },
+      "commodity": { "code": "23141001", "name": "Tanning Drums" },
+      "keywords": ["leather", "tanning", "pelle", "concia", "leather processing"]
+    },
+    {
+      "segment": { "code": "24", "name": "Material Handling and Conditioning Equipment" },
+      "family": { "code": "2410", "name": "Material Handling Machinery" },
+      "class": { "code": "241010", "name": "Cranes" },
+      "commodity": { "code": "24101001", "name": "Overhead Cranes" },
+      "keywords": ["crane", "gru", "overhead", "carroponte", "lifting equipment"]
+    },
+    {
+      "segment": { "code": "24", "name": "Material Handling and Conditioning Equipment" },
+      "family": { "code": "2410", "name": "Material Handling Machinery" },
+      "class": { "code": "241010", "name": "Cranes" },
+      "commodity": { "code": "24101002", "name": "Mobile Cranes" },
+      "keywords": ["mobile crane", "autogru", "truck crane", "gru mobile"]
+    },
+    {
+      "segment": { "code": "24", "name": "Material Handling and Conditioning Equipment" },
+      "family": { "code": "2410", "name": "Material Handling Machinery" },
+      "class": { "code": "241015", "name": "Forklifts" },
+      "commodity": { "code": "24101501", "name": "Electric Forklifts" },
+      "keywords": ["forklift", "carrello elevatore", "electric forklift", "warehouse equipment"]
+    },
+    {
+      "segment": { "code": "24", "name": "Material Handling and Conditioning Equipment" },
+      "family": { "code": "2410", "name": "Material Handling Machinery" },
+      "class": { "code": "241015", "name": "Forklifts" },
+      "commodity": { "code": "24101502", "name": "Diesel Forklifts" },
+      "keywords": ["forklift", "carrello elevatore", "diesel", "industrial truck"]
+    },
+    {
+      "segment": { "code": "24", "name": "Material Handling and Conditioning Equipment" },
+      "family": { "code": "2410", "name": "Material Handling Machinery" },
+      "class": { "code": "241020", "name": "Conveyors" },
+      "commodity": { "code": "24102001", "name": "Belt Conveyors" },
+      "keywords": ["conveyor", "nastro trasportatore", "belt", "material transport"]
+    },
+    {
+      "segment": { "code": "24", "name": "Material Handling and Conditioning Equipment" },
+      "family": { "code": "2410", "name": "Material Handling Machinery" },
+      "class": { "code": "241020", "name": "Conveyors" },
+      "commodity": { "code": "24102002", "name": "Roller Conveyors" },
+      "keywords": ["roller conveyor", "rulliera", "conveying system", "warehouse logistics"]
+    },
+    {
+      "segment": { "code": "24", "name": "Material Handling and Conditioning Equipment" },
+      "family": { "code": "2411", "name": "Containers and Storage" },
+      "class": { "code": "241110", "name": "Containers" },
+      "commodity": { "code": "24111001", "name": "Shipping Containers" },
+      "keywords": ["container", "shipping", "container marittimo", "freight container"]
+    },
+    {
+      "segment": { "code": "24", "name": "Material Handling and Conditioning Equipment" },
+      "family": { "code": "2411", "name": "Containers and Storage" },
+      "class": { "code": "241115", "name": "Storage Systems" },
+      "commodity": { "code": "24111501", "name": "Industrial Shelving" },
+      "keywords": ["shelving", "scaffalatura", "storage rack", "warehouse storage"]
+    },
+    {
+      "segment": { "code": "24", "name": "Material Handling and Conditioning Equipment" },
+      "family": { "code": "2412", "name": "Packaging Equipment" },
+      "class": { "code": "241210", "name": "Packaging Machinery" },
+      "commodity": { "code": "24121001", "name": "Sealing Machines" },
+      "keywords": ["sealing", "sigillatrice", "packaging", "confezionamento"]
+    },
+    {
+      "segment": { "code": "24", "name": "Material Handling and Conditioning Equipment" },
+      "family": { "code": "2412", "name": "Packaging Equipment" },
+      "class": { "code": "241210", "name": "Packaging Machinery" },
+      "commodity": { "code": "24121002", "name": "Wrapping Machines" },
+      "keywords": ["wrapping", "avvolgitrice", "stretch wrap", "pallet wrapper"]
+    },
+    {
+      "segment": { "code": "26", "name": "Power Generation and Distribution Machinery" },
+      "family": { "code": "2610", "name": "Power Generation Equipment" },
+      "class": { "code": "261015", "name": "Turbines" },
+      "commodity": { "code": "26101501", "name": "Gas Turbines" },
+      "keywords": ["turbine", "gas turbine", "turbina gas", "power generation"]
+    },
+    {
+      "segment": { "code": "26", "name": "Power Generation and Distribution Machinery" },
+      "family": { "code": "2610", "name": "Power Generation Equipment" },
+      "class": { "code": "261015", "name": "Turbines" },
+      "commodity": { "code": "26101502", "name": "Steam Turbines" },
+      "keywords": ["steam turbine", "turbina vapore", "power plant", "thermal generation"]
+    },
+    {
+      "segment": { "code": "26", "name": "Power Generation and Distribution Machinery" },
+      "family": { "code": "2610", "name": "Power Generation Equipment" },
+      "class": { "code": "261015", "name": "Turbines" },
+      "commodity": { "code": "26101503", "name": "Wind Turbines" },
+      "keywords": ["wind turbine", "turbina eolica", "wind power", "renewable energy"]
+    },
+    {
+      "segment": { "code": "26", "name": "Power Generation and Distribution Machinery" },
+      "family": { "code": "2610", "name": "Power Generation Equipment" },
+      "class": { "code": "261020", "name": "Generators" },
+      "commodity": { "code": "26102001", "name": "Diesel Generators" },
+      "keywords": ["generator", "generatore", "diesel generator", "backup power"]
+    },
+    {
+      "segment": { "code": "26", "name": "Power Generation and Distribution Machinery" },
+      "family": { "code": "2610", "name": "Power Generation Equipment" },
+      "class": { "code": "261025", "name": "Solar Energy Equipment" },
+      "commodity": { "code": "26102501", "name": "Solar Panels" },
+      "keywords": ["solar", "fotovoltaico", "photovoltaic", "solar panel", "pv module"]
+    },
+    {
+      "segment": { "code": "26", "name": "Power Generation and Distribution Machinery" },
+      "family": { "code": "2610", "name": "Power Generation Equipment" },
+      "class": { "code": "261025", "name": "Solar Energy Equipment" },
+      "commodity": { "code": "26102502", "name": "Solar Inverters" },
+      "keywords": ["inverter", "solar inverter", "inverter fotovoltaico", "power converter"]
+    },
+    {
+      "segment": { "code": "26", "name": "Power Generation and Distribution Machinery" },
+      "family": { "code": "2611", "name": "Power Distribution Equipment" },
+      "class": { "code": "261110", "name": "Transformers" },
+      "commodity": { "code": "26111001", "name": "Power Transformers" },
+      "keywords": ["transformer", "trasformatore", "power transformer", "electrical distribution"]
+    },
+    {
+      "segment": { "code": "26", "name": "Power Generation and Distribution Machinery" },
+      "family": { "code": "2611", "name": "Power Distribution Equipment" },
+      "class": { "code": "261115", "name": "Switchgear" },
+      "commodity": { "code": "26111501", "name": "Circuit Breakers" },
+      "keywords": ["circuit breaker", "interruttore", "switchgear", "electrical protection"]
+    },
+    {
+      "segment": { "code": "26", "name": "Power Generation and Distribution Machinery" },
+      "family": { "code": "2612", "name": "Energy Storage" },
+      "class": { "code": "261210", "name": "Battery Systems" },
+      "commodity": { "code": "26121001", "name": "Industrial Batteries" },
+      "keywords": ["battery", "batteria", "energy storage", "backup battery", "ups battery"]
+    },
+    {
+      "segment": { "code": "26", "name": "Power Generation and Distribution Machinery" },
+      "family": { "code": "2612", "name": "Energy Storage" },
+      "class": { "code": "261210", "name": "Battery Systems" },
+      "commodity": { "code": "26121002", "name": "Lithium Battery Systems" },
+      "keywords": ["lithium", "battery storage", "bess", "energy storage system"]
+    },
+    {
+      "segment": { "code": "27", "name": "Tools and General Machinery" },
+      "family": { "code": "2710", "name": "Hand Tools" },
+      "class": { "code": "271010", "name": "Cutting Tools" },
+      "commodity": { "code": "27101001", "name": "Industrial Knives" },
+      "keywords": ["knife", "coltello", "cutting tool", "industrial blade"]
+    },
+    {
+      "segment": { "code": "27", "name": "Tools and General Machinery" },
+      "family": { "code": "2711", "name": "Power Tools" },
+      "class": { "code": "271110", "name": "Drills" },
+      "commodity": { "code": "27111001", "name": "Electric Drills" },
+      "keywords": ["drill", "trapano", "power drill", "electric drill"]
+    },
+    {
+      "segment": { "code": "27", "name": "Tools and General Machinery" },
+      "family": { "code": "2711", "name": "Power Tools" },
+      "class": { "code": "271115", "name": "Grinders" },
+      "commodity": { "code": "27111501", "name": "Angle Grinders" },
+      "keywords": ["grinder", "smerigliatrice", "angle grinder", "grinding tool"]
+    },
+    {
+      "segment": { "code": "27", "name": "Tools and General Machinery" },
+      "family": { "code": "2712", "name": "Machine Tools" },
+      "class": { "code": "271210", "name": "Lathes" },
+      "commodity": { "code": "27121001", "name": "CNC Lathes" },
+      "keywords": ["lathe", "tornio", "cnc lathe", "turning machine"]
+    },
+    {
+      "segment": { "code": "27", "name": "Tools and General Machinery" },
+      "family": { "code": "2712", "name": "Machine Tools" },
+      "class": { "code": "271215", "name": "Milling Machines" },
+      "commodity": { "code": "27121501", "name": "CNC Milling Machines" },
+      "keywords": ["milling", "fresatrice", "cnc milling", "machining center"]
+    },
+    {
+      "segment": { "code": "27", "name": "Tools and General Machinery" },
+      "family": { "code": "2712", "name": "Machine Tools" },
+      "class": { "code": "271220", "name": "Cutting Machines" },
+      "commodity": { "code": "27122001", "name": "Laser Cutting Machines" },
+      "keywords": ["laser", "taglio laser", "laser cutting", "sheet metal cutting"]
+    },
+    {
+      "segment": { "code": "27", "name": "Tools and General Machinery" },
+      "family": { "code": "2712", "name": "Machine Tools" },
+      "class": { "code": "271220", "name": "Cutting Machines" },
+      "commodity": { "code": "27122002", "name": "Plasma Cutting Machines" },
+      "keywords": ["plasma", "taglio plasma", "plasma cutting", "metal cutting"]
+    },
+    {
+      "segment": { "code": "27", "name": "Tools and General Machinery" },
+      "family": { "code": "2712", "name": "Machine Tools" },
+      "class": { "code": "271225", "name": "Welding Equipment" },
+      "commodity": { "code": "27122501", "name": "Arc Welding Machines" },
+      "keywords": ["welding", "saldatura", "arc welding", "mig", "tig", "welder"]
+    },
+    {
+      "segment": { "code": "27", "name": "Tools and General Machinery" },
+      "family": { "code": "2712", "name": "Machine Tools" },
+      "class": { "code": "271225", "name": "Welding Equipment" },
+      "commodity": { "code": "27122502", "name": "Robot Welding Systems" },
+      "keywords": ["robot welding", "saldatura robotizzata", "automated welding"]
+    },
+    {
+      "segment": { "code": "27", "name": "Tools and General Machinery" },
+      "family": { "code": "2713", "name": "Industrial Robots" },
+      "class": { "code": "271310", "name": "Manufacturing Robots" },
+      "commodity": { "code": "27131001", "name": "Articulated Robots" },
+      "keywords": ["robot", "industrial robot", "robot industriale", "articulated arm"]
+    },
+    {
+      "segment": { "code": "27", "name": "Tools and General Machinery" },
+      "family": { "code": "2713", "name": "Industrial Robots" },
+      "class": { "code": "271310", "name": "Manufacturing Robots" },
+      "commodity": { "code": "27131002", "name": "Collaborative Robots" },
+      "keywords": ["cobot", "collaborative robot", "robot collaborativo", "human-robot"]
+    },
+    {
+      "segment": { "code": "27", "name": "Tools and General Machinery" },
+      "family": { "code": "2713", "name": "Industrial Robots" },
+      "class": { "code": "271315", "name": "Pick and Place Systems" },
+      "commodity": { "code": "27131501", "name": "Cartesian Robots" },
+      "keywords": ["cartesian", "gantry", "pick and place", "linear robot"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3110", "name": "Bearings, Bushings and Seals" },
+      "class": { "code": "311015", "name": "Bearings" },
+      "commodity": { "code": "31101501", "name": "Ball Bearings" },
+      "keywords": ["bearing", "cuscinetto", "ball bearing", "rolling element"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3110", "name": "Bearings, Bushings and Seals" },
+      "class": { "code": "311015", "name": "Bearings" },
+      "commodity": { "code": "31101502", "name": "Roller Bearings" },
+      "keywords": ["roller bearing", "cuscinetto rulli", "tapered bearing"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3110", "name": "Bearings, Bushings and Seals" },
+      "class": { "code": "311020", "name": "Seals" },
+      "commodity": { "code": "31102001", "name": "O-rings" },
+      "keywords": ["o-ring", "seal", "guarnizione", "gasket", "sealing"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3111", "name": "Fasteners" },
+      "class": { "code": "311110", "name": "Screws and Bolts" },
+      "commodity": { "code": "31111001", "name": "Hex Bolts" },
+      "keywords": ["bolt", "bullone", "fastener", "hex bolt", "screw"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3111", "name": "Fasteners" },
+      "class": { "code": "311115", "name": "Nuts" },
+      "commodity": { "code": "31111501", "name": "Hex Nuts" },
+      "keywords": ["nut", "dado", "fastener", "hex nut"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3112", "name": "Gears and Sprockets" },
+      "class": { "code": "311210", "name": "Gears" },
+      "commodity": { "code": "31121001", "name": "Spur Gears" },
+      "keywords": ["gear", "ingranaggio", "spur gear", "transmission"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3112", "name": "Gears and Sprockets" },
+      "class": { "code": "311215", "name": "Gear Boxes" },
+      "commodity": { "code": "31121501", "name": "Speed Reducers" },
+      "keywords": ["gearbox", "riduttore", "speed reducer", "transmission"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3113", "name": "Belts and Chains" },
+      "class": { "code": "311310", "name": "Industrial Belts" },
+      "commodity": { "code": "31131001", "name": "V-Belts" },
+      "keywords": ["belt", "cinghia", "v-belt", "drive belt"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3113", "name": "Belts and Chains" },
+      "class": { "code": "311315", "name": "Industrial Chains" },
+      "commodity": { "code": "31131501", "name": "Roller Chains" },
+      "keywords": ["chain", "catena", "roller chain", "drive chain"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3114", "name": "Valves" },
+      "class": { "code": "311410", "name": "Industrial Valves" },
+      "commodity": { "code": "31141001", "name": "Ball Valves" },
+      "keywords": ["valve", "valvola", "ball valve", "flow control"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3114", "name": "Valves" },
+      "class": { "code": "311410", "name": "Industrial Valves" },
+      "commodity": { "code": "31141002", "name": "Gate Valves" },
+      "keywords": ["gate valve", "valvola saracinesca", "isolation valve"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3115", "name": "Pumps" },
+      "class": { "code": "311510", "name": "Industrial Pumps" },
+      "commodity": { "code": "31151001", "name": "Centrifugal Pumps" },
+      "keywords": ["pump", "pompa", "centrifugal pump", "water pump"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3115", "name": "Pumps" },
+      "class": { "code": "311510", "name": "Industrial Pumps" },
+      "commodity": { "code": "31151002", "name": "Hydraulic Pumps" },
+      "keywords": ["hydraulic pump", "pompa idraulica", "hydraulic system"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3116", "name": "Motors and Drives" },
+      "class": { "code": "311610", "name": "Electric Motors" },
+      "commodity": { "code": "31161001", "name": "AC Motors" },
+      "keywords": ["motor", "motore", "ac motor", "electric motor", "induction"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3116", "name": "Motors and Drives" },
+      "class": { "code": "311610", "name": "Electric Motors" },
+      "commodity": { "code": "31161002", "name": "Servo Motors" },
+      "keywords": ["servo", "servomotore", "servo motor", "precision motor"]
+    },
+    {
+      "segment": { "code": "31", "name": "Manufacturing Components and Supplies" },
+      "family": { "code": "3116", "name": "Motors and Drives" },
+      "class": { "code": "311615", "name": "Drives and Controllers" },
+      "commodity": { "code": "31161501", "name": "Variable Frequency Drives" },
+      "keywords": ["vfd", "inverter", "variable speed", "frequency drive"]
+    },
+    {
+      "segment": { "code": "39", "name": "Electrical Systems and Components" },
+      "family": { "code": "3910", "name": "Electrical Equipment" },
+      "class": { "code": "391010", "name": "Panels and Cabinets" },
+      "commodity": { "code": "39101001", "name": "Electrical Panels" },
+      "keywords": ["panel", "quadro elettrico", "electrical panel", "distribution panel"]
+    },
+    {
+      "segment": { "code": "39", "name": "Electrical Systems and Components" },
+      "family": { "code": "3910", "name": "Electrical Equipment" },
+      "class": { "code": "391015", "name": "UPS Systems" },
+      "commodity": { "code": "39101501", "name": "Uninterruptible Power Supplies" },
+      "keywords": ["ups", "gruppo continuità", "backup power", "power protection"]
+    },
+    {
+      "segment": { "code": "39", "name": "Electrical Systems and Components" },
+      "family": { "code": "3911", "name": "Wiring and Cables" },
+      "class": { "code": "391110", "name": "Power Cables" },
+      "commodity": { "code": "39111001", "name": "Industrial Cables" },
+      "keywords": ["cable", "cavo", "power cable", "electrical cable", "wiring"]
+    },
+    {
+      "segment": { "code": "40", "name": "HVAC Equipment" },
+      "family": { "code": "4010", "name": "Heating Equipment" },
+      "class": { "code": "401010", "name": "Industrial Heaters" },
+      "commodity": { "code": "40101001", "name": "Industrial Boilers" },
+      "keywords": ["boiler", "caldaia", "heating", "industrial heating"]
+    },
+    {
+      "segment": { "code": "40", "name": "HVAC Equipment" },
+      "family": { "code": "4011", "name": "Cooling Equipment" },
+      "class": { "code": "401110", "name": "Industrial Cooling" },
+      "commodity": { "code": "40111001", "name": "Industrial Chillers" },
+      "keywords": ["chiller", "refrigeratore", "cooling", "industrial cooling"]
+    },
+    {
+      "segment": { "code": "40", "name": "HVAC Equipment" },
+      "family": { "code": "4011", "name": "Cooling Equipment" },
+      "class": { "code": "401110", "name": "Industrial Cooling" },
+      "commodity": { "code": "40111002", "name": "Cooling Towers" },
+      "keywords": ["cooling tower", "torre evaporativa", "heat dissipation"]
+    },
+    {
+      "segment": { "code": "40", "name": "HVAC Equipment" },
+      "family": { "code": "4012", "name": "Air Handling" },
+      "class": { "code": "401210", "name": "Air Handling Units" },
+      "commodity": { "code": "40121001", "name": "HVAC Units" },
+      "keywords": ["hvac", "ahu", "air handling", "ventilation", "climatizzazione"]
+    },
+    {
+      "segment": { "code": "40", "name": "HVAC Equipment" },
+      "family": { "code": "4013", "name": "Compressors" },
+      "class": { "code": "401310", "name": "Industrial Compressors" },
+      "commodity": { "code": "40131001", "name": "Air Compressors" },
+      "keywords": ["compressor", "compressore", "air compressor", "compressed air"]
+    },
+    {
+      "segment": { "code": "41", "name": "Laboratory and Testing Equipment" },
+      "family": { "code": "4110", "name": "Laboratory Instruments" },
+      "class": { "code": "411010", "name": "Analytical Instruments" },
+      "commodity": { "code": "41101001", "name": "Spectrometers" },
+      "keywords": ["spectrometer", "spettrometro", "analysis", "laboratory analysis"]
+    },
+    {
+      "segment": { "code": "41", "name": "Laboratory and Testing Equipment" },
+      "family": { "code": "4110", "name": "Laboratory Instruments" },
+      "class": { "code": "411015", "name": "Measuring Instruments" },
+      "commodity": { "code": "41101501", "name": "Digital Multimeters" },
+      "keywords": ["multimeter", "multimetro", "electrical measurement", "testing"]
+    },
+    {
+      "segment": { "code": "41", "name": "Laboratory and Testing Equipment" },
+      "family": { "code": "4111", "name": "Testing Equipment" },
+      "class": { "code": "411110", "name": "Material Testing" },
+      "commodity": { "code": "41111001", "name": "Tensile Testers" },
+      "keywords": ["tensile", "trazione", "material testing", "strength testing"]
+    },
+    {
+      "segment": { "code": "41", "name": "Laboratory and Testing Equipment" },
+      "family": { "code": "4111", "name": "Testing Equipment" },
+      "class": { "code": "411115", "name": "Quality Control Equipment" },
+      "commodity": { "code": "41111501", "name": "CMM Machines" },
+      "keywords": ["cmm", "coordinate measuring", "quality control", "metrology"]
+    },
+    {
+      "segment": { "code": "42", "name": "Medical Equipment and Supplies" },
+      "family": { "code": "4210", "name": "Medical Devices" },
+      "class": { "code": "421010", "name": "Diagnostic Equipment" },
+      "commodity": { "code": "42101001", "name": "X-Ray Machines" },
+      "keywords": ["x-ray", "radiografia", "medical imaging", "diagnostics"]
+    },
+    {
+      "segment": { "code": "42", "name": "Medical Equipment and Supplies" },
+      "family": { "code": "4210", "name": "Medical Devices" },
+      "class": { "code": "421010", "name": "Diagnostic Equipment" },
+      "commodity": { "code": "42101002", "name": "MRI Scanners" },
+      "keywords": ["mri", "risonanza magnetica", "imaging", "medical scanner"]
+    },
+    {
+      "segment": { "code": "42", "name": "Medical Equipment and Supplies" },
+      "family": { "code": "4210", "name": "Medical Devices" },
+      "class": { "code": "421015", "name": "Surgical Equipment" },
+      "commodity": { "code": "42101501", "name": "Surgical Instruments" },
+      "keywords": ["surgical", "chirurgico", "instruments", "surgery equipment"]
+    },
+    {
+      "segment": { "code": "43", "name": "Information Technology Equipment" },
+      "family": { "code": "4320", "name": "Computer Equipment" },
+      "class": { "code": "432010", "name": "Computers" },
+      "commodity": { "code": "43201001", "name": "Desktop Computers" },
+      "keywords": ["desktop", "pc", "computer", "workstation"]
+    },
+    {
+      "segment": { "code": "43", "name": "Information Technology Equipment" },
+      "family": { "code": "4320", "name": "Computer Equipment" },
+      "class": { "code": "432010", "name": "Computers" },
+      "commodity": { "code": "43201002", "name": "Laptop Computers" },
+      "keywords": ["laptop", "notebook", "portatile", "mobile computer"]
+    },
+    {
+      "segment": { "code": "43", "name": "Information Technology Equipment" },
+      "family": { "code": "4320", "name": "Computer Equipment" },
+      "class": { "code": "432015", "name": "Servers" },
+      "commodity": { "code": "43201501", "name": "Rack Servers" },
+      "keywords": ["server", "rack server", "data center", "enterprise server"]
+    },
+    {
+      "segment": { "code": "43", "name": "Information Technology Equipment" },
+      "family": { "code": "4321", "name": "Networking Equipment" },
+      "class": { "code": "432110", "name": "Network Infrastructure" },
+      "commodity": { "code": "43211001", "name": "Network Switches" },
+      "keywords": ["switch", "network switch", "ethernet", "lan switch"]
+    },
+    {
+      "segment": { "code": "43", "name": "Information Technology Equipment" },
+      "family": { "code": "4321", "name": "Networking Equipment" },
+      "class": { "code": "432110", "name": "Network Infrastructure" },
+      "commodity": { "code": "43211002", "name": "Routers" },
+      "keywords": ["router", "network router", "gateway", "wan router"]
+    },
+    {
+      "segment": { "code": "43", "name": "Information Technology Equipment" },
+      "family": { "code": "4321", "name": "Networking Equipment" },
+      "class": { "code": "432115", "name": "Wireless Equipment" },
+      "commodity": { "code": "43211501", "name": "Access Points" },
+      "keywords": ["access point", "wifi", "wireless", "wlan"]
+    },
+    {
+      "segment": { "code": "43", "name": "Information Technology Equipment" },
+      "family": { "code": "4322", "name": "Data Storage" },
+      "class": { "code": "432210", "name": "Storage Systems" },
+      "commodity": { "code": "43221001", "name": "SAN Storage" },
+      "keywords": ["san", "storage", "data storage", "storage array"]
+    },
+    {
+      "segment": { "code": "43", "name": "Information Technology Equipment" },
+      "family": { "code": "4322", "name": "Data Storage" },
+      "class": { "code": "432210", "name": "Storage Systems" },
+      "commodity": { "code": "43221002", "name": "NAS Storage" },
+      "keywords": ["nas", "network storage", "file storage", "nas device"]
+    },
+    {
+      "segment": { "code": "46", "name": "Security and Safety Equipment" },
+      "family": { "code": "4610", "name": "Physical Security" },
+      "class": { "code": "461010", "name": "Surveillance Equipment" },
+      "commodity": { "code": "46101001", "name": "Security Cameras" },
+      "keywords": ["camera", "cctv", "videosorveglianza", "surveillance camera"]
+    },
+    {
+      "segment": { "code": "46", "name": "Security and Safety Equipment" },
+      "family": { "code": "4610", "name": "Physical Security" },
+      "class": { "code": "461015", "name": "Access Control" },
+      "commodity": { "code": "46101501", "name": "Access Control Systems" },
+      "keywords": ["access control", "controllo accessi", "badge reader", "security system"]
+    },
+    {
+      "segment": { "code": "46", "name": "Security and Safety Equipment" },
+      "family": { "code": "4611", "name": "Fire Protection" },
+      "class": { "code": "461110", "name": "Fire Detection" },
+      "commodity": { "code": "46111001", "name": "Fire Alarm Systems" },
+      "keywords": ["fire alarm", "allarme incendio", "fire detection", "smoke detector"]
+    },
+    {
+      "segment": { "code": "46", "name": "Security and Safety Equipment" },
+      "family": { "code": "4611", "name": "Fire Protection" },
+      "class": { "code": "461115", "name": "Fire Suppression" },
+      "commodity": { "code": "46111501", "name": "Fire Extinguishers" },
+      "keywords": ["fire extinguisher", "estintore", "fire suppression"]
+    },
+    {
+      "segment": { "code": "46", "name": "Security and Safety Equipment" },
+      "family": { "code": "4612", "name": "Personal Protective Equipment" },
+      "class": { "code": "461210", "name": "Safety Gear" },
+      "commodity": { "code": "46121001", "name": "Safety Helmets" },
+      "keywords": ["helmet", "casco", "safety helmet", "hard hat", "ppe"]
+    },
+    {
+      "segment": { "code": "46", "name": "Security and Safety Equipment" },
+      "family": { "code": "4612", "name": "Personal Protective Equipment" },
+      "class": { "code": "461210", "name": "Safety Gear" },
+      "commodity": { "code": "46121002", "name": "Safety Goggles" },
+      "keywords": ["goggles", "occhiali protettivi", "safety glasses", "eye protection"]
+    },
+    {
+      "segment": { "code": "72", "name": "Building Construction and Maintenance" },
+      "family": { "code": "7210", "name": "Building Materials" },
+      "class": { "code": "721010", "name": "Structural Materials" },
+      "commodity": { "code": "72101001", "name": "Steel Beams" },
+      "keywords": ["steel", "acciaio", "structural steel", "beam", "construction"]
+    },
+    {
+      "segment": { "code": "72", "name": "Building Construction and Maintenance" },
+      "family": { "code": "7210", "name": "Building Materials" },
+      "class": { "code": "721010", "name": "Structural Materials" },
+      "commodity": { "code": "72101002", "name": "Concrete" },
+      "keywords": ["concrete", "cemento", "calcestruzzo", "building material"]
+    },
+    {
+      "segment": { "code": "72", "name": "Building Construction and Maintenance" },
+      "family": { "code": "7211", "name": "Construction Equipment" },
+      "class": { "code": "721110", "name": "Heavy Equipment" },
+      "commodity": { "code": "72111001", "name": "Excavators" },
+      "keywords": ["excavator", "escavatore", "digger", "construction equipment"]
+    },
+    {
+      "segment": { "code": "72", "name": "Building Construction and Maintenance" },
+      "family": { "code": "7211", "name": "Construction Equipment" },
+      "class": { "code": "721110", "name": "Heavy Equipment" },
+      "commodity": { "code": "72111002", "name": "Bulldozers" },
+      "keywords": ["bulldozer", "ruspa", "dozer", "earthmoving"]
+    },
+    {
+      "segment": { "code": "72", "name": "Building Construction and Maintenance" },
+      "family": { "code": "7211", "name": "Construction Equipment" },
+      "class": { "code": "721115", "name": "Concrete Equipment" },
+      "commodity": { "code": "72111501", "name": "Concrete Mixers" },
+      "keywords": ["mixer", "betoniera", "concrete mixer", "mixing equipment"]
+    },
+    {
+      "segment": { "code": "76", "name": "Industrial Process Machinery" },
+      "family": { "code": "7610", "name": "Process Control Equipment" },
+      "class": { "code": "761010", "name": "Control Systems" },
+      "commodity": { "code": "76101001", "name": "PLCs" },
+      "keywords": ["plc", "programmable logic", "controller", "industrial automation"]
+    },
+    {
+      "segment": { "code": "76", "name": "Industrial Process Machinery" },
+      "family": { "code": "7610", "name": "Process Control Equipment" },
+      "class": { "code": "761010", "name": "Control Systems" },
+      "commodity": { "code": "76101002", "name": "SCADA Systems" },
+      "keywords": ["scada", "supervisory control", "automation", "process control"]
+    },
+    {
+      "segment": { "code": "76", "name": "Industrial Process Machinery" },
+      "family": { "code": "7610", "name": "Process Control Equipment" },
+      "class": { "code": "761015", "name": "Sensors and Instruments" },
+      "commodity": { "code": "76101501", "name": "Industrial Sensors" },
+      "keywords": ["sensor", "sensore", "industrial sensor", "measurement"]
+    },
+    {
+      "segment": { "code": "76", "name": "Industrial Process Machinery" },
+      "family": { "code": "7610", "name": "Process Control Equipment" },
+      "class": { "code": "761015", "name": "Sensors and Instruments" },
+      "commodity": { "code": "76101502", "name": "Flow Meters" },
+      "keywords": ["flow meter", "flussometro", "flow measurement", "instrumentation"]
+    },
+    {
+      "segment": { "code": "76", "name": "Industrial Process Machinery" },
+      "family": { "code": "7611", "name": "Filtration Equipment" },
+      "class": { "code": "761110", "name": "Industrial Filtration" },
+      "commodity": { "code": "76111001", "name": "Industrial Filters" },
+      "keywords": ["filter", "filtro", "industrial filter", "filtration"]
+    },
+    {
+      "segment": { "code": "80", "name": "Management and Business Services" },
+      "family": { "code": "8010", "name": "Management Consulting" },
+      "class": { "code": "801010", "name": "Business Advisory" },
+      "commodity": { "code": "80101001", "name": "Strategy Consulting" },
+      "keywords": ["consulting", "consulenza", "strategy", "advisory", "management"]
+    },
+    {
+      "segment": { "code": "80", "name": "Management and Business Services" },
+      "family": { "code": "8010", "name": "Management Consulting" },
+      "class": { "code": "801015", "name": "Operational Consulting" },
+      "commodity": { "code": "80101501", "name": "Process Optimization" },
+      "keywords": ["process", "optimization", "lean", "operational excellence"]
+    },
+    {
+      "segment": { "code": "81", "name": "Engineering and Research Services" },
+      "family": { "code": "8110", "name": "Engineering Services" },
+      "class": { "code": "811010", "name": "Design Engineering" },
+      "commodity": { "code": "81101001", "name": "Mechanical Engineering" },
+      "keywords": ["mechanical", "engineering", "design", "ingegneria meccanica"]
+    },
+    {
+      "segment": { "code": "81", "name": "Engineering and Research Services" },
+      "family": { "code": "8110", "name": "Engineering Services" },
+      "class": { "code": "811010", "name": "Design Engineering" },
+      "commodity": { "code": "81101002", "name": "Electrical Engineering" },
+      "keywords": ["electrical", "engineering", "elettrico", "electrical design"]
+    },
+    {
+      "segment": { "code": "81", "name": "Engineering and Research Services" },
+      "family": { "code": "8110", "name": "Engineering Services" },
+      "class": { "code": "811015", "name": "Industrial Engineering" },
+      "commodity": { "code": "81101501", "name": "Plant Design" },
+      "keywords": ["plant", "impianto", "industrial design", "factory layout"]
+    },
+    {
+      "segment": { "code": "84", "name": "Financial and Insurance Services" },
+      "family": { "code": "8410", "name": "Banking Services" },
+      "class": { "code": "841010", "name": "Commercial Banking" },
+      "commodity": { "code": "84101001", "name": "Corporate Banking" },
+      "keywords": ["banking", "banca", "corporate banking", "business banking"]
+    },
+    {
+      "segment": { "code": "84", "name": "Financial and Insurance Services" },
+      "family": { "code": "8411", "name": "Insurance Services" },
+      "class": { "code": "841110", "name": "Business Insurance" },
+      "commodity": { "code": "84111001", "name": "Property Insurance" },
+      "keywords": ["insurance", "assicurazione", "property", "business insurance"]
+    },
+    {
+      "segment": { "code": "84", "name": "Financial and Insurance Services" },
+      "family": { "code": "8412", "name": "Investment Services" },
+      "class": { "code": "841210", "name": "Asset Management" },
+      "commodity": { "code": "84121001", "name": "Portfolio Management" },
+      "keywords": ["investment", "portfolio", "asset management", "wealth"]
+    }
+  ]
+}

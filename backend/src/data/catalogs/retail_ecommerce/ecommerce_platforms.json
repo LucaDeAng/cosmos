@@ -1,0 +1,16 @@
+{
+  "category": "Retail & eCommerce",
+  "subcategory": "eCommerce Platforms",
+  "products": [
+    {"id": "ecom-001", "name": "Shopify", "vendor": "Shopify", "category": "Retail & eCommerce", "subcategory": "Platform", "description": "Leading ecommerce platform for online stores", "pricing_model": "subscription", "deployment": "saas", "target_segment": "smb", "keywords": ["shopify", "online store", "ecommerce"]},
+    {"id": "ecom-002", "name": "BigCommerce", "vendor": "BigCommerce", "category": "Retail & eCommerce", "subcategory": "Platform", "description": "Enterprise ecommerce platform", "pricing_model": "subscription", "deployment": "saas", "target_segment": "enterprise", "keywords": ["bigcommerce", "ecommerce platform"]},
+    {"id": "ecom-003", "name": "Magento Commerce", "vendor": "Adobe", "category": "Retail & eCommerce", "subcategory": "Platform", "description": "Flexible ecommerce platform for B2B and B2C", "pricing_model": "license", "deployment": "hybrid", "target_segment": "enterprise", "keywords": ["magento", "adobe commerce"]},
+    {"id": "ecom-004", "name": "WooCommerce", "vendor": "Automattic", "category": "Retail & eCommerce", "subcategory": "Platform", "description": "WordPress ecommerce plugin", "pricing_model": "freemium", "deployment": "on_premise", "target_segment": "smb", "keywords": ["woocommerce", "wordpress", "ecommerce"]},
+    {"id": "ecom-005", "name": "Salesforce Commerce Cloud", "vendor": "Salesforce", "category": "Retail & eCommerce", "subcategory": "Platform", "description": "Enterprise B2C and B2B commerce platform", "pricing_model": "subscription", "deployment": "saas", "target_segment": "enterprise", "keywords": ["salesforce commerce", "demandware"]},
+    {"id": "pos-001", "name": "Square POS", "vendor": "Square", "category": "Retail & eCommerce", "subcategory": "POS System", "description": "Point of sale system for retail", "pricing_model": "freemium", "deployment": "saas", "target_segment": "smb", "keywords": ["square", "pos", "point of sale"]},
+    {"id": "pos-002", "name": "Toast POS", "vendor": "Toast", "category": "Retail & eCommerce", "subcategory": "POS System", "description": "Restaurant POS and management system", "pricing_model": "subscription", "deployment": "saas", "target_segment": "smb", "keywords": ["toast", "restaurant pos"]},
+    {"id": "pos-003", "name": "Lightspeed Retail", "vendor": "Lightspeed", "category": "Retail & eCommerce", "subcategory": "POS System", "description": "Cloud-based retail POS", "pricing_model": "subscription", "deployment": "saas", "target_segment": "smb", "keywords": ["lightspeed", "retail pos"]},
+    {"id": "inv-001", "name": "Cin7", "vendor": "Cin7", "category": "Retail & eCommerce", "subcategory": "Inventory Management", "description": "Inventory and order management", "pricing_model": "subscription", "deployment": "saas", "target_segment": "smb", "keywords": ["cin7", "inventory management"]},
+    {"id": "marketplace-001", "name": "Amazon Seller Central", "vendor": "Amazon", "category": "Retail & eCommerce", "subcategory": "Marketplace", "description": "Amazon marketplace integration", "pricing_model": "usage_based", "deployment": "saas", "target_segment": "all", "keywords": ["amazon", "marketplace", "seller central"]}
+  ]
+}

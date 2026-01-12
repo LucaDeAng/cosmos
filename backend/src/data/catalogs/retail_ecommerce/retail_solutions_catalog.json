@@ -1,0 +1,104 @@
+{
+  "catalog_name": "Retail & E-Commerce Solutions",
+  "catalog_type": "retail",
+  "last_updated": "2026-01-07",
+  "version": "1.0",
+  "products": [
+    {
+      "id": "shopify-plus",
+      "name": "Shopify Plus",
+      "vendor": "Shopify",
+      "category": "E-Commerce",
+      "subcategory": "Platform",
+      "description": "Enterprise e-commerce platform with unlimited scalability and custom functionality",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 2000,
+        "currency": "USD",
+        "unit": "per month (minimum)"
+      },
+      "deployment": "saas",
+      "lifecycle_stage": "growth",
+      "target_segment": "enterprise_retail",
+      "use_cases": [
+        "Multi-channel Selling",
+        "Marketplace Hosting",
+        "B2B eCommerce",
+        "Global Commerce"
+      ],
+      "tags": ["shopify", "ecommerce", "retail"]
+    },
+    {
+      "id": "adobe-commerce",
+      "name": "Adobe Commerce",
+      "vendor": "Adobe",
+      "category": "E-Commerce",
+      "subcategory": "Platform",
+      "description": "Enterprise-grade digital commerce platform with AI-powered personalization",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise_retail",
+      "use_cases": [
+        "B2C eCommerce",
+        "Personalization",
+        "Content Management",
+        "Order Management"
+      ],
+      "tags": ["adobe", "commerce", "retail"]
+    },
+    {
+      "id": "square-retail",
+      "name": "Square for Retail",
+      "vendor": "Square",
+      "category": "POS",
+      "subcategory": "Point of Sale",
+      "description": "All-in-one POS system with payment processing, inventory, and customer management",
+      "pricing_model": "transaction_based",
+      "pricing_details": {
+        "amount": 2.9,
+        "currency": "USD",
+        "unit": "per transaction (%) + fees"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "smb_retail",
+      "use_cases": [
+        "In-store Sales",
+        "Online Store",
+        "Inventory Management",
+        "Customer Data"
+      ],
+      "tags": ["square", "pos", "retail"]
+    },
+    {
+      "id": "oracle-netsuite",
+      "name": "Oracle NetSuite",
+      "vendor": "Oracle",
+      "category": "Business Management",
+      "subcategory": "ERP",
+      "description": "Cloud ERP system for managing finances, inventory, and supply chain",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise_retail",
+      "use_cases": [
+        "Financial Management",
+        "Inventory",
+        "Supply Chain",
+        "Multi-subsidiary Management"
+      ],
+      "tags": ["oracle", "netsuite", "erp", "retail"]
+    }
+  ]
+}

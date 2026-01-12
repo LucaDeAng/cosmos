@@ -1,0 +1,11 @@
+{
+  "category": "Insurance",
+  "subcategory": "Policy Administration",
+  "products": [
+    {"id": "ins-001", "name": "Guidewire PolicyCenter", "vendor": "Guidewire", "category": "Insurance", "subcategory": "Policy Administration", "description": "Insurance policy administration system", "pricing_model": "license", "deployment": "hybrid", "target_segment": "enterprise", "keywords": ["guidewire", "policycenter", "policy admin"]},
+    {"id": "ins-002", "name": "Duck Creek Technologies", "vendor": "Duck Creek", "category": "Insurance", "subcategory": "Policy Administration", "description": "P&C insurance suite", "pricing_model": "subscription", "deployment": "saas", "target_segment": "enterprise", "keywords": ["duck creek", "insurance platform"]},
+    {"id": "claims-001", "name": "Guidewire ClaimCenter", "vendor": "Guidewire", "category": "Insurance", "subcategory": "Claims Management", "description": "Claims management system", "pricing_model": "license", "deployment": "hybrid", "target_segment": "enterprise", "keywords": ["guidewire", "claimcenter", "claims"]},
+    {"id": "underwriting-001", "name": "Vertafore", "vendor": "Vertafore", "category": "Insurance", "subcategory": "Underwriting", "description": "Insurance agency management system", "pricing_model": "subscription", "deployment": "saas", "target_segment": "smb", "keywords": ["vertafore", "agency management"]},
+    {"id": "actuarial-001", "name": "Milliman Arius", "vendor": "Milliman", "category": "Insurance", "subcategory": "Actuarial", "description": "Actuarial and financial modeling", "pricing_model": "license", "deployment": "on_premise", "target_segment": "enterprise", "keywords": ["milliman", "arius", "actuarial"]}
+  ]
+}

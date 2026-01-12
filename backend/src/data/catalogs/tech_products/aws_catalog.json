@@ -1,0 +1,482 @@
+{
+  "vendor": "Amazon Web Services",
+  "last_updated": "2026-01-03",
+  "version": "1.0",
+  "products": [
+    {
+      "id": "aws-ec2",
+      "name": "Amazon EC2",
+      "vendor": "Amazon Web Services",
+      "category": "Cloud Computing",
+      "subcategory": "IaaS",
+      "description": "Secure and resizable compute capacity in the cloud. Wide selection of instance types optimized for different use cases.",
+      "attributes": {
+        "instance_families": [
+          "General Purpose",
+          "Compute Optimized",
+          "Memory Optimized",
+          "Storage Optimized",
+          "Accelerated Computing"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "iaas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Web Hosting",
+        "Application Hosting",
+        "Big Data",
+        "Machine Learning",
+        "HPC",
+        "Gaming"
+      ],
+      "integrations": [
+        "VPC",
+        "EBS",
+        "ELB",
+        "Auto Scaling",
+        "CloudWatch"
+      ],
+      "aliases": [
+        "EC2",
+        "Elastic Compute Cloud",
+        "Amazon EC2"
+      ],
+      "keywords": [
+        "Amazon Web Services",
+        "Amazon Web Services Amazon EC2",
+        "AE"
+      ]
+    },
+    {
+      "id": "aws-s3",
+      "name": "Amazon S3",
+      "vendor": "Amazon Web Services",
+      "category": "Cloud Storage",
+      "subcategory": "Object Storage",
+      "description": "Scalable object storage with industry-leading durability, availability, performance, and security.",
+      "attributes": {
+        "storage_classes": [
+          "Standard",
+          "Intelligent-Tiering",
+          "Glacier",
+          "Glacier Deep Archive",
+          "One Zone-IA"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "iaas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Data Storage",
+        "Backup",
+        "Archive",
+        "Data Lake",
+        "Static Website Hosting",
+        "Big Data Analytics"
+      ],
+      "aliases": [
+        "S3",
+        "Simple Storage Service",
+        "Amazon S3"
+      ],
+      "keywords": [
+        "Amazon Web Services",
+        "Amazon Web Services Amazon S3",
+        "AS"
+      ]
+    },
+    {
+      "id": "aws-rds",
+      "name": "Amazon RDS",
+      "vendor": "Amazon Web Services",
+      "category": "Database",
+      "subcategory": "Managed Database",
+      "description": "Managed relational database service for MySQL, PostgreSQL, MariaDB, Oracle, and SQL Server.",
+      "attributes": {
+        "engines": [
+          "MySQL",
+          "PostgreSQL",
+          "MariaDB",
+          "Oracle",
+          "SQL Server",
+          "Aurora"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "paas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Web Applications",
+        "E-commerce",
+        "Mobile Apps",
+        "ERP",
+        "CRM"
+      ],
+      "integrations": [
+        "VPC",
+        "CloudWatch",
+        "IAM",
+        "KMS",
+        "Secrets Manager"
+      ],
+      "aliases": [
+        "RDS",
+        "Relational Database Service",
+        "Amazon RDS",
+        "DocuSign",
+        "DocuSign eSignature",
+        "DS"
+      ],
+      "keywords": [
+        "Amazon Web Services",
+        "Amazon Web Services Amazon RDS",
+        "AR"
+      ]
+    },
+    {
+      "id": "aws-lambda",
+      "name": "AWS Lambda",
+      "vendor": "Amazon Web Services",
+      "category": "Cloud Computing",
+      "subcategory": "Serverless",
+      "description": "Run code without provisioning servers. Pay only for compute time consumed.",
+      "attributes": {
+        "runtimes": [
+          "Node.js",
+          "Python",
+          "Java",
+          "Go",
+          ".NET",
+          "Ruby",
+          "Custom Runtime"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "paas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Event Processing",
+        "API Backend",
+        "Data Transformation",
+        "IoT Backend",
+        "Automation"
+      ],
+      "integrations": [
+        "API Gateway",
+        "S3",
+        "DynamoDB",
+        "SNS",
+        "SQS",
+        "EventBridge"
+      ],
+      "aliases": [
+        "Amazon Web Services",
+        "AWS",
+        "Amazon AWS",
+        "Amazon Lambda",
+        "Lambda"
+      ],
+      "keywords": [
+        "Amazon Web Services",
+        "Amazon Web Services AWS Lambda",
+        "AL"
+      ]
+    },
+    {
+      "id": "aws-eks",
+      "name": "Amazon EKS",
+      "vendor": "Amazon Web Services",
+      "category": "Cloud Computing",
+      "subcategory": "Container Platform",
+      "description": "Managed Kubernetes service for running containerized applications at scale.",
+      "attributes": {
+        "features": [
+          "Managed Control Plane",
+          "Fargate Support",
+          "EKS Anywhere",
+          "EKS Distro"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "paas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Microservices",
+        "Container Orchestration",
+        "Hybrid Deployments",
+        "Machine Learning"
+      ],
+      "integrations": [
+        "ECR",
+        "ALB",
+        "IAM",
+        "VPC",
+        "CloudWatch"
+      ],
+      "aliases": [
+        "EKS",
+        "Elastic Kubernetes Service",
+        "Amazon EKS"
+      ],
+      "keywords": [
+        "Amazon Web Services",
+        "Amazon Web Services Amazon EKS",
+        "AE"
+      ]
+    },
+    {
+      "id": "aws-dynamodb",
+      "name": "Amazon DynamoDB",
+      "vendor": "Amazon Web Services",
+      "category": "Database",
+      "subcategory": "NoSQL Database",
+      "description": "Fast and flexible NoSQL database with single-digit millisecond performance at any scale.",
+      "attributes": {
+        "features": [
+          "Auto Scaling",
+          "Global Tables",
+          "Point-in-Time Recovery",
+          "DAX Caching"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "paas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Gaming",
+        "IoT",
+        "Mobile Apps",
+        "Real-time Analytics",
+        "Session Management"
+      ],
+      "aliases": [
+        "DynamoDB",
+        "Dynamo",
+        "Amazon DynamoDB"
+      ],
+      "keywords": [
+        "Amazon Web Services",
+        "Amazon Web Services Amazon DynamoDB",
+        "AD"
+      ]
+    },
+    {
+      "id": "aws-cloudfront",
+      "name": "Amazon CloudFront",
+      "vendor": "Amazon Web Services",
+      "category": "Networking",
+      "subcategory": "CDN",
+      "description": "Fast content delivery network with low latency and high transfer speeds.",
+      "attributes": {
+        "edge_locations": "450+ Points of Presence globally"
+      },
+      "pricing_model": "usage_based",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Website Acceleration",
+        "Video Streaming",
+        "API Acceleration",
+        "Software Distribution"
+      ],
+      "keywords": [
+        "Amazon Web Services",
+        "Amazon Web Services Amazon CloudFront",
+        "AC"
+      ]
+    },
+    {
+      "id": "aws-sagemaker",
+      "name": "Amazon SageMaker",
+      "vendor": "Amazon Web Services",
+      "category": "AI & Machine Learning",
+      "subcategory": "ML Platform",
+      "description": "Fully managed machine learning service for building, training, and deploying ML models.",
+      "attributes": {
+        "capabilities": [
+          "Studio",
+          "Autopilot",
+          "Model Training",
+          "Inference",
+          "MLOps"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "paas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "ML Model Development",
+        "Computer Vision",
+        "NLP",
+        "Predictive Analytics",
+        "Recommendation Systems"
+      ],
+      "integrations": [
+        "S3",
+        "ECR",
+        "Step Functions",
+        "Lambda",
+        "QuickSight"
+      ],
+      "keywords": [
+        "Amazon Web Services",
+        "Amazon Web Services Amazon SageMaker",
+        "AS"
+      ]
+    },
+    {
+      "id": "aws-redshift",
+      "name": "Amazon Redshift",
+      "vendor": "Amazon Web Services",
+      "category": "Database",
+      "subcategory": "Data Warehouse",
+      "description": "Fast, simple, cost-effective data warehousing using SQL and BI tools.",
+      "attributes": {
+        "features": [
+          "Serverless",
+          "RA3 Nodes",
+          "Concurrency Scaling",
+          "AQUA"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "paas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Data Warehousing",
+        "Business Intelligence",
+        "Analytics",
+        "Reporting"
+      ],
+      "integrations": [
+        "S3",
+        "Glue",
+        "QuickSight",
+        "Data Pipeline",
+        "Lake Formation"
+      ],
+      "aliases": [
+        "DocuSign",
+        "DocuSign eSignature",
+        "DS"
+      ],
+      "keywords": [
+        "Amazon Web Services",
+        "Amazon Web Services Amazon Redshift",
+        "AR"
+      ]
+    },
+    {
+      "id": "aws-connect",
+      "name": "Amazon Connect",
+      "vendor": "Amazon Web Services",
+      "category": "Customer Engagement",
+      "subcategory": "Contact Center",
+      "description": "Cloud-based contact center service. Easy to use, scalable, and pay-as-you-go.",
+      "attributes": {
+        "features": [
+          "Omnichannel",
+          "AI-powered",
+          "Real-time Analytics",
+          "Workforce Optimization"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Customer Service",
+        "Sales",
+        "Collections",
+        "Technical Support"
+      ],
+      "integrations": [
+        "Lex",
+        "Polly",
+        "Lambda",
+        "Salesforce",
+        "Zendesk"
+      ],
+      "keywords": [
+        "Amazon Web Services",
+        "Amazon Web Services Amazon Connect",
+        "AC"
+      ]
+    },
+    {
+      "id": "aws-guardduty",
+      "name": "Amazon GuardDuty",
+      "vendor": "Amazon Web Services",
+      "category": "Security Software",
+      "subcategory": "Threat Detection",
+      "description": "Intelligent threat detection service that monitors for malicious activity and unauthorized behavior.",
+      "attributes": {
+        "data_sources": [
+          "VPC Flow Logs",
+          "CloudTrail",
+          "DNS Logs",
+          "EKS Audit Logs",
+          "S3 Data Events"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Threat Detection",
+        "Compliance",
+        "Security Monitoring",
+        "Incident Response"
+      ],
+      "aliases": [
+        "Datadog",
+        "DD",
+        "Datadog APM"
+      ],
+      "keywords": [
+        "Amazon Web Services",
+        "Amazon Web Services Amazon GuardDuty",
+        "AG"
+      ]
+    },
+    {
+      "id": "aws-bedrock",
+      "name": "Amazon Bedrock",
+      "vendor": "Amazon Web Services",
+      "category": "AI & Machine Learning",
+      "subcategory": "Generative AI",
+      "description": "Fully managed service for building generative AI applications with foundation models.",
+      "attributes": {
+        "models": [
+          "Claude",
+          "Titan",
+          "Llama 2",
+          "Jurassic",
+          "Stable Diffusion"
+        ]
+      },
+      "pricing_model": "usage_based",
+      "deployment": "paas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Text Generation",
+        "Chatbots",
+        "Code Generation",
+        "Image Generation",
+        "Summarization"
+      ],
+      "integrations": [
+        "Lambda",
+        "SageMaker",
+        "Kendra",
+        "OpenSearch"
+      ],
+      "keywords": [
+        "Amazon Web Services",
+        "Amazon Web Services Amazon Bedrock",
+        "AB"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "category": "Real Estate & Facilities",
+  "subcategory": "Property Management",
+  "products": [
+    {"id": "prop-001", "name": "Yardi Voyager", "vendor": "Yardi", "category": "Real Estate", "subcategory": "Property Management", "description": "Integrated property management platform", "pricing_model": "subscription", "deployment": "saas", "target_segment": "enterprise", "keywords": ["yardi", "property management", "voyager"]},
+    {"id": "prop-002", "name": "AppFolio", "vendor": "AppFolio", "category": "Real Estate", "subcategory": "Property Management", "description": "Cloud property management software", "pricing_model": "subscription", "deployment": "saas", "target_segment": "smb", "keywords": ["appfolio", "property management"]},
+    {"id": "cafm-001", "name": "Archibus", "vendor": "Archibus", "category": "Real Estate", "subcategory": "CAFM", "description": "Computer-aided facility management", "pricing_model": "license", "deployment": "hybrid", "target_segment": "enterprise", "keywords": ["archibus", "cafm", "facility management"]},
+    {"id": "cafm-002", "name": "IBM TRIRIGA", "vendor": "IBM", "category": "Real Estate", "subcategory": "CAFM", "description": "Integrated workplace management system", "pricing_model": "subscription", "deployment": "saas", "target_segment": "enterprise", "keywords": ["tririga", "iwms", "workplace management"]},
+    {"id": "lease-001", "name": "CoStar", "vendor": "CoStar Group", "category": "Real Estate", "subcategory": "Commercial Real Estate", "description": "Commercial real estate information and analytics", "pricing_model": "subscription", "deployment": "saas", "target_segment": "enterprise", "keywords": ["costar", "commercial real estate", "property data"]}
+  ]
+}

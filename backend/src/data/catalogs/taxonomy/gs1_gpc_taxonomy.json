@@ -1,0 +1,784 @@
+{
+  "version": "2.0",
+  "source": "GS1 GPC Multi-Sector (Themis)",
+  "last_updated": "2025-12-19",
+  "entries": [
+    {
+      "segment": { "code": "78", "name": "Automotive" },
+      "family": { "code": "7810", "name": "Passenger Vehicles" },
+      "class": { "code": "781010", "name": "Automobiles" },
+      "brick": { "code": "78101010", "name": "Sedans" },
+      "keywords": ["berlina", "sedan", "saloon", "giulia", "stelvio", "auto", "automobile", "vettura", "car"]
+    },
+    {
+      "segment": { "code": "78", "name": "Automotive" },
+      "family": { "code": "7810", "name": "Passenger Vehicles" },
+      "class": { "code": "781010", "name": "Automobiles" },
+      "brick": { "code": "78101020", "name": "Hatchbacks" },
+      "keywords": ["hatchback", "utilitaria", "compatta", "panda", "500", "tipo", "punto", "clio", "polo"]
+    },
+    {
+      "segment": { "code": "78", "name": "Automotive" },
+      "family": { "code": "7810", "name": "Passenger Vehicles" },
+      "class": { "code": "781010", "name": "Automobiles" },
+      "brick": { "code": "78101030", "name": "SUVs & Crossovers" },
+      "keywords": ["suv", "crossover", "fuoristrada", "stelvio", "renegade", "compass", "tonale", "4x4"]
+    },
+    {
+      "segment": { "code": "78", "name": "Automotive" },
+      "family": { "code": "7810", "name": "Passenger Vehicles" },
+      "class": { "code": "781010", "name": "Automobiles" },
+      "brick": { "code": "78101040", "name": "Sports Cars" },
+      "keywords": ["sportiva", "coupe", "spider", "roadster", "ferrari", "lamborghini", "maserati", "alfa romeo"]
+    },
+    {
+      "segment": { "code": "78", "name": "Automotive" },
+      "family": { "code": "7810", "name": "Passenger Vehicles" },
+      "class": { "code": "781020", "name": "Electric Vehicles" },
+      "brick": { "code": "78102010", "name": "Battery Electric Vehicles (BEV)" },
+      "keywords": ["bev", "elettrica", "electric", "ev", "500e", "e-doblo", "elettrico", "zero emissioni"]
+    },
+    {
+      "segment": { "code": "78", "name": "Automotive" },
+      "family": { "code": "7810", "name": "Passenger Vehicles" },
+      "class": { "code": "781020", "name": "Electric Vehicles" },
+      "brick": { "code": "78102020", "name": "Plug-in Hybrids (PHEV)" },
+      "keywords": ["phev", "plug-in", "ibrida plug-in", "tonale phev", "ricaricabile"]
+    },
+    {
+      "segment": { "code": "78", "name": "Automotive" },
+      "family": { "code": "7810", "name": "Passenger Vehicles" },
+      "class": { "code": "781020", "name": "Electric Vehicles" },
+      "brick": { "code": "78102030", "name": "Mild Hybrids (MHEV)" },
+      "keywords": ["mhev", "mild hybrid", "ibrida leggera", "hybrid", "ibrida"]
+    },
+    {
+      "segment": { "code": "78", "name": "Automotive" },
+      "family": { "code": "7810", "name": "Passenger Vehicles" },
+      "class": { "code": "781030", "name": "Microcars" },
+      "brick": { "code": "78103010", "name": "Quadricycles" },
+      "keywords": ["microcar", "quadriciclo", "topolino", "ami", "minicar", "city car", "urban"]
+    },
+    {
+      "segment": { "code": "78", "name": "Automotive" },
+      "family": { "code": "7820", "name": "Commercial Vehicles" },
+      "class": { "code": "782010", "name": "Light Commercial Vehicles" },
+      "brick": { "code": "78201010", "name": "Vans" },
+      "keywords": ["furgone", "van", "doblo", "ducato", "fiorino", "scudo", "commerciale", "cargo"]
+    },
+    {
+      "segment": { "code": "78", "name": "Automotive" },
+      "family": { "code": "7820", "name": "Commercial Vehicles" },
+      "class": { "code": "782010", "name": "Light Commercial Vehicles" },
+      "brick": { "code": "78201020", "name": "Pickup Trucks" },
+      "keywords": ["pickup", "pick-up", "fullback", "navara", "hilux", "cassone", "truck"]
+    },
+    {
+      "segment": { "code": "78", "name": "Automotive" },
+      "family": { "code": "7830", "name": "Automotive Parts" },
+      "class": { "code": "783010", "name": "Powertrain Components" },
+      "brick": { "code": "78301010", "name": "Engines" },
+      "keywords": ["motore", "engine", "powertrain", "ice", "combustione", "benzina", "diesel"]
+    },
+    {
+      "segment": { "code": "78", "name": "Automotive" },
+      "family": { "code": "7830", "name": "Automotive Parts" },
+      "class": { "code": "783010", "name": "Powertrain Components" },
+      "brick": { "code": "78301020", "name": "Transmissions" },
+      "keywords": ["cambio", "trasmissione", "transmission", "automatico", "manuale", "cvt"]
+    },
+    {
+      "segment": { "code": "78", "name": "Automotive" },
+      "family": { "code": "7830", "name": "Automotive Parts" },
+      "class": { "code": "783020", "name": "Electronic Components" },
+      "brick": { "code": "78302010", "name": "Infotainment Systems" },
+      "keywords": ["infotainment", "uconnect", "navigatore", "multimedia", "touchscreen", "display"]
+    },
+    {
+      "segment": { "code": "78", "name": "Automotive" },
+      "family": { "code": "7830", "name": "Automotive Parts" },
+      "class": { "code": "783020", "name": "Electronic Components" },
+      "brick": { "code": "78302020", "name": "ADAS Systems" },
+      "keywords": ["adas", "guida assistita", "autopilot", "sensori", "radar", "camera", "sicurezza attiva"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8510", "name": "Mobile Devices" },
+      "class": { "code": "851010", "name": "Smartphones" },
+      "brick": { "code": "85101010", "name": "Smartphones" },
+      "keywords": ["smartphone", "telefono", "cellulare", "iphone", "samsung galaxy", "pixel", "mobile"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8510", "name": "Mobile Devices" },
+      "class": { "code": "851010", "name": "Smartphones" },
+      "brick": { "code": "85101020", "name": "Feature Phones" },
+      "keywords": ["feature phone", "telefono base", "nokia", "basic phone"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8510", "name": "Mobile Devices" },
+      "class": { "code": "851020", "name": "Tablets" },
+      "brick": { "code": "85102010", "name": "Tablets" },
+      "keywords": ["tablet", "ipad", "galaxy tab", "surface", "android tablet"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8510", "name": "Mobile Devices" },
+      "class": { "code": "851030", "name": "Wearables" },
+      "brick": { "code": "85103010", "name": "Smartwatches" },
+      "keywords": ["smartwatch", "orologio smart", "apple watch", "galaxy watch", "wearable"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8510", "name": "Mobile Devices" },
+      "class": { "code": "851030", "name": "Wearables" },
+      "brick": { "code": "85103020", "name": "Fitness Trackers" },
+      "keywords": ["fitness tracker", "activity tracker", "fitbit", "mi band", "sport band"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8520", "name": "Computing Devices" },
+      "class": { "code": "852010", "name": "Laptops" },
+      "brick": { "code": "85201010", "name": "Notebooks" },
+      "keywords": ["laptop", "notebook", "portatile", "macbook", "thinkpad", "dell xps"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8520", "name": "Computing Devices" },
+      "class": { "code": "852010", "name": "Laptops" },
+      "brick": { "code": "85201020", "name": "Gaming Laptops" },
+      "keywords": ["gaming laptop", "laptop gaming", "rog", "alienware", "razer", "msi gaming"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8520", "name": "Computing Devices" },
+      "class": { "code": "852020", "name": "Desktop Computers" },
+      "brick": { "code": "85202010", "name": "Desktop PCs" },
+      "keywords": ["desktop", "pc", "computer fisso", "imac", "workstation", "tower"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8530", "name": "Home Entertainment" },
+      "class": { "code": "853010", "name": "Televisions" },
+      "brick": { "code": "85301010", "name": "Smart TVs" },
+      "keywords": ["smart tv", "televisore", "tv", "oled", "qled", "lcd", "led tv"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8530", "name": "Home Entertainment" },
+      "class": { "code": "853020", "name": "Audio Systems" },
+      "brick": { "code": "85302010", "name": "Speakers" },
+      "keywords": ["speaker", "altoparlante", "cassa", "soundbar", "bluetooth speaker", "smart speaker"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8530", "name": "Home Entertainment" },
+      "class": { "code": "853020", "name": "Audio Systems" },
+      "brick": { "code": "85302020", "name": "Headphones" },
+      "keywords": ["cuffie", "headphones", "auricolari", "earbuds", "airpods", "wireless earbuds"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8530", "name": "Home Entertainment" },
+      "class": { "code": "853030", "name": "Gaming" },
+      "brick": { "code": "85303010", "name": "Gaming Consoles" },
+      "keywords": ["console", "playstation", "xbox", "nintendo switch", "gaming", "videogiochi"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8540", "name": "Home Appliances" },
+      "class": { "code": "854010", "name": "Large Appliances" },
+      "brick": { "code": "85401010", "name": "Refrigerators" },
+      "keywords": ["frigorifero", "refrigerator", "frigo", "freezer", "congelatore"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8540", "name": "Home Appliances" },
+      "class": { "code": "854010", "name": "Large Appliances" },
+      "brick": { "code": "85401020", "name": "Washing Machines" },
+      "keywords": ["lavatrice", "washing machine", "asciugatrice", "lavasciuga", "dryer"]
+    },
+    {
+      "segment": { "code": "85", "name": "Consumer Electronics" },
+      "family": { "code": "8540", "name": "Home Appliances" },
+      "class": { "code": "854020", "name": "Small Appliances" },
+      "brick": { "code": "85402010", "name": "Kitchen Appliances" },
+      "keywords": ["elettrodomestico", "robot cucina", "mixer", "frullatore", "microonde", "tostapane"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4710", "name": "Beverages" },
+      "class": { "code": "471010", "name": "Non-Alcoholic Beverages" },
+      "brick": { "code": "47101010", "name": "Soft Drinks" },
+      "keywords": ["bibita", "soft drink", "coca cola", "pepsi", "aranciata", "gassata", "soda"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4710", "name": "Beverages" },
+      "class": { "code": "471010", "name": "Non-Alcoholic Beverages" },
+      "brick": { "code": "47101020", "name": "Water" },
+      "keywords": ["acqua", "water", "minerale", "naturale", "frizzante", "san pellegrino", "evian"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4710", "name": "Beverages" },
+      "class": { "code": "471010", "name": "Non-Alcoholic Beverages" },
+      "brick": { "code": "47101030", "name": "Juices" },
+      "keywords": ["succo", "juice", "spremuta", "frutta", "arancia", "mela", "tropicale"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4710", "name": "Beverages" },
+      "class": { "code": "471020", "name": "Hot Beverages" },
+      "brick": { "code": "47102010", "name": "Coffee" },
+      "keywords": ["caffe", "coffee", "espresso", "nespresso", "lavazza", "illy", "capsule"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4710", "name": "Beverages" },
+      "class": { "code": "471020", "name": "Hot Beverages" },
+      "brick": { "code": "47102020", "name": "Tea" },
+      "keywords": ["te", "tea", "infuso", "tisana", "twinings", "lipton"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4710", "name": "Beverages" },
+      "class": { "code": "471030", "name": "Alcoholic Beverages" },
+      "brick": { "code": "47103010", "name": "Wine" },
+      "keywords": ["vino", "wine", "rosso", "bianco", "prosecco", "champagne", "spumante"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4710", "name": "Beverages" },
+      "class": { "code": "471030", "name": "Alcoholic Beverages" },
+      "brick": { "code": "47103020", "name": "Beer" },
+      "keywords": ["birra", "beer", "lager", "ale", "heineken", "peroni", "moretti"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4720", "name": "Food Products" },
+      "class": { "code": "472010", "name": "Dairy Products" },
+      "brick": { "code": "47201010", "name": "Milk" },
+      "keywords": ["latte", "milk", "parzialmente scremato", "intero", "senza lattosio"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4720", "name": "Food Products" },
+      "class": { "code": "472010", "name": "Dairy Products" },
+      "brick": { "code": "47201020", "name": "Cheese" },
+      "keywords": ["formaggio", "cheese", "parmigiano", "mozzarella", "gorgonzola", "pecorino"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4720", "name": "Food Products" },
+      "class": { "code": "472010", "name": "Dairy Products" },
+      "brick": { "code": "47201030", "name": "Yogurt" },
+      "keywords": ["yogurt", "yoghurt", "greco", "probiotico", "danone", "muller"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4720", "name": "Food Products" },
+      "class": { "code": "472020", "name": "Baked Goods" },
+      "brick": { "code": "47202010", "name": "Bread" },
+      "keywords": ["pane", "bread", "panino", "baguette", "focaccia", "integrale"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4720", "name": "Food Products" },
+      "class": { "code": "472020", "name": "Baked Goods" },
+      "brick": { "code": "47202020", "name": "Pastries" },
+      "keywords": ["dolce", "pastry", "croissant", "brioche", "cornetto", "merendina"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4720", "name": "Food Products" },
+      "class": { "code": "472030", "name": "Pasta & Grains" },
+      "brick": { "code": "47203010", "name": "Pasta" },
+      "keywords": ["pasta", "spaghetti", "penne", "barilla", "de cecco", "fusilli", "rigatoni"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4720", "name": "Food Products" },
+      "class": { "code": "472030", "name": "Pasta & Grains" },
+      "brick": { "code": "47203020", "name": "Rice" },
+      "keywords": ["riso", "rice", "arborio", "carnaroli", "basmati", "integrale"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4720", "name": "Food Products" },
+      "class": { "code": "472040", "name": "Confectionery" },
+      "brick": { "code": "47204010", "name": "Chocolate" },
+      "keywords": ["cioccolato", "chocolate", "ferrero", "lindt", "kinder", "nutella"]
+    },
+    {
+      "segment": { "code": "47", "name": "Food & Beverage" },
+      "family": { "code": "4720", "name": "Food Products" },
+      "class": { "code": "472040", "name": "Confectionery" },
+      "brick": { "code": "47204020", "name": "Snacks" },
+      "keywords": ["snack", "patatine", "chips", "crackers", "taralli", "salatini"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6710", "name": "Clothing" },
+      "class": { "code": "671010", "name": "Outerwear" },
+      "brick": { "code": "67101010", "name": "Jackets & Coats" },
+      "keywords": ["giacca", "jacket", "cappotto", "coat", "giubbotto", "piumino", "parka"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6710", "name": "Clothing" },
+      "class": { "code": "671010", "name": "Outerwear" },
+      "brick": { "code": "67101020", "name": "Blazers" },
+      "keywords": ["blazer", "giacca elegante", "tailleur", "suit jacket"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6710", "name": "Clothing" },
+      "class": { "code": "671020", "name": "Tops" },
+      "brick": { "code": "67102010", "name": "T-Shirts" },
+      "keywords": ["t-shirt", "maglietta", "maglia", "polo", "top"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6710", "name": "Clothing" },
+      "class": { "code": "671020", "name": "Tops" },
+      "brick": { "code": "67102020", "name": "Shirts" },
+      "keywords": ["camicia", "shirt", "blusa", "camicetta", "button-up"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6710", "name": "Clothing" },
+      "class": { "code": "671020", "name": "Tops" },
+      "brick": { "code": "67102030", "name": "Sweaters" },
+      "keywords": ["maglione", "sweater", "pullover", "felpa", "cardigan", "hoodie"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6710", "name": "Clothing" },
+      "class": { "code": "671030", "name": "Bottoms" },
+      "brick": { "code": "67103010", "name": "Pants" },
+      "keywords": ["pantaloni", "pants", "jeans", "chino", "cargo", "trousers"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6710", "name": "Clothing" },
+      "class": { "code": "671030", "name": "Bottoms" },
+      "brick": { "code": "67103020", "name": "Skirts" },
+      "keywords": ["gonna", "skirt", "minigonna", "midi", "maxi"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6710", "name": "Clothing" },
+      "class": { "code": "671030", "name": "Bottoms" },
+      "brick": { "code": "67103030", "name": "Shorts" },
+      "keywords": ["shorts", "bermuda", "pantaloncini", "short"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6710", "name": "Clothing" },
+      "class": { "code": "671040", "name": "Dresses" },
+      "brick": { "code": "67104010", "name": "Casual Dresses" },
+      "keywords": ["vestito", "dress", "abito", "casual dress", "sundress"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6710", "name": "Clothing" },
+      "class": { "code": "671040", "name": "Dresses" },
+      "brick": { "code": "67104020", "name": "Formal Dresses" },
+      "keywords": ["abito da sera", "evening dress", "cocktail dress", "gown", "elegante"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6720", "name": "Footwear" },
+      "class": { "code": "672010", "name": "Athletic Footwear" },
+      "brick": { "code": "67201010", "name": "Running Shoes" },
+      "keywords": ["scarpe running", "sneakers", "nike", "adidas", "running", "sportive"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6720", "name": "Footwear" },
+      "class": { "code": "672010", "name": "Athletic Footwear" },
+      "brick": { "code": "67201020", "name": "Training Shoes" },
+      "keywords": ["scarpe fitness", "training", "cross training", "gym shoes"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6720", "name": "Footwear" },
+      "class": { "code": "672020", "name": "Casual Footwear" },
+      "brick": { "code": "67202010", "name": "Sneakers" },
+      "keywords": ["sneaker", "casual shoe", "converse", "vans", "puma"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6720", "name": "Footwear" },
+      "class": { "code": "672020", "name": "Casual Footwear" },
+      "brick": { "code": "67202020", "name": "Loafers & Moccasins" },
+      "keywords": ["mocassino", "loafer", "slip-on", "driving shoe"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6720", "name": "Footwear" },
+      "class": { "code": "672030", "name": "Formal Footwear" },
+      "brick": { "code": "67203010", "name": "Dress Shoes" },
+      "keywords": ["scarpe eleganti", "oxford", "derby", "formal shoes", "classiche"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6720", "name": "Footwear" },
+      "class": { "code": "672030", "name": "Formal Footwear" },
+      "brick": { "code": "67203020", "name": "Heels" },
+      "keywords": ["tacchi", "heels", "stiletto", "pumps", "tacco alto"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6720", "name": "Footwear" },
+      "class": { "code": "672040", "name": "Boots" },
+      "brick": { "code": "67204010", "name": "Ankle Boots" },
+      "keywords": ["stivaletti", "ankle boots", "chelsea boots", "booties"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6730", "name": "Accessories" },
+      "class": { "code": "673010", "name": "Bags" },
+      "brick": { "code": "67301010", "name": "Handbags" },
+      "keywords": ["borsa", "handbag", "tote", "shoulder bag", "clutch", "pochette"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6730", "name": "Accessories" },
+      "class": { "code": "673010", "name": "Bags" },
+      "brick": { "code": "67301020", "name": "Backpacks" },
+      "keywords": ["zaino", "backpack", "rucksack", "school bag"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6730", "name": "Accessories" },
+      "class": { "code": "673020", "name": "Jewelry" },
+      "brick": { "code": "67302010", "name": "Watches" },
+      "keywords": ["orologio", "watch", "rolex", "omega", "cronografo"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6730", "name": "Accessories" },
+      "class": { "code": "673020", "name": "Jewelry" },
+      "brick": { "code": "67302020", "name": "Necklaces & Bracelets" },
+      "keywords": ["collana", "bracciale", "necklace", "bracelet", "pendant"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6730", "name": "Accessories" },
+      "class": { "code": "673030", "name": "Eyewear" },
+      "brick": { "code": "67303010", "name": "Sunglasses" },
+      "keywords": ["occhiali da sole", "sunglasses", "ray-ban", "oakley", "polarizzati"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6740", "name": "Sportswear" },
+      "class": { "code": "674010", "name": "Athletic Apparel" },
+      "brick": { "code": "67401010", "name": "Performance Wear" },
+      "keywords": ["abbigliamento sportivo", "activewear", "dry-fit", "performance", "tecnico"]
+    },
+    {
+      "segment": { "code": "67", "name": "Fashion & Apparel" },
+      "family": { "code": "6740", "name": "Sportswear" },
+      "class": { "code": "674010", "name": "Athletic Apparel" },
+      "brick": { "code": "67401020", "name": "Team Jerseys" },
+      "keywords": ["maglia squadra", "jersey", "divisa", "kit calcio", "team wear"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7310", "name": "Industrial Machinery" },
+      "class": { "code": "731010", "name": "Manufacturing Equipment" },
+      "brick": { "code": "73101010", "name": "CNC Machines" },
+      "keywords": ["cnc", "macchina utensile", "tornio", "fresa", "lavorazione meccanica"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7310", "name": "Industrial Machinery" },
+      "class": { "code": "731010", "name": "Manufacturing Equipment" },
+      "brick": { "code": "73101020", "name": "3D Printers" },
+      "keywords": ["stampante 3d", "3d printer", "additive manufacturing", "prototipazione"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7310", "name": "Industrial Machinery" },
+      "class": { "code": "731010", "name": "Manufacturing Equipment" },
+      "brick": { "code": "73101030", "name": "Assembly Lines" },
+      "keywords": ["linea assemblaggio", "assembly line", "catena montaggio", "automazione"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7310", "name": "Industrial Machinery" },
+      "class": { "code": "731020", "name": "Robotics" },
+      "brick": { "code": "73102010", "name": "Industrial Robots" },
+      "keywords": ["robot industriale", "braccio robotico", "kuka", "fanuc", "abb robot"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7310", "name": "Industrial Machinery" },
+      "class": { "code": "731020", "name": "Robotics" },
+      "brick": { "code": "73102020", "name": "Collaborative Robots" },
+      "keywords": ["cobot", "collaborative robot", "universal robots", "robot collaborativo"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7320", "name": "Industrial Automation" },
+      "class": { "code": "732010", "name": "Control Systems" },
+      "brick": { "code": "73201010", "name": "PLCs" },
+      "keywords": ["plc", "programmable logic controller", "siemens", "allen bradley", "automazione"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7320", "name": "Industrial Automation" },
+      "class": { "code": "732010", "name": "Control Systems" },
+      "brick": { "code": "73201020", "name": "SCADA Systems" },
+      "keywords": ["scada", "supervisory control", "hmi", "wonderware", "ignition"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7320", "name": "Industrial Automation" },
+      "class": { "code": "732020", "name": "Industrial IoT" },
+      "brick": { "code": "73202010", "name": "IIoT Platforms" },
+      "keywords": ["iiot", "industrial iot", "industry 4.0", "smart manufacturing", "mes"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7320", "name": "Industrial Automation" },
+      "class": { "code": "732020", "name": "Industrial IoT" },
+      "brick": { "code": "73202020", "name": "Industrial Sensors" },
+      "keywords": ["sensore industriale", "sensor", "plc sensor", "proximity", "encoder"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7330", "name": "Material Handling" },
+      "class": { "code": "733010", "name": "Conveyors" },
+      "brick": { "code": "73301010", "name": "Belt Conveyors" },
+      "keywords": ["nastro trasportatore", "conveyor belt", "trasportatore", "material handling"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7330", "name": "Material Handling" },
+      "class": { "code": "733020", "name": "Lifting Equipment" },
+      "brick": { "code": "73302010", "name": "Forklifts" },
+      "keywords": ["carrello elevatore", "forklift", "muletto", "transpallet", "stacker"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7330", "name": "Material Handling" },
+      "class": { "code": "733020", "name": "Lifting Equipment" },
+      "brick": { "code": "73302020", "name": "Cranes" },
+      "keywords": ["gru", "crane", "carroponte", "overhead crane", "sollevamento"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7340", "name": "Power & Electrical" },
+      "class": { "code": "734010", "name": "Power Generation" },
+      "brick": { "code": "73401010", "name": "Generators" },
+      "keywords": ["generatore", "generator", "diesel generator", "gruppo elettrogeno"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7340", "name": "Power & Electrical" },
+      "class": { "code": "734010", "name": "Power Generation" },
+      "brick": { "code": "73401020", "name": "Solar Systems" },
+      "keywords": ["fotovoltaico", "solar panel", "pannello solare", "inverter", "energia solare"]
+    },
+    {
+      "segment": { "code": "73", "name": "Industrial & Manufacturing" },
+      "family": { "code": "7340", "name": "Power & Electrical" },
+      "class": { "code": "734020", "name": "Electrical Components" },
+      "brick": { "code": "73402010", "name": "Motors & Drives" },
+      "keywords": ["motore elettrico", "electric motor", "inverter", "vfd", "drive"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8610", "name": "Software" },
+      "class": { "code": "861010", "name": "Enterprise Software" },
+      "brick": { "code": "86101010", "name": "ERP Systems" },
+      "keywords": ["erp", "enterprise resource planning", "sap", "oracle", "dynamics", "business software"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8610", "name": "Software" },
+      "class": { "code": "861010", "name": "Enterprise Software" },
+      "brick": { "code": "86101020", "name": "CRM Systems" },
+      "keywords": ["crm", "customer relationship", "salesforce", "hubspot", "dynamics crm"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8610", "name": "Software" },
+      "class": { "code": "861010", "name": "Enterprise Software" },
+      "brick": { "code": "86101030", "name": "HCM Systems" },
+      "keywords": ["hcm", "hr", "human resources", "workday", "successfactors", "payroll"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8610", "name": "Software" },
+      "class": { "code": "861020", "name": "Productivity Software" },
+      "brick": { "code": "86102010", "name": "Office Suites" },
+      "keywords": ["office", "productivity", "microsoft 365", "google workspace", "document"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8610", "name": "Software" },
+      "class": { "code": "861020", "name": "Productivity Software" },
+      "brick": { "code": "86102020", "name": "Collaboration Tools" },
+      "keywords": ["collaboration", "teams", "slack", "zoom", "video conferencing", "chat"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8610", "name": "Software" },
+      "class": { "code": "861020", "name": "Productivity Software" },
+      "brick": { "code": "86102030", "name": "Project Management" },
+      "keywords": ["project", "task", "jira", "asana", "monday", "trello", "agile"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8610", "name": "Software" },
+      "class": { "code": "861030", "name": "Security Software" },
+      "brick": { "code": "86103010", "name": "Endpoint Security" },
+      "keywords": ["antivirus", "endpoint", "edr", "protection", "malware", "crowdstrike"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8610", "name": "Software" },
+      "class": { "code": "861030", "name": "Security Software" },
+      "brick": { "code": "86103020", "name": "Identity Management" },
+      "keywords": ["identity", "iam", "sso", "mfa", "authentication", "okta", "azure ad"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8610", "name": "Software" },
+      "class": { "code": "861040", "name": "Development Tools" },
+      "brick": { "code": "86104010", "name": "IDE & Code Editors" },
+      "keywords": ["ide", "development", "visual studio", "vscode", "jetbrains", "eclipse"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8610", "name": "Software" },
+      "class": { "code": "861040", "name": "Development Tools" },
+      "brick": { "code": "86104020", "name": "DevOps & CI/CD" },
+      "keywords": ["devops", "cicd", "jenkins", "github actions", "gitlab", "azure devops"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8610", "name": "Software" },
+      "class": { "code": "861050", "name": "Database & Data" },
+      "brick": { "code": "86105010", "name": "Relational Databases" },
+      "keywords": ["database", "sql", "oracle", "postgresql", "mysql", "sql server"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8610", "name": "Software" },
+      "class": { "code": "861050", "name": "Database & Data" },
+      "brick": { "code": "86105020", "name": "NoSQL Databases" },
+      "keywords": ["nosql", "mongodb", "cassandra", "dynamodb", "document database"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8610", "name": "Software" },
+      "class": { "code": "861060", "name": "Analytics & BI" },
+      "brick": { "code": "86106010", "name": "Business Intelligence" },
+      "keywords": ["bi", "business intelligence", "power bi", "tableau", "looker", "reporting"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8620", "name": "Cloud Services" },
+      "class": { "code": "862010", "name": "Infrastructure as a Service" },
+      "brick": { "code": "86201010", "name": "Cloud Compute" },
+      "keywords": ["iaas", "compute", "ec2", "azure vm", "gce", "virtual machine", "cloud server"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8620", "name": "Cloud Services" },
+      "class": { "code": "862010", "name": "Infrastructure as a Service" },
+      "brick": { "code": "86201020", "name": "Cloud Storage" },
+      "keywords": ["storage", "s3", "blob", "gcs", "object storage", "cloud storage"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8620", "name": "Cloud Services" },
+      "class": { "code": "862020", "name": "Platform as a Service" },
+      "brick": { "code": "86202010", "name": "Container Platforms" },
+      "keywords": ["kubernetes", "container", "aks", "eks", "gke", "docker", "openshift"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8620", "name": "Cloud Services" },
+      "class": { "code": "862020", "name": "Platform as a Service" },
+      "brick": { "code": "86202020", "name": "Serverless Platforms" },
+      "keywords": ["serverless", "lambda", "functions", "azure functions", "cloud run"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8630", "name": "IT Services" },
+      "class": { "code": "863010", "name": "Managed Services" },
+      "brick": { "code": "86301010", "name": "Managed IT Infrastructure" },
+      "keywords": ["managed", "msp", "outsourcing", "infrastructure management"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8630", "name": "IT Services" },
+      "class": { "code": "863010", "name": "Managed Services" },
+      "brick": { "code": "86301020", "name": "Managed Security Services" },
+      "keywords": ["mssp", "soc", "security operations", "mdr", "managed detection"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8630", "name": "IT Services" },
+      "class": { "code": "863020", "name": "Professional Services" },
+      "brick": { "code": "86302010", "name": "IT Consulting" },
+      "keywords": ["consulting", "advisory", "strategy", "digital transformation"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8630", "name": "IT Services" },
+      "class": { "code": "863020", "name": "Professional Services" },
+      "brick": { "code": "86302020", "name": "Implementation Services" },
+      "keywords": ["implementation", "deployment", "integration", "migration"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8640", "name": "Hardware" },
+      "class": { "code": "864010", "name": "Servers" },
+      "brick": { "code": "86401010", "name": "Rack Servers" },
+      "keywords": ["server", "rack", "dell", "hpe", "lenovo", "data center"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8640", "name": "Hardware" },
+      "class": { "code": "864020", "name": "Networking" },
+      "brick": { "code": "86402010", "name": "Network Switches" },
+      "keywords": ["switch", "cisco", "arista", "juniper", "network switch"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8640", "name": "Hardware" },
+      "class": { "code": "864020", "name": "Networking" },
+      "brick": { "code": "86402020", "name": "Routers & Firewalls" },
+      "keywords": ["router", "firewall", "palo alto", "fortinet", "checkpoint"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8650", "name": "AI & Machine Learning" },
+      "class": { "code": "865010", "name": "AI Platforms" },
+      "brick": { "code": "86501010", "name": "ML Platforms" },
+      "keywords": ["machine learning", "ml", "mlops", "sagemaker", "vertex ai", "azure ml"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8650", "name": "AI & Machine Learning" },
+      "class": { "code": "865010", "name": "AI Platforms" },
+      "brick": { "code": "86501020", "name": "Generative AI" },
+      "keywords": ["generative ai", "gpt", "llm", "claude", "openai", "copilot"]
+    },
+    {
+      "segment": { "code": "86", "name": "Information Technology" },
+      "family": { "code": "8650", "name": "AI & Machine Learning" },
+      "class": { "code": "865020", "name": "AI Applications" },
+      "brick": { "code": "86502010", "name": "Intelligent Automation" },
+      "keywords": ["rpa", "automation", "uipath", "power automate", "intelligent automation"]
+    }
+  ]
+}

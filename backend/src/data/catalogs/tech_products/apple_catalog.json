@@ -1,0 +1,250 @@
+{
+  "vendor": "Apple",
+  "catalog_name": "Apple Technology Catalog",
+  "last_updated": "2026-01-07",
+  "version": "2.0",
+  "products": [
+    {
+      "id": "apple-iphone-15-pro",
+      "name": "iPhone 15 Pro",
+      "vendor": "Apple",
+      "category": "Mobile Devices",
+      "subcategory": "Smartphones",
+      "description": "Premium smartphone with advanced AI capabilities, 6.1-inch display, A17 Pro chip, titanium design",
+      "pricing_model": "one_time",
+      "pricing_details": {
+        "amount": 1099,
+        "currency": "USD",
+        "unit": "device"
+      },
+      "deployment": "consumer",
+      "lifecycle_stage": "growth",
+      "target_segment": "Premium users, professionals",
+      "use_cases": [
+        "Productivity",
+        "Photography",
+        "AI Processing",
+        "Video Recording"
+      ],
+      "tags": ["apple", "iphone", "mobile", "smartphone", "ai", "premium"],
+      "specifications": {
+        "display": "6.1-inch Super Retina XDR",
+        "chip": "A17 Pro",
+        "camera": "48MP main + 12MP ultra-wide",
+        "storage": "256GB/512GB/1TB",
+        "battery": "3582mAh"
+      }
+    },
+    {
+      "id": "apple-macbook-pro-16",
+      "name": "MacBook Pro 16-inch",
+      "vendor": "Apple",
+      "category": "Computing",
+      "subcategory": "Laptops",
+      "description": "Professional laptop with M3 Max chip, 16-inch Liquid Retina XDR display, up to 48GB unified memory",
+      "pricing_model": "one_time",
+      "pricing_details": {
+        "amount": 3499,
+        "currency": "USD",
+        "unit": "device"
+      },
+      "deployment": "professional",
+      "lifecycle_stage": "growth",
+      "target_segment": "Professionals, developers, creators",
+      "use_cases": [
+        "Software Development",
+        "Video Editing",
+        "3D Rendering",
+        "Machine Learning"
+      ],
+      "tags": ["apple", "macbook", "laptop", "professional", "m3-max"],
+      "specifications": {
+        "display": "16-inch Liquid Retina XDR",
+        "chip": "M3 Max",
+        "memory": "36GB/48GB unified",
+        "storage": "512GB/1TB/2TB SSD",
+        "gpu": "16-core or 20-core"
+      }
+    },
+    {
+      "id": "apple-ipad-pro-12",
+      "name": "iPad Pro 12.9-inch",
+      "vendor": "Apple",
+      "category": "Mobile Devices",
+      "subcategory": "Tablets",
+      "description": "Powerful tablet with M2 chip, 12.9-inch Liquid Retina XDR display, perfect for creative work",
+      "pricing_model": "one_time",
+      "pricing_details": {
+        "amount": 1199,
+        "currency": "USD",
+        "unit": "device"
+      },
+      "deployment": "consumer",
+      "lifecycle_stage": "maturity",
+      "target_segment": "Creative professionals, enterprise",
+      "use_cases": [
+        "Digital Art",
+        "Presentations",
+        "Document Editing",
+        "Video Streaming"
+      ],
+      "tags": ["apple", "ipad", "tablet", "pro", "creative"],
+      "specifications": {
+        "display": "12.9-inch Liquid Retina XDR",
+        "chip": "M2",
+        "memory": "8GB/16GB",
+        "storage": "256GB/512GB/1TB/2TB",
+        "camera": "12MP ultra-wide + 12MP wide"
+      }
+    },
+    {
+      "id": "apple-airpods-pro",
+      "name": "AirPods Pro (2nd generation)",
+      "vendor": "Apple",
+      "category": "Audio",
+      "subcategory": "Wireless Earbuds",
+      "description": "Premium wireless earbuds with active noise cancellation, adaptive audio, and personalized sound",
+      "pricing_model": "one_time",
+      "pricing_details": {
+        "amount": 249,
+        "currency": "USD",
+        "unit": "device"
+      },
+      "deployment": "consumer",
+      "lifecycle_stage": "maturity",
+      "target_segment": "Apple ecosystem users",
+      "use_cases": [
+        "Audio Listening",
+        "Voice Calls",
+        "Fitness",
+        "Accessibility"
+      ],
+      "tags": ["apple", "airpods", "audio", "earbuds", "wireless"],
+      "specifications": {
+        "anc": "Active Noise Cancellation",
+        "battery": "6 hours per charge",
+        "case_battery": "30 hours",
+        "connectivity": "Bluetooth 5.3"
+      }
+    },
+    {
+      "id": "apple-watch-series-9",
+      "name": "Apple Watch Series 9",
+      "vendor": "Apple",
+      "category": "Wearables",
+      "subcategory": "Smartwatches",
+      "description": "Advanced smartwatch with double tap gesture, always-on Retina display, fitness and health monitoring",
+      "pricing_model": "one_time",
+      "pricing_details": {
+        "amount": 399,
+        "currency": "USD",
+        "unit": "device"
+      },
+      "deployment": "consumer",
+      "lifecycle_stage": "maturity",
+      "target_segment": "Health-conscious users, fitness enthusiasts",
+      "use_cases": [
+        "Fitness Tracking",
+        "Health Monitoring",
+        "Notifications",
+        "Payments"
+      ],
+      "tags": ["apple", "watch", "wearable", "smartwatch", "fitness"],
+      "specifications": {
+        "display": "1.61-inch or 1.9-inch Retina",
+        "chip": "S9",
+        "battery": "18 hours",
+        "sensors": "Heart rate, SpO2, temperature, fall detection"
+      }
+    },
+    {
+      "id": "apple-studio-display",
+      "name": "Studio Display",
+      "vendor": "Apple",
+      "category": "Computing",
+      "subcategory": "Monitors",
+      "description": "27-inch Retina display with integrated A13 Bionic chip, 6 speakers, and Pro Stand",
+      "pricing_model": "one_time",
+      "pricing_details": {
+        "amount": 1599,
+        "currency": "USD",
+        "unit": "device"
+      },
+      "deployment": "professional",
+      "lifecycle_stage": "maturity",
+      "target_segment": "Professionals, creators",
+      "use_cases": [
+        "Video Editing",
+        "Photo Editing",
+        "Design",
+        "Development"
+      ],
+      "tags": ["apple", "display", "monitor", "studio", "professional"],
+      "specifications": {
+        "size": "27-inch",
+        "resolution": "5120 x 2880",
+        "brightness": "500 nits",
+        "speakers": "6 high-fidelity speakers"
+      }
+    },
+    {
+      "id": "apple-magic-keyboard",
+      "name": "Magic Keyboard",
+      "vendor": "Apple",
+      "category": "Accessories",
+      "subcategory": "Input Devices",
+      "description": "Wireless keyboard with scissor mechanism and rechargeable battery",
+      "pricing_model": "one_time",
+      "pricing_details": {
+        "amount": 99,
+        "currency": "USD",
+        "unit": "device"
+      },
+      "deployment": "consumer",
+      "lifecycle_stage": "maturity",
+      "target_segment": "Mac users",
+      "use_cases": [
+        "Typing",
+        "Productivity",
+        "Gaming"
+      ],
+      "tags": ["apple", "keyboard", "wireless", "accessory"],
+      "specifications": {
+        "connectivity": "Wireless (Bluetooth)",
+        "battery": "Month of typical use",
+        "keys": "Scissor mechanism",
+        "layout": "US/International"
+      }
+    },
+    {
+      "id": "apple-logic-pro",
+      "name": "Logic Pro",
+      "vendor": "Apple",
+      "category": "Software",
+      "subcategory": "Audio Production",
+      "description": "Professional music production software with thousands of sounds and tools for mixing and mastering",
+      "pricing_model": "one_time",
+      "pricing_details": {
+        "amount": 199.99,
+        "currency": "USD",
+        "unit": "license"
+      },
+      "deployment": "saas",
+      "lifecycle_stage": "maturity",
+      "target_segment": "Musicians, producers, composers",
+      "use_cases": [
+        "Music Production",
+        "Mixing",
+        "Mastering",
+        "Sound Design"
+      ],
+      "tags": ["apple", "logic-pro", "daw", "music", "software"],
+      "specifications": {
+        "compatibility": "macOS 13.0+",
+        "tracks": "Unlimited",
+        "instruments": "70+",
+        "effects": "60+"
+      }
+    }
+  ]
+}

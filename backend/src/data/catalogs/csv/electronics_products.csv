@@ -1,0 +1,16 @@
+Product Name,Category,Vendor,Price (USD),Features,Deployment,License Type
+MacBook Pro 16-inch,Laptops,Apple,"2,499","32GB RAM, 1TB SSD, M3 Max, ProMotion Display",laptop,Proprietary
+iPad Pro 12.9-inch,Tablets,Apple,"1,099","OLED Display, M2 Chip, Apple Pencil Support",tablet,Proprietary
+AirPods Pro (2nd Gen),Audio,Apple,249,"Active Noise Cancellation, Spatial Audio, Adaptive Transparency",wireless,Proprietary
+Apple Watch Series 9,Wearables,Apple,399,"Always-On Retina Display, Blood Oxygen Sensor, ECG",wearable,Proprietary
+iPhone 15 Pro Max,Smartphones,Apple,"1,199","6.7 inch Super Retina XDR, A17 Pro, 256GB",mobile,Proprietary
+Mac Studio,Desktop Computer,Apple,"1,999","M2 Max, 32GB Unified Memory, 512GB SSD",desktop,Proprietary
+iMac 24-inch,All-in-One,Apple,"1,499","M3 Chip, 256GB SSD, 4.5K Retina Display",desktop,Proprietary
+Mac mini,Desktop Computer,Apple,599,"M2 Pro, 16GB RAM, 512GB SSD",desktop,Proprietary
+Dell XPS 13,Laptops,Dell,"1,299","Intel Core Ultra, 16GB RAM, OLED Display",laptop,Proprietary
+Lenovo ThinkPad X1 Carbon,Laptops,Lenovo,"1,399","Intel Core i7, 16GB RAM, 14-inch FHD",laptop,Proprietary
+ASUS ROG Laptop,Gaming Laptop,ASUS,"2,199","RTX 4080, Intel i9, 32GB RAM, 240Hz Display",laptop,Proprietary
+Samsung Galaxy S24,Smartphones,Samsung,799,"Dynamic AMOLED, Snapdragon 8 Gen 3, 256GB",mobile,Proprietary
+Google Pixel 8 Pro,Smartphones,Google,999,"6.7 inch OLED, Tensor G4, 256GB",mobile,Proprietary
+Microsoft Surface Pro 10,Tablets,Microsoft,1399,"Intel Core Ultra, 16GB RAM, Touchscreen",tablet,Proprietary
+HP Spectre x360,Laptops,HP,"1,599","Intel Core i7, OLED Touchscreen, 16GB RAM",laptop,Proprietary

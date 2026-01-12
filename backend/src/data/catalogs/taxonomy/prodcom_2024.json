@@ -1,0 +1,511 @@
+{
+  "version": "PRODCOM 2024",
+  "source": "Eurostat",
+  "lastUpdated": "2026-01-03T16:40:22.618Z",
+  "codes": [
+    {
+      "code": "31011100",
+      "description": "Seats with metal frames, for offices",
+      "descriptionIt": "Sedute con struttura in metallo per uffici",
+      "naceCode": "31.01",
+      "cpaCode": "31.01.11",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "31011200",
+      "description": "Swivel seats with variable height adjustment",
+      "descriptionIt": "Sedili girevoli con regolazione in altezza",
+      "naceCode": "31.01",
+      "cpaCode": "31.01.12",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "31011300",
+      "description": "Metal furniture for offices",
+      "descriptionIt": "Mobili metallici per uffici",
+      "naceCode": "31.01",
+      "cpaCode": "31.01.13",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "31012100",
+      "description": "Wooden office furniture",
+      "descriptionIt": "Mobili per ufficio in legno",
+      "naceCode": "31.01",
+      "cpaCode": "31.01.21",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "31012200",
+      "description": "Shop furniture",
+      "descriptionIt": "Mobili per negozi",
+      "naceCode": "31.01",
+      "cpaCode": "31.01.22",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "31021000",
+      "description": "Kitchen furniture",
+      "descriptionIt": "Mobili da cucina",
+      "naceCode": "31.02",
+      "cpaCode": "31.02.10",
+      "unit": "units",
+      "level": 3
+    },
+    {
+      "code": "31031100",
+      "description": "Mattress supports",
+      "descriptionIt": "Supporti per materassi",
+      "naceCode": "31.03",
+      "cpaCode": "31.03.11",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "31031200",
+      "description": "Mattresses of cellular rubber or plastics",
+      "descriptionIt": "Materassi in gomma o plastica cellulare",
+      "naceCode": "31.03",
+      "cpaCode": "31.03.12",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "31091100",
+      "description": "Dining room and living room furniture",
+      "descriptionIt": "Mobili per sala da pranzo e soggiorno",
+      "naceCode": "31.09",
+      "cpaCode": "31.09.11",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "31091200",
+      "description": "Bedroom furniture",
+      "descriptionIt": "Mobili per camera da letto",
+      "naceCode": "31.09",
+      "cpaCode": "31.09.12",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "31091300",
+      "description": "Other furniture n.e.c.",
+      "descriptionIt": "Altri mobili n.c.a.",
+      "naceCode": "31.09",
+      "cpaCode": "31.09.13",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "31091400",
+      "description": "Parts of furniture",
+      "descriptionIt": "Parti di mobili",
+      "naceCode": "31.09",
+      "cpaCode": "31.09.14",
+      "unit": "kg",
+      "level": 4
+    },
+    {
+      "code": "10111100",
+      "description": "Fresh or chilled beef and veal",
+      "descriptionIt": "Carne bovina fresca o refrigerata",
+      "naceCode": "10.11",
+      "cpaCode": "10.11.11",
+      "unit": "kg",
+      "level": 4
+    },
+    {
+      "code": "10111200",
+      "description": "Fresh or chilled pork",
+      "descriptionIt": "Carne suina fresca o refrigerata",
+      "naceCode": "10.11",
+      "cpaCode": "10.11.12",
+      "unit": "kg",
+      "level": 4
+    },
+    {
+      "code": "10711100",
+      "description": "Fresh bread",
+      "descriptionIt": "Pane fresco",
+      "naceCode": "10.71",
+      "cpaCode": "10.71.11",
+      "unit": "kg",
+      "level": 4
+    },
+    {
+      "code": "10711200",
+      "description": "Pastry goods",
+      "descriptionIt": "Prodotti di pasticceria",
+      "naceCode": "10.71",
+      "cpaCode": "10.71.12",
+      "unit": "kg",
+      "level": 4
+    },
+    {
+      "code": "10721100",
+      "description": "Crispbread and biscuits",
+      "descriptionIt": "Pane croccante e biscotti",
+      "naceCode": "10.72",
+      "cpaCode": "10.72.11",
+      "unit": "kg",
+      "level": 4
+    },
+    {
+      "code": "11011100",
+      "description": "Whisky",
+      "descriptionIt": "Whisky",
+      "naceCode": "11.01",
+      "cpaCode": "11.01.10",
+      "unit": "hl",
+      "level": 4
+    },
+    {
+      "code": "11021100",
+      "description": "Sparkling wine",
+      "descriptionIt": "Vino spumante",
+      "naceCode": "11.02",
+      "cpaCode": "11.02.11",
+      "unit": "hl",
+      "level": 4
+    },
+    {
+      "code": "11021200",
+      "description": "Wine of fresh grapes",
+      "descriptionIt": "Vino di uve fresche",
+      "naceCode": "11.02",
+      "cpaCode": "11.02.12",
+      "unit": "hl",
+      "level": 4
+    },
+    {
+      "code": "11051000",
+      "description": "Beer",
+      "descriptionIt": "Birra",
+      "naceCode": "11.05",
+      "cpaCode": "11.05.10",
+      "unit": "hl",
+      "level": 3
+    },
+    {
+      "code": "11071100",
+      "description": "Mineral waters",
+      "descriptionIt": "Acque minerali",
+      "naceCode": "11.07",
+      "cpaCode": "11.07.11",
+      "unit": "hl",
+      "level": 4
+    },
+    {
+      "code": "11071900",
+      "description": "Other soft drinks",
+      "descriptionIt": "Altre bevande analcoliche",
+      "naceCode": "11.07",
+      "cpaCode": "11.07.19",
+      "unit": "hl",
+      "level": 4
+    },
+    {
+      "code": "21101000",
+      "description": "Salicylic acid and its derivatives",
+      "descriptionIt": "Acido salicilico e derivati",
+      "naceCode": "21.10",
+      "cpaCode": "21.10.10",
+      "unit": "kg",
+      "level": 3
+    },
+    {
+      "code": "21102000",
+      "description": "Antibiotics",
+      "descriptionIt": "Antibiotici",
+      "naceCode": "21.10",
+      "cpaCode": "21.10.20",
+      "unit": "kg",
+      "level": 3
+    },
+    {
+      "code": "21201100",
+      "description": "Medicaments for therapeutic use",
+      "descriptionIt": "Medicinali per uso terapeutico",
+      "naceCode": "21.20",
+      "cpaCode": "21.20.11",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "21201200",
+      "description": "Vaccines for human medicine",
+      "descriptionIt": "Vaccini per medicina umana",
+      "naceCode": "21.20",
+      "cpaCode": "21.20.12",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "26111100",
+      "description": "Electronic integrated circuits",
+      "descriptionIt": "Circuiti integrati elettronici",
+      "naceCode": "26.11",
+      "cpaCode": "26.11.11",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "26111200",
+      "description": "Microprocessors",
+      "descriptionIt": "Microprocessori",
+      "naceCode": "26.11",
+      "cpaCode": "26.11.12",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "26201100",
+      "description": "Portable computers",
+      "descriptionIt": "Computer portatili",
+      "naceCode": "26.20",
+      "cpaCode": "26.20.11",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "26201200",
+      "description": "Desktop computers",
+      "descriptionIt": "Computer desktop",
+      "naceCode": "26.20",
+      "cpaCode": "26.20.12",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "26201300",
+      "description": "Servers",
+      "descriptionIt": "Server",
+      "naceCode": "26.20",
+      "cpaCode": "26.20.13",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "26301100",
+      "description": "Telephone sets",
+      "descriptionIt": "Apparecchi telefonici",
+      "naceCode": "26.30",
+      "cpaCode": "26.30.11",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "26301200",
+      "description": "Smartphones",
+      "descriptionIt": "Smartphone",
+      "naceCode": "26.30",
+      "cpaCode": "26.30.12",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "26301300",
+      "description": "Transmission apparatus",
+      "descriptionIt": "Apparecchi di trasmissione",
+      "naceCode": "26.30",
+      "cpaCode": "26.30.13",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "29101100",
+      "description": "Motor vehicles for passengers",
+      "descriptionIt": "Autoveicoli per il trasporto di persone",
+      "naceCode": "29.10",
+      "cpaCode": "29.10.11",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "29101200",
+      "description": "Motor vehicles for goods transport",
+      "descriptionIt": "Autoveicoli per il trasporto di merci",
+      "naceCode": "29.10",
+      "cpaCode": "29.10.12",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "29201100",
+      "description": "Bodies for motor vehicles",
+      "descriptionIt": "Carrozzerie per autoveicoli",
+      "naceCode": "29.20",
+      "cpaCode": "29.20.10",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "29201200",
+      "description": "Trailers and semi-trailers",
+      "descriptionIt": "Rimorchi e semirimorchi",
+      "naceCode": "29.20",
+      "cpaCode": "29.20.20",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "29311000",
+      "description": "Ignition wiring sets",
+      "descriptionIt": "Cablaggi di accensione",
+      "naceCode": "29.31",
+      "cpaCode": "29.31.10",
+      "unit": "units",
+      "level": 3
+    },
+    {
+      "code": "29321100",
+      "description": "Seats for motor vehicles",
+      "descriptionIt": "Sedili per autoveicoli",
+      "naceCode": "29.32",
+      "cpaCode": "29.32.11",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "29321200",
+      "description": "Brakes and parts",
+      "descriptionIt": "Freni e parti",
+      "naceCode": "29.32",
+      "cpaCode": "29.32.12",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "29321300",
+      "description": "Gearboxes and parts",
+      "descriptionIt": "Cambi e parti",
+      "naceCode": "29.32",
+      "cpaCode": "29.32.13",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "28111100",
+      "description": "Marine engines",
+      "descriptionIt": "Motori marini",
+      "naceCode": "28.11",
+      "cpaCode": "28.11.11",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "28111200",
+      "description": "Internal combustion engines",
+      "descriptionIt": "Motori a combustione interna",
+      "naceCode": "28.11",
+      "cpaCode": "28.11.12",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "28221100",
+      "description": "Cranes and hoists",
+      "descriptionIt": "Gru e paranchi",
+      "naceCode": "28.22",
+      "cpaCode": "28.22.11",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "28221200",
+      "description": "Forklifts",
+      "descriptionIt": "Carrelli elevatori",
+      "naceCode": "28.22",
+      "cpaCode": "28.22.12",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "28241100",
+      "description": "Electric hand tools",
+      "descriptionIt": "Utensili elettrici portatili",
+      "naceCode": "28.24",
+      "cpaCode": "28.24.11",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "28241200",
+      "description": "Pneumatic hand tools",
+      "descriptionIt": "Utensili pneumatici portatili",
+      "naceCode": "28.24",
+      "cpaCode": "28.24.12",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "28251100",
+      "description": "Refrigerators and freezers",
+      "descriptionIt": "Frigoriferi e congelatori",
+      "naceCode": "28.25",
+      "cpaCode": "28.25.11",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "28251200",
+      "description": "Air conditioning machines",
+      "descriptionIt": "Macchine per condizionamento",
+      "naceCode": "28.25",
+      "cpaCode": "28.25.12",
+      "unit": "units",
+      "level": 4
+    },
+    {
+      "code": "16211000",
+      "description": "Plywood",
+      "descriptionIt": "Compensato",
+      "naceCode": "16.21",
+      "cpaCode": "16.21.10",
+      "unit": "m³",
+      "level": 3
+    },
+    {
+      "code": "16212000",
+      "description": "Veneer sheets",
+      "descriptionIt": "Fogli da impiallacciatura",
+      "naceCode": "16.21",
+      "cpaCode": "16.21.20",
+      "unit": "m²",
+      "level": 3
+    },
+    {
+      "code": "16221000",
+      "description": "Parquet flooring",
+      "descriptionIt": "Pavimenti in parquet",
+      "naceCode": "16.22",
+      "cpaCode": "16.22.10",
+      "unit": "m²",
+      "level": 3
+    },
+    {
+      "code": "16231000",
+      "description": "Prefabricated wooden buildings",
+      "descriptionIt": "Edifici prefabbricati in legno",
+      "naceCode": "16.23",
+      "cpaCode": "16.23.10",
+      "unit": "m²",
+      "level": 3
+    },
+    {
+      "code": "16291100",
+      "description": "Wooden frames",
+      "descriptionIt": "Cornici in legno",
+      "naceCode": "16.29",
+      "cpaCode": "16.29.11",
+      "unit": "units",
+      "level": 4
+    }
+  ]
+}

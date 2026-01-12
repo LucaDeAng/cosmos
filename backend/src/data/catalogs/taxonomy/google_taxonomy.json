@@ -1,0 +1,210 @@
+{
+  "version": "1.0",
+  "language": "en-US",
+  "lastUpdated": "2026-01-03T16:40:22.609Z",
+  "categories": [
+    {
+      "id": 222,
+      "name": "Electronics",
+      "fullPath": "Electronics",
+      "level": 1
+    },
+    {
+      "id": 298,
+      "name": "Computers",
+      "fullPath": "Electronics > Computers",
+      "level": 2,
+      "parentId": 222
+    },
+    {
+      "id": 328,
+      "name": "Laptops",
+      "fullPath": "Electronics > Computers > Laptops",
+      "level": 3,
+      "parentId": 298
+    },
+    {
+      "id": 325,
+      "name": "Desktop Computers",
+      "fullPath": "Electronics > Computers > Desktop Computers",
+      "level": 3,
+      "parentId": 298
+    },
+    {
+      "id": 331,
+      "name": "Tablets",
+      "fullPath": "Electronics > Computers > Tablets",
+      "level": 3,
+      "parentId": 298
+    },
+    {
+      "id": 342,
+      "name": "Computer Components",
+      "fullPath": "Electronics > Computers > Computer Components",
+      "level": 3,
+      "parentId": 298
+    },
+    {
+      "id": 313,
+      "name": "Software",
+      "fullPath": "Software",
+      "level": 1
+    },
+    {
+      "id": 5032,
+      "name": "Business Software",
+      "fullPath": "Software > Business Software",
+      "level": 2,
+      "parentId": 313
+    },
+    {
+      "id": 5033,
+      "name": "Operating Systems",
+      "fullPath": "Software > Operating Systems",
+      "level": 2,
+      "parentId": 313
+    },
+    {
+      "id": 5034,
+      "name": "Security Software",
+      "fullPath": "Software > Security Software",
+      "level": 2,
+      "parentId": 313
+    },
+    {
+      "id": 5299,
+      "name": "Productivity Software",
+      "fullPath": "Software > Business Software > Productivity Software",
+      "level": 3,
+      "parentId": 5032
+    },
+    {
+      "id": 5300,
+      "name": "CRM Software",
+      "fullPath": "Software > Business Software > CRM Software",
+      "level": 3,
+      "parentId": 5032
+    },
+    {
+      "id": 5301,
+      "name": "ERP Software",
+      "fullPath": "Software > Business Software > ERP Software",
+      "level": 3,
+      "parentId": 5032
+    },
+    {
+      "id": 5302,
+      "name": "Database Software",
+      "fullPath": "Software > Business Software > Database Software",
+      "level": 3,
+      "parentId": 5032
+    },
+    {
+      "id": 111,
+      "name": "Business & Industrial",
+      "fullPath": "Business & Industrial",
+      "level": 1
+    },
+    {
+      "id": 1556,
+      "name": "Industrial Equipment",
+      "fullPath": "Business & Industrial > Industrial Equipment",
+      "level": 2,
+      "parentId": 111
+    },
+    {
+      "id": 2047,
+      "name": "Office Supplies",
+      "fullPath": "Business & Industrial > Office Supplies",
+      "level": 2,
+      "parentId": 111
+    },
+    {
+      "id": 2092,
+      "name": "Professional Services",
+      "fullPath": "Business & Industrial > Professional Services",
+      "level": 2,
+      "parentId": 111
+    },
+    {
+      "id": 5613,
+      "name": "Vehicles & Parts",
+      "fullPath": "Vehicles & Parts",
+      "level": 1
+    },
+    {
+      "id": 916,
+      "name": "Motor Vehicles",
+      "fullPath": "Vehicles & Parts > Motor Vehicles",
+      "level": 2,
+      "parentId": 5613
+    },
+    {
+      "id": 913,
+      "name": "Vehicle Parts & Accessories",
+      "fullPath": "Vehicles & Parts > Vehicle Parts & Accessories",
+      "level": 2,
+      "parentId": 5613
+    },
+    {
+      "id": 469,
+      "name": "Health & Beauty",
+      "fullPath": "Health & Beauty",
+      "level": 1
+    },
+    {
+      "id": 491,
+      "name": "Medical Supplies",
+      "fullPath": "Health & Beauty > Medical Supplies",
+      "level": 2,
+      "parentId": 469
+    },
+    {
+      "id": 2958,
+      "name": "Pharmaceuticals",
+      "fullPath": "Health & Beauty > Pharmaceuticals",
+      "level": 2,
+      "parentId": 469
+    },
+    {
+      "id": 422,
+      "name": "Food, Beverages & Tobacco",
+      "fullPath": "Food, Beverages & Tobacco",
+      "level": 1
+    },
+    {
+      "id": 5740,
+      "name": "Food Items",
+      "fullPath": "Food, Beverages & Tobacco > Food Items",
+      "level": 2,
+      "parentId": 422
+    },
+    {
+      "id": 413,
+      "name": "Beverages",
+      "fullPath": "Food, Beverages & Tobacco > Beverages",
+      "level": 2,
+      "parentId": 422
+    },
+    {
+      "id": 536,
+      "name": "Home & Garden",
+      "fullPath": "Home & Garden",
+      "level": 1
+    },
+    {
+      "id": 574,
+      "name": "Furniture",
+      "fullPath": "Home & Garden > Furniture",
+      "level": 2,
+      "parentId": 536
+    },
+    {
+      "id": 623,
+      "name": "Kitchen & Dining",
+      "fullPath": "Home & Garden > Kitchen & Dining",
+      "level": 2,
+      "parentId": 536
+    }
+  ]
+}

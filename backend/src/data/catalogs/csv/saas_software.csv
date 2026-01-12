@@ -1,0 +1,16 @@
+Software,Vendor,Category,License Type,Per-Unit Cost,Free Tier,Target Audience
+Salesforce CRM,Salesforce,CRM,Subscription,"$165-330/user/month",Yes - Limited,Enterprise
+Microsoft 365,Microsoft,Productivity Suite,Subscription,"$6-12.50/user/month",Yes - 30 days,Enterprise
+Slack,Slack,Team Communication,Subscription,"$8/user/month",Yes - 90 days,Team
+GitHub Enterprise,Microsoft,DevOps,Subscription,"$231/user/year",Yes - Public repos,Developers
+Jira,Atlassian,Project Management,Subscription,"$7.50/user/month",Yes - Limited,Development Teams
+Confluence,Atlassian,Documentation,Subscription,"$55-225/month",Yes - Limited,Teams
+Adobe Creative Cloud,Adobe,Design Suite,Subscription,"$54.49-82.49/month",Yes - 7 days,Creative Professionals
+Okta,Okta,Identity Management,Subscription,"Custom pricing",No,Enterprise
+Datadog,Datadog,Monitoring,Subscription,"$15/host/month",Yes - Limited,Operations
+New Relic,New Relic,APM,Subscription,"$299-599/month",Yes - Free plan,DevOps
+Stripe,Stripe,Payment Processing,Transaction-based,"2.9% + $0.30",Yes - Limited,eCommerce
+AWS,Amazon,Cloud Infrastructure,Pay-as-you-go,"Varies by service",Yes - 1 year free,Enterprise
+Google Cloud,Google,Cloud Infrastructure,Pay-as-you-go,"Varies by service",Yes - $300 credits,Enterprise
+Zoom,Zoom,Video Conferencing,Subscription,"$15.99-19.99/month",Yes - Basic,Teams
+Asana,Asana,Project Management,Subscription,"$10.99-24.99/user/month",Yes - Limited,Teams

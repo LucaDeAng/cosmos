@@ -1,0 +1,78 @@
+[
+  {
+    "id": "pdf-1-5ep7k0",
+    "name": "Datadog Monitoring",
+    "type": "product",
+    "description": "Infrastructure monitoring",
+    "confidence": 0.85,
+    "price": 15,
+    "metadata": {
+      "Pricing": "$15/host/month"
+    }
+  },
+  {
+    "id": "pdf-2-bev9ea",
+    "name": "New Relic APM",
+    "type": "product",
+    "description": "Application performance",
+    "confidence": 0.85,
+    "price": 299,
+    "metadata": {
+      "Pricing": "$299-599/month"
+    }
+  },
+  {
+    "id": "pdf-3-otu4aw",
+    "name": "Segment CDP",
+    "type": "product",
+    "description": "Customer data platform",
+    "confidence": 0.85,
+    "price": 140,
+    "metadata": {
+      "Pricing": "$140/month+"
+    }
+  },
+  {
+    "id": "pdf-4-jo6013",
+    "name": "Mixpanel Analytics",
+    "type": "product",
+    "description": "Product analytics",
+    "confidence": 0.85,
+    "price": 999,
+    "metadata": {
+      "Pricing": "$999/month+"
+    }
+  },
+  {
+    "id": "pdf-5-pixmjk",
+    "name": "Amplitude Analytics",
+    "type": "product",
+    "description": "User behavior analytics",
+    "confidence": 0.85,
+    "price": 995,
+    "metadata": {
+      "Pricing": "$995/month+"
+    }
+  },
+  {
+    "id": "pdf-6-i11m2q",
+    "name": "Looker BI",
+    "type": "product",
+    "description": "Business intelligence",
+    "confidence": 0.85,
+    "metadata": {
+      "Pricing": "Custom pricing"
+    }
+  },
+  {
+    "id": "pdf-7-7zch8e",
+    "name": "Tableau Visualization",
+    "type": "product",
+    "description": "Data visualization",
+    "confidence": 0.85,
+    "price": 70,
+    "metadata": {
+      "Pricing": "$70/user/month"
+    }
+  }
+]

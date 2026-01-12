@@ -1,0 +1,12 @@
+{
+  "category": "Supply Chain & Logistics",
+  "subcategory": "SCM Systems",
+  "products": [
+    {"id": "scm-001", "name": "SAP Ariba", "vendor": "SAP", "category": "Supply Chain", "subcategory": "Procurement", "description": "Cloud procurement and supply chain collaboration", "pricing_model": "subscription", "deployment": "saas", "target_segment": "enterprise", "keywords": ["ariba", "procurement", "sourcing"]},
+    {"id": "scm-002", "name": "Coupa", "vendor": "Coupa", "category": "Supply Chain", "subcategory": "Procurement", "description": "Business spend management platform", "pricing_model": "subscription", "deployment": "saas", "target_segment": "enterprise", "keywords": ["coupa", "spend management", "procurement"]},
+    {"id": "scm-003", "name": "Jaggaer", "vendor": "Jaggaer", "category": "Supply Chain", "subcategory": "Procurement", "description": "Source-to-pay procurement software", "pricing_model": "subscription", "deployment": "saas", "target_segment": "enterprise", "keywords": ["jaggaer", "source to pay"]},
+    {"id": "wms-001", "name": "Manhattan WMS", "vendor": "Manhattan Associates", "category": "Supply Chain", "subcategory": "Warehouse Management", "description": "Enterprise warehouse management system", "pricing_model": "license", "deployment": "hybrid", "target_segment": "enterprise", "keywords": ["manhattan", "wms", "warehouse"]},
+    {"id": "tms-001", "name": "Oracle Transportation Management", "vendor": "Oracle", "category": "Supply Chain", "subcategory": "Transportation", "description": "Transportation planning and execution", "pricing_model": "subscription", "deployment": "saas", "target_segment": "enterprise", "keywords": ["oracle tms", "transportation"]},
+    {"id": "logistics-001", "name": "ShipStation", "vendor": "ShipStation", "category": "Supply Chain", "subcategory": "Shipping", "description": "Multi-carrier shipping software", "pricing_model": "subscription", "deployment": "saas", "target_segment": "smb", "keywords": ["shipstation", "shipping", "fulfillment"]}
+  ]
+}

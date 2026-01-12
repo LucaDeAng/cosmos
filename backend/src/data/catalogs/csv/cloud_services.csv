@@ -1,0 +1,16 @@
+Service,Provider,Monthly Cost,Annual Cost,Key Features,Target Market,Setup Time
+EC2 Compute,AWS,"$10-50","$120-600","t3.medium, 4GB RAM, 20GB SSD, Auto-scaling",Enterprises,Immediate
+RDS Database,AWS,"$15-200","$180-2400","PostgreSQL/MySQL, Automated Backups, Multi-AZ, HA",Enterprises,1-2 hours
+Lambda Functions,AWS,"Pay-as-you-go","$0-100","1M requests/month free, Event-driven, Serverless",Startups,Minutes
+S3 Storage,AWS,"$0.023/GB","varies","99.999999999% durability, Global CDN, Versioning",All,Minutes
+Cloud SQL,GCP,"$15-100","$180-1200","PostgreSQL/MySQL, 1TB Storage, HA, Backups",Enterprises,1-2 hours
+Cloud Run,GCP,"Pay-as-you-go","$0-200","Containers, Auto-scaling, 2M/month free, Global",Developers,Hours
+Cloud Functions,GCP,"Pay-as-you-go","$0-100","Event-driven, 2M invocations/month free",Startups,Minutes
+BigQuery,GCP,"$6-600","$72-7200","1TB/month free, SQL queries, Analytics, Petabyte scale",Analytics,Hours
+App Service,Azure,"$13-99","$156-1188","Custom Domain, SSL, Auto-scale, Windows/Linux",Enterprises,Hours
+Cosmos DB,Azure,"$1-5000+","varies","NoSQL, Global distribution, Multi-region replication",Enterprises,1-2 hours
+Vercel,Vercel,0-$20,"$0-240","Frontend hosting, Serverless, Edge Functions, Git integration",Developers,Minutes
+Railway,Railway,"Free-$50","varies","Container hosting, Databases, CI/CD, Pay-as-you-go",Startups,Minutes
+Supabase,Supabase,0-$25,"varies","PostgreSQL, Real-time APIs, Vector search, Auth",Developers,Hours
+Firebase,Google,"Free-$500+","varies","Real-time Database, Hosting, Analytics, Auth",Developers,Minutes
+Heroku,Salesforce,"$7-500+","varies","Platform-as-a-Service, Postgres, Redis, Add-ons",Developers,Minutes

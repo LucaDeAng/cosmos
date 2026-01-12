@@ -1,0 +1,101 @@
+name,description,category,type,vendor,price,year,fuel,power_kw
+"Jeep Cherokee Sport 2022","Jeep Cherokee Diesel 77kW MY2022","City Car","product","Jeep",18367,2022,"Diesel",77
+"Alfa Romeo Tonale Elegance 2023","Alfa Romeo Tonale Hybrid 84kW MY2023","City Car","product","Alfa Romeo",18734,2023,"Hybrid",84
+"Lancia Flavia Business 2024","Lancia Flavia PHEV 91kW MY2024","City Car","product","Lancia",19101,2024,"PHEV",91
+"Maserati MC20 Premium 2021","Maserati MC20 EV 98kW MY2021","City Car","product","Maserati",19468,2021,"EV",98
+"Peugeot 3008 GT Line 2022","Peugeot 3008 Metano 105kW MY2022","Berlina","product","Peugeot",19835,2022,"Metano",105
+"Citroen C3 RS 2023","Citroen C3 GPL 112kW MY2023","Berlina","product","Citroen",20202,2023,"GPL",112
+"Opel Astra Base 2024","Opel Astra Benzina 119kW MY2024","Berlina","product","Opel",20569,2024,"Benzina",119
+"Fiat 500 Sport 2021","Fiat 500 Diesel 126kW MY2021","Berlina","product","Fiat",20936,2021,"Diesel",126
+"Jeep Renegade Elegance 2022","Jeep Renegade Hybrid 133kW MY2022","Berlina","product","Jeep",21303,2022,"Hybrid",133
+"Alfa Romeo 4C Business 2023","Alfa Romeo 4C PHEV 140kW MY2023","Berlina","product","Alfa Romeo",21670,2023,"PHEV",140
+"Lancia Delta Premium 2024","Lancia Delta EV 147kW MY2024","Berlina","product","Lancia",22037,2024,"EV",147
+"Maserati Quattroporte GT Line 2021","Maserati Quattroporte Metano 154kW MY2021","SUV","product","Maserati",22404,2021,"Metano",154
+"Peugeot 5008 RS 2022","Peugeot 5008 GPL 161kW MY2022","SUV","product","Peugeot",22771,2022,"GPL",161
+"Citroen C5 X Base 2023","Citroen C5 X Benzina 168kW MY2023","SUV","product","Citroen",23138,2023,"Benzina",168
+"Opel Crossland Sport 2024","Opel Crossland Diesel 175kW MY2024","SUV","product","Opel",23505,2024,"Diesel",175
+"Fiat 500 Elegance 2021","Fiat 500 Hybrid 182kW MY2021","SUV","product","Fiat",23872,2021,"Hybrid",182
+"Jeep Gladiator Business 2022","Jeep Gladiator PHEV 189kW MY2022","SUV","product","Jeep",24239,2022,"PHEV",189
+"Alfa Romeo Giulia Premium 2023","Alfa Romeo Giulia EV 196kW MY2023","SUV","product","Alfa Romeo",24606,2023,"EV",196
+"Lancia Voyager GT Line 2024","Lancia Voyager Metano 203kW MY2024","SUV","product","Lancia",24973,2024,"Metano",203
+"Maserati Ghibli RS 2021","Maserati Ghibli GPL 210kW MY2021","SUV","product","Maserati",25340,2021,"GPL",210
+"Peugeot 208 Base 2022","Peugeot 208 Benzina 217kW MY2022","SUV","product","Peugeot",25707,2022,"Benzina",217
+"Citroen C3 Aircross Sport 2023","Citroen C3 Aircross Diesel 224kW MY2023","SUV","product","Citroen",26074,2023,"Diesel",224
+"Opel Combo Elegance 2024","Opel Combo Hybrid 231kW MY2024","SUV","product","Opel",26441,2024,"Hybrid",231
+"Fiat 500 Business 2021","Fiat 500 PHEV 238kW MY2021","SUV","product","Fiat",26808,2021,"PHEV",238
+"Jeep Cherokee Premium 2022","Jeep Cherokee EV 245kW MY2022","SUV","product","Jeep",27175,2022,"EV",245
+"Alfa Romeo Tonale GT Line 2023","Alfa Romeo Tonale Metano 252kW MY2023","SUV","product","Alfa Romeo",27542,2023,"Metano",252
+"Lancia Thema RS 2024","Lancia Thema GPL 259kW MY2024","SUV","product","Lancia",27909,2024,"GPL",259
+"Maserati GranTurismo Base 2021","Maserati GranTurismo Benzina 266kW MY2021","SUV","product","Maserati",28276,2021,"Benzina",266
+"Peugeot 308 Sport 2022","Peugeot 308 Diesel 273kW MY2022","SUV","product","Peugeot",28643,2022,"Diesel",273
+"Citroen C3 Elegance 2023","Citroen C3 Hybrid 280kW MY2023","SUV","product","Citroen",29010,2023,"Hybrid",280
+"Opel Astra Business 2024","Opel Astra PHEV 287kW MY2024","SUV","product","Opel",29377,2024,"PHEV",287
+"Fiat 500 Premium 2021","Fiat 500 EV 294kW MY2021","SUV","product","Fiat",29744,2021,"EV",294
+"Jeep Renegade GT Line 2022","Jeep Renegade Metano 301kW MY2022","SUV","product","Jeep",30111,2022,"Metano",301
+"Alfa Romeo 4C RS 2023","Alfa Romeo 4C GPL 308kW MY2023","SUV","product","Alfa Romeo",30478,2023,"GPL",308
+"Lancia Ypsilon Base 2024","Lancia Ypsilon Benzina 315kW MY2024","SUV","product","Lancia",30845,2024,"Benzina",315
+"Maserati Levante Sport 2021","Maserati Levante Diesel 72kW MY2021","City Car","product","Maserati",31212,2021,"Diesel",72
+"Peugeot 408 Elegance 2022","Peugeot 408 Hybrid 79kW MY2022","City Car","product","Peugeot",31579,2022,"Hybrid",79
+"Citroen C5 X Business 2023","Citroen C5 X PHEV 86kW MY2023","City Car","product","Citroen",31946,2023,"PHEV",86
+"Opel Crossland Premium 2024","Opel Crossland EV 93kW MY2024","City Car","product","Opel",32313,2024,"EV",93
+"Fiat 500 GT Line 2021","Fiat 500 Metano 100kW MY2021","City Car","product","Fiat",32680,2021,"Metano",100
+"Jeep Gladiator RS 2022","Jeep Gladiator GPL 107kW MY2022","Berlina","product","Jeep",33047,2022,"GPL",107
+"Alfa Romeo Giulia Base 2023","Alfa Romeo Giulia Benzina 114kW MY2023","Berlina","product","Alfa Romeo",33414,2023,"Benzina",114
+"Lancia Flavia Sport 2024","Lancia Flavia Diesel 121kW MY2024","Berlina","product","Lancia",33781,2024,"Diesel",121
+"Maserati MC20 Elegance 2021","Maserati MC20 Hybrid 128kW MY2021","Berlina","product","Maserati",34148,2021,"Hybrid",128
+"Peugeot 508 Business 2022","Peugeot 508 PHEV 135kW MY2022","Berlina","product","Peugeot",34515,2022,"PHEV",135
+"Citroen C3 Aircross Premium 2023","Citroen C3 Aircross EV 142kW MY2023","Berlina","product","Citroen",34882,2023,"EV",142
+"Opel Combo GT Line 2024","Opel Combo Metano 149kW MY2024","Berlina","product","Opel",35249,2024,"Metano",149
+"Fiat 500 RS 2021","Fiat 500 GPL 156kW MY2021","SUV","product","Fiat",35616,2021,"GPL",156
+"Jeep Cherokee Base 2022","Jeep Cherokee Benzina 163kW MY2022","SUV","product","Jeep",35983,2022,"Benzina",163
+"Alfa Romeo Tonale Sport 2023","Alfa Romeo Tonale Diesel 170kW MY2023","SUV","product","Alfa Romeo",36350,2023,"Diesel",170
+"Lancia Delta Elegance 2024","Lancia Delta Hybrid 177kW MY2024","SUV","product","Lancia",36717,2024,"Hybrid",177
+"Maserati Quattroporte Business 2021","Maserati Quattroporte PHEV 184kW MY2021","SUV","product","Maserati",37084,2021,"PHEV",184
+"Peugeot 2008 Premium 2022","Peugeot 2008 EV 191kW MY2022","SUV","product","Peugeot",37451,2022,"EV",191
+"Citroen C3 GT Line 2023","Citroen C3 Metano 198kW MY2023","SUV","product","Citroen",37818,2023,"Metano",198
+"Opel Astra RS 2024","Opel Astra GPL 205kW MY2024","SUV","product","Opel",38185,2024,"GPL",205
+"Fiat 500 Base 2021","Fiat 500 Benzina 212kW MY2021","SUV","product","Fiat",38552,2021,"Benzina",212
+"Jeep Renegade Sport 2022","Jeep Renegade Diesel 219kW MY2022","SUV","product","Jeep",38919,2022,"Diesel",219
+"Alfa Romeo 4C Elegance 2023","Alfa Romeo 4C Hybrid 226kW MY2023","SUV","product","Alfa Romeo",39286,2023,"Hybrid",226
+"Lancia Voyager Business 2024","Lancia Voyager PHEV 233kW MY2024","SUV","product","Lancia",39653,2024,"PHEV",233
+"Maserati Ghibli Premium 2021","Maserati Ghibli EV 240kW MY2021","SUV","product","Maserati",40020,2021,"EV",240
+"Peugeot 3008 GT Line 2022","Peugeot 3008 Metano 247kW MY2022","SUV","product","Peugeot",40387,2022,"Metano",247
+"Citroen C5 X RS 2023","Citroen C5 X GPL 254kW MY2023","SUV","product","Citroen",40754,2023,"GPL",254
+"Opel Crossland Base 2024","Opel Crossland Benzina 261kW MY2024","SUV","product","Opel",41121,2024,"Benzina",261
+"Fiat 500 Sport 2021","Fiat 500 Diesel 268kW MY2021","SUV","product","Fiat",41488,2021,"Diesel",268
+"Jeep Gladiator Elegance 2022","Jeep Gladiator Hybrid 275kW MY2022","SUV","product","Jeep",41855,2022,"Hybrid",275
+"Alfa Romeo Giulia Business 2023","Alfa Romeo Giulia PHEV 282kW MY2023","SUV","product","Alfa Romeo",42222,2023,"PHEV",282
+"Lancia Thema Premium 2024","Lancia Thema EV 289kW MY2024","SUV","product","Lancia",42589,2024,"EV",289
+"Maserati GranTurismo GT Line 2021","Maserati GranTurismo Metano 296kW MY2021","SUV","product","Maserati",42956,2021,"Metano",296
+"Peugeot 5008 RS 2022","Peugeot 5008 GPL 303kW MY2022","SUV","product","Peugeot",43323,2022,"GPL",303
+"Citroen C3 Aircross Base 2023","Citroen C3 Aircross Benzina 310kW MY2023","SUV","product","Citroen",43690,2023,"Benzina",310
+"Opel Combo Sport 2024","Opel Combo Diesel 317kW MY2024","SUV","product","Opel",44057,2024,"Diesel",317
+"Fiat 500 Elegance 2021","Fiat 500 Hybrid 74kW MY2021","City Car","product","Fiat",44424,2021,"Hybrid",74
+"Jeep Cherokee Business 2022","Jeep Cherokee PHEV 81kW MY2022","City Car","product","Jeep",44791,2022,"PHEV",81
+"Alfa Romeo Tonale Premium 2023","Alfa Romeo Tonale EV 88kW MY2023","City Car","product","Alfa Romeo",45158,2023,"EV",88
+"Lancia Ypsilon GT Line 2024","Lancia Ypsilon Metano 95kW MY2024","City Car","product","Lancia",45525,2024,"Metano",95
+"Maserati Levante RS 2021","Maserati Levante GPL 102kW MY2021","Berlina","product","Maserati",45892,2021,"GPL",102
+"Peugeot 208 Base 2022","Peugeot 208 Benzina 109kW MY2022","Berlina","product","Peugeot",46259,2022,"Benzina",109
+"Citroen C3 Sport 2023","Citroen C3 Diesel 116kW MY2023","Berlina","product","Citroen",46626,2023,"Diesel",116
+"Opel Astra Elegance 2024","Opel Astra Hybrid 123kW MY2024","Berlina","product","Opel",46993,2024,"Hybrid",123
+"Fiat 500 Business 2021","Fiat 500 PHEV 130kW MY2021","Berlina","product","Fiat",47360,2021,"PHEV",130
+"Jeep Renegade Premium 2022","Jeep Renegade EV 137kW MY2022","Berlina","product","Jeep",47727,2022,"EV",137
+"Alfa Romeo 4C GT Line 2023","Alfa Romeo 4C Metano 144kW MY2023","Berlina","product","Alfa Romeo",48094,2023,"Metano",144
+"Lancia Flavia RS 2024","Lancia Flavia GPL 151kW MY2024","SUV","product","Lancia",48461,2024,"GPL",151
+"Maserati MC20 Base 2021","Maserati MC20 Benzina 158kW MY2021","SUV","product","Maserati",48828,2021,"Benzina",158
+"Peugeot 308 Sport 2022","Peugeot 308 Diesel 165kW MY2022","SUV","product","Peugeot",49195,2022,"Diesel",165
+"Citroen C5 X Elegance 2023","Citroen C5 X Hybrid 172kW MY2023","SUV","product","Citroen",49562,2023,"Hybrid",172
+"Opel Crossland Business 2024","Opel Crossland PHEV 179kW MY2024","SUV","product","Opel",49929,2024,"PHEV",179
+"Fiat 500 Premium 2021","Fiat 500 EV 186kW MY2021","SUV","product","Fiat",50296,2021,"EV",186
+"Jeep Gladiator GT Line 2022","Jeep Gladiator Metano 193kW MY2022","SUV","product","Jeep",50663,2022,"Metano",193
+"Alfa Romeo Giulia RS 2023","Alfa Romeo Giulia GPL 200kW MY2023","SUV","product","Alfa Romeo",51030,2023,"GPL",200
+"Lancia Delta Base 2024","Lancia Delta Benzina 207kW MY2024","SUV","product","Lancia",51397,2024,"Benzina",207
+"Maserati Quattroporte Sport 2021","Maserati Quattroporte Diesel 214kW MY2021","SUV","product","Maserati",51764,2021,"Diesel",214
+"Peugeot 408 Elegance 2022","Peugeot 408 Hybrid 221kW MY2022","SUV","product","Peugeot",52131,2022,"Hybrid",221
+"Citroen C3 Aircross Business 2023","Citroen C3 Aircross PHEV 228kW MY2023","SUV","product","Citroen",52498,2023,"PHEV",228
+"Opel Combo Premium 2024","Opel Combo EV 235kW MY2024","SUV","product","Opel",52865,2024,"EV",235
+"Fiat 500 GT Line 2021","Fiat 500 Metano 242kW MY2021","SUV","product","Fiat",53232,2021,"Metano",242
+"Jeep Cherokee RS 2022","Jeep Cherokee GPL 249kW MY2022","SUV","product","Jeep",53599,2022,"GPL",249
+"Alfa Romeo Tonale Base 2023","Alfa Romeo Tonale Benzina 256kW MY2023","SUV","product","Alfa Romeo",53966,2023,"Benzina",256
+"Lancia Voyager Sport 2024","Lancia Voyager Diesel 263kW MY2024","SUV","product","Lancia",54333,2024,"Diesel",263
+"Maserati Ghibli Elegance 2021","Maserati Ghibli Hybrid 270kW MY2021","SUV","product","Maserati",54700,2021,"Hybrid",270

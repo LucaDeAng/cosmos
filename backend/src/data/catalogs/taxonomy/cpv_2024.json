@@ -1,0 +1,707 @@
+{
+  "version": "CPV 2024",
+  "source": "EU Publications Office",
+  "lastUpdated": "2026-01-03T16:40:22.622Z",
+  "codes": [
+    {
+      "code": "48000000",
+      "checkDigit": "8",
+      "fullCode": "48000000-8",
+      "description": "Software package and information systems",
+      "descriptionIt": "Pacchetti software e sistemi informativi",
+      "level": 1,
+      "isService": false
+    },
+    {
+      "code": "48100000",
+      "checkDigit": "5",
+      "fullCode": "48100000-5",
+      "description": "Industry specific software package",
+      "descriptionIt": "Pacchetti software per industria",
+      "level": 2,
+      "parentCode": "48000000",
+      "isService": false
+    },
+    {
+      "code": "48200000",
+      "checkDigit": "0",
+      "fullCode": "48200000-0",
+      "description": "Networking, Internet and intranet software",
+      "descriptionIt": "Software di rete e internet",
+      "level": 2,
+      "parentCode": "48000000",
+      "isService": false
+    },
+    {
+      "code": "48300000",
+      "checkDigit": "1",
+      "fullCode": "48300000-1",
+      "description": "Document creation software",
+      "descriptionIt": "Software per creazione documenti",
+      "level": 2,
+      "parentCode": "48000000",
+      "isService": false
+    },
+    {
+      "code": "48400000",
+      "checkDigit": "2",
+      "fullCode": "48400000-2",
+      "description": "Business transaction software",
+      "descriptionIt": "Software per transazioni commerciali",
+      "level": 2,
+      "parentCode": "48000000",
+      "isService": false
+    },
+    {
+      "code": "48600000",
+      "checkDigit": "4",
+      "fullCode": "48600000-4",
+      "description": "Database and operating software",
+      "descriptionIt": "Software per database e sistemi operativi",
+      "level": 2,
+      "parentCode": "48000000",
+      "isService": false
+    },
+    {
+      "code": "48700000",
+      "checkDigit": "5",
+      "fullCode": "48700000-5",
+      "description": "Software package utilities",
+      "descriptionIt": "Utility software",
+      "level": 2,
+      "parentCode": "48000000",
+      "isService": false
+    },
+    {
+      "code": "48800000",
+      "checkDigit": "6",
+      "fullCode": "48800000-6",
+      "description": "Information systems and servers",
+      "descriptionIt": "Sistemi informativi e server",
+      "level": 2,
+      "parentCode": "48000000",
+      "isService": false
+    },
+    {
+      "code": "48900000",
+      "checkDigit": "7",
+      "fullCode": "48900000-7",
+      "description": "Miscellaneous software packages",
+      "descriptionIt": "Altri pacchetti software",
+      "level": 2,
+      "parentCode": "48000000",
+      "isService": false
+    },
+    {
+      "code": "72000000",
+      "checkDigit": "5",
+      "fullCode": "72000000-5",
+      "description": "IT services: consulting, software development",
+      "descriptionIt": "Servizi IT: consulenza, sviluppo software",
+      "level": 1,
+      "isService": true
+    },
+    {
+      "code": "72100000",
+      "checkDigit": "6",
+      "fullCode": "72100000-6",
+      "description": "Hardware consultancy services",
+      "descriptionIt": "Consulenza hardware",
+      "level": 2,
+      "parentCode": "72000000",
+      "isService": true
+    },
+    {
+      "code": "72200000",
+      "checkDigit": "7",
+      "fullCode": "72200000-7",
+      "description": "Software programming and consultancy",
+      "descriptionIt": "Programmazione e consulenza software",
+      "level": 2,
+      "parentCode": "72000000",
+      "isService": true
+    },
+    {
+      "code": "72210000",
+      "checkDigit": "0",
+      "fullCode": "72210000-0",
+      "description": "Programming services of packaged software",
+      "descriptionIt": "Servizi di programmazione",
+      "level": 3,
+      "parentCode": "72200000",
+      "isService": true
+    },
+    {
+      "code": "72220000",
+      "checkDigit": "3",
+      "fullCode": "72220000-3",
+      "description": "Systems and technical consultancy",
+      "descriptionIt": "Consulenza tecnica e di sistemi",
+      "level": 3,
+      "parentCode": "72200000",
+      "isService": true
+    },
+    {
+      "code": "72300000",
+      "checkDigit": "8",
+      "fullCode": "72300000-8",
+      "description": "Data services",
+      "descriptionIt": "Servizi dati",
+      "level": 2,
+      "parentCode": "72000000",
+      "isService": true
+    },
+    {
+      "code": "72400000",
+      "checkDigit": "4",
+      "fullCode": "72400000-4",
+      "description": "Internet services",
+      "descriptionIt": "Servizi internet",
+      "level": 2,
+      "parentCode": "72000000",
+      "isService": true
+    },
+    {
+      "code": "72500000",
+      "checkDigit": "0",
+      "fullCode": "72500000-0",
+      "description": "Computer-related services",
+      "descriptionIt": "Servizi informatici",
+      "level": 2,
+      "parentCode": "72000000",
+      "isService": true
+    },
+    {
+      "code": "72600000",
+      "checkDigit": "6",
+      "fullCode": "72600000-6",
+      "description": "Computer support and consultancy",
+      "descriptionIt": "Supporto e consulenza informatica",
+      "level": 2,
+      "parentCode": "72000000",
+      "isService": true
+    },
+    {
+      "code": "79000000",
+      "checkDigit": "4",
+      "fullCode": "79000000-4",
+      "description": "Business services: law, marketing, consulting",
+      "descriptionIt": "Servizi alle imprese",
+      "level": 1,
+      "isService": true
+    },
+    {
+      "code": "79100000",
+      "checkDigit": "5",
+      "fullCode": "79100000-5",
+      "description": "Legal services",
+      "descriptionIt": "Servizi legali",
+      "level": 2,
+      "parentCode": "79000000",
+      "isService": true
+    },
+    {
+      "code": "79200000",
+      "checkDigit": "6",
+      "fullCode": "79200000-6",
+      "description": "Accounting, auditing and fiscal services",
+      "descriptionIt": "Contabilità, revisione e servizi fiscali",
+      "level": 2,
+      "parentCode": "79000000",
+      "isService": true
+    },
+    {
+      "code": "79300000",
+      "checkDigit": "7",
+      "fullCode": "79300000-7",
+      "description": "Market and economic research",
+      "descriptionIt": "Ricerche di mercato ed economiche",
+      "level": 2,
+      "parentCode": "79000000",
+      "isService": true
+    },
+    {
+      "code": "79400000",
+      "checkDigit": "8",
+      "fullCode": "79400000-8",
+      "description": "Business and management consultancy",
+      "descriptionIt": "Consulenza aziendale e gestionale",
+      "level": 2,
+      "parentCode": "79000000",
+      "isService": true
+    },
+    {
+      "code": "79410000",
+      "checkDigit": "1",
+      "fullCode": "79410000-1",
+      "description": "Business and management consultancy",
+      "descriptionIt": "Consulenza aziendale",
+      "level": 3,
+      "parentCode": "79400000",
+      "isService": true
+    },
+    {
+      "code": "79420000",
+      "checkDigit": "4",
+      "fullCode": "79420000-4",
+      "description": "Management-related services",
+      "descriptionIt": "Servizi di gestione",
+      "level": 3,
+      "parentCode": "79400000",
+      "isService": true
+    },
+    {
+      "code": "79500000",
+      "checkDigit": "9",
+      "fullCode": "79500000-9",
+      "description": "Office-support services",
+      "descriptionIt": "Servizi di supporto ufficio",
+      "level": 2,
+      "parentCode": "79000000",
+      "isService": true
+    },
+    {
+      "code": "79600000",
+      "checkDigit": "0",
+      "fullCode": "79600000-0",
+      "description": "Recruitment services",
+      "descriptionIt": "Servizi di selezione del personale",
+      "level": 2,
+      "parentCode": "79000000",
+      "isService": true
+    },
+    {
+      "code": "79700000",
+      "checkDigit": "1",
+      "fullCode": "79700000-1",
+      "description": "Investigation and security services",
+      "descriptionIt": "Servizi investigativi e di sicurezza",
+      "level": 2,
+      "parentCode": "79000000",
+      "isService": true
+    },
+    {
+      "code": "79800000",
+      "checkDigit": "2",
+      "fullCode": "79800000-2",
+      "description": "Printing and related services",
+      "descriptionIt": "Servizi di stampa",
+      "level": 2,
+      "parentCode": "79000000",
+      "isService": true
+    },
+    {
+      "code": "66000000",
+      "checkDigit": "0",
+      "fullCode": "66000000-0",
+      "description": "Financial and insurance services",
+      "descriptionIt": "Servizi finanziari e assicurativi",
+      "level": 1,
+      "isService": true
+    },
+    {
+      "code": "66100000",
+      "checkDigit": "1",
+      "fullCode": "66100000-1",
+      "description": "Banking and investment services",
+      "descriptionIt": "Servizi bancari e di investimento",
+      "level": 2,
+      "parentCode": "66000000",
+      "isService": true
+    },
+    {
+      "code": "66110000",
+      "checkDigit": "4",
+      "fullCode": "66110000-4",
+      "description": "Banking services",
+      "descriptionIt": "Servizi bancari",
+      "level": 3,
+      "parentCode": "66100000",
+      "isService": true
+    },
+    {
+      "code": "66120000",
+      "checkDigit": "7",
+      "fullCode": "66120000-7",
+      "description": "Investment banking services",
+      "descriptionIt": "Servizi di investment banking",
+      "level": 3,
+      "parentCode": "66100000",
+      "isService": true
+    },
+    {
+      "code": "66500000",
+      "checkDigit": "5",
+      "fullCode": "66500000-5",
+      "description": "Insurance services",
+      "descriptionIt": "Servizi assicurativi",
+      "level": 2,
+      "parentCode": "66000000",
+      "isService": true
+    },
+    {
+      "code": "66600000",
+      "checkDigit": "6",
+      "fullCode": "66600000-6",
+      "description": "Treasury services",
+      "descriptionIt": "Servizi di tesoreria",
+      "level": 2,
+      "parentCode": "66000000",
+      "isService": true
+    },
+    {
+      "code": "39000000",
+      "checkDigit": "2",
+      "fullCode": "39000000-2",
+      "description": "Furniture, furnishings and supplies",
+      "descriptionIt": "Mobili, arredamento e forniture",
+      "level": 1,
+      "isService": false
+    },
+    {
+      "code": "39100000",
+      "checkDigit": "3",
+      "fullCode": "39100000-3",
+      "description": "Furniture",
+      "descriptionIt": "Mobili",
+      "level": 2,
+      "parentCode": "39000000",
+      "isService": false
+    },
+    {
+      "code": "39110000",
+      "checkDigit": "6",
+      "fullCode": "39110000-6",
+      "description": "Seats, chairs and accessories",
+      "descriptionIt": "Sedute, sedie e accessori",
+      "level": 3,
+      "parentCode": "39100000",
+      "isService": false
+    },
+    {
+      "code": "39112000",
+      "checkDigit": "0",
+      "fullCode": "39112000-0",
+      "description": "Chairs",
+      "descriptionIt": "Sedie",
+      "level": 4,
+      "parentCode": "39110000",
+      "isService": false
+    },
+    {
+      "code": "39113000",
+      "checkDigit": "7",
+      "fullCode": "39113000-7",
+      "description": "Miscellaneous seats and chairs",
+      "descriptionIt": "Sedute varie",
+      "level": 4,
+      "parentCode": "39110000",
+      "isService": false
+    },
+    {
+      "code": "39120000",
+      "checkDigit": "9",
+      "fullCode": "39120000-9",
+      "description": "Tables, cupboards, desks and bookcases",
+      "descriptionIt": "Tavoli, armadi, scrivanie e librerie",
+      "level": 3,
+      "parentCode": "39100000",
+      "isService": false
+    },
+    {
+      "code": "39121000",
+      "checkDigit": "6",
+      "fullCode": "39121000-6",
+      "description": "Desks and tables",
+      "descriptionIt": "Scrivanie e tavoli",
+      "level": 4,
+      "parentCode": "39120000",
+      "isService": false
+    },
+    {
+      "code": "39122000",
+      "checkDigit": "3",
+      "fullCode": "39122000-3",
+      "description": "Cupboards and bookcases",
+      "descriptionIt": "Armadi e librerie",
+      "level": 4,
+      "parentCode": "39120000",
+      "isService": false
+    },
+    {
+      "code": "39130000",
+      "checkDigit": "2",
+      "fullCode": "39130000-2",
+      "description": "Office furniture",
+      "descriptionIt": "Mobili per ufficio",
+      "level": 3,
+      "parentCode": "39100000",
+      "isService": false
+    },
+    {
+      "code": "39140000",
+      "checkDigit": "5",
+      "fullCode": "39140000-5",
+      "description": "Domestic furniture",
+      "descriptionIt": "Mobili domestici",
+      "level": 3,
+      "parentCode": "39100000",
+      "isService": false
+    },
+    {
+      "code": "39141000",
+      "checkDigit": "2",
+      "fullCode": "39141000-2",
+      "description": "Kitchen furniture",
+      "descriptionIt": "Mobili da cucina",
+      "level": 4,
+      "parentCode": "39140000",
+      "isService": false
+    },
+    {
+      "code": "39143000",
+      "checkDigit": "6",
+      "fullCode": "39143000-6",
+      "description": "Bedroom furniture",
+      "descriptionIt": "Mobili per camera",
+      "level": 4,
+      "parentCode": "39140000",
+      "isService": false
+    },
+    {
+      "code": "34000000",
+      "checkDigit": "7",
+      "fullCode": "34000000-7",
+      "description": "Transport equipment and auxiliary products",
+      "descriptionIt": "Mezzi di trasporto e prodotti ausiliari",
+      "level": 1,
+      "isService": false
+    },
+    {
+      "code": "34100000",
+      "checkDigit": "8",
+      "fullCode": "34100000-8",
+      "description": "Motor vehicles",
+      "descriptionIt": "Autoveicoli",
+      "level": 2,
+      "parentCode": "34000000",
+      "isService": false
+    },
+    {
+      "code": "34110000",
+      "checkDigit": "1",
+      "fullCode": "34110000-1",
+      "description": "Passenger cars",
+      "descriptionIt": "Autovetture",
+      "level": 3,
+      "parentCode": "34100000",
+      "isService": false
+    },
+    {
+      "code": "34130000",
+      "checkDigit": "7",
+      "fullCode": "34130000-7",
+      "description": "Motor vehicles for goods transport",
+      "descriptionIt": "Veicoli per trasporto merci",
+      "level": 3,
+      "parentCode": "34100000",
+      "isService": false
+    },
+    {
+      "code": "34300000",
+      "checkDigit": "0",
+      "fullCode": "34300000-0",
+      "description": "Parts and accessories for vehicles",
+      "descriptionIt": "Parti e accessori per veicoli",
+      "level": 2,
+      "parentCode": "34000000",
+      "isService": false
+    },
+    {
+      "code": "34310000",
+      "checkDigit": "3",
+      "fullCode": "34310000-3",
+      "description": "Engines and engine parts",
+      "descriptionIt": "Motori e parti di motori",
+      "level": 3,
+      "parentCode": "34300000",
+      "isService": false
+    },
+    {
+      "code": "34320000",
+      "checkDigit": "6",
+      "fullCode": "34320000-6",
+      "description": "Mechanical spare parts",
+      "descriptionIt": "Ricambi meccanici",
+      "level": 3,
+      "parentCode": "34300000",
+      "isService": false
+    },
+    {
+      "code": "15000000",
+      "checkDigit": "8",
+      "fullCode": "15000000-8",
+      "description": "Food, beverages, tobacco and related products",
+      "descriptionIt": "Prodotti alimentari, bevande, tabacco",
+      "level": 1,
+      "isService": false
+    },
+    {
+      "code": "15100000",
+      "checkDigit": "9",
+      "fullCode": "15100000-9",
+      "description": "Animal products, meat and meat products",
+      "descriptionIt": "Prodotti animali, carne",
+      "level": 2,
+      "parentCode": "15000000",
+      "isService": false
+    },
+    {
+      "code": "15500000",
+      "checkDigit": "3",
+      "fullCode": "15500000-3",
+      "description": "Dairy products",
+      "descriptionIt": "Prodotti lattiero-caseari",
+      "level": 2,
+      "parentCode": "15000000",
+      "isService": false
+    },
+    {
+      "code": "15800000",
+      "checkDigit": "6",
+      "fullCode": "15800000-6",
+      "description": "Miscellaneous food products",
+      "descriptionIt": "Prodotti alimentari vari",
+      "level": 2,
+      "parentCode": "15000000",
+      "isService": false
+    },
+    {
+      "code": "15900000",
+      "checkDigit": "7",
+      "fullCode": "15900000-7",
+      "description": "Beverages, tobacco and related products",
+      "descriptionIt": "Bevande, tabacco e prodotti correlati",
+      "level": 2,
+      "parentCode": "15000000",
+      "isService": false
+    },
+    {
+      "code": "33000000",
+      "checkDigit": "0",
+      "fullCode": "33000000-0",
+      "description": "Medical equipments, pharmaceuticals",
+      "descriptionIt": "Apparecchiature mediche, farmaceutici",
+      "level": 1,
+      "isService": false
+    },
+    {
+      "code": "33100000",
+      "checkDigit": "1",
+      "fullCode": "33100000-1",
+      "description": "Medical equipments",
+      "descriptionIt": "Apparecchiature mediche",
+      "level": 2,
+      "parentCode": "33000000",
+      "isService": false
+    },
+    {
+      "code": "33600000",
+      "checkDigit": "6",
+      "fullCode": "33600000-6",
+      "description": "Pharmaceutical products",
+      "descriptionIt": "Prodotti farmaceutici",
+      "level": 2,
+      "parentCode": "33000000",
+      "isService": false
+    },
+    {
+      "code": "33690000",
+      "checkDigit": "3",
+      "fullCode": "33690000-3",
+      "description": "Various medicinal products",
+      "descriptionIt": "Medicinali vari",
+      "level": 3,
+      "parentCode": "33600000",
+      "isService": false
+    },
+    {
+      "code": "85000000",
+      "checkDigit": "9",
+      "fullCode": "85000000-9",
+      "description": "Health and social work services",
+      "descriptionIt": "Servizi sanitari e sociali",
+      "level": 1,
+      "isService": true
+    },
+    {
+      "code": "85100000",
+      "checkDigit": "0",
+      "fullCode": "85100000-0",
+      "description": "Health services",
+      "descriptionIt": "Servizi sanitari",
+      "level": 2,
+      "parentCode": "85000000",
+      "isService": true
+    },
+    {
+      "code": "85110000",
+      "checkDigit": "3",
+      "fullCode": "85110000-3",
+      "description": "Hospital and related services",
+      "descriptionIt": "Servizi ospedalieri",
+      "level": 3,
+      "parentCode": "85100000",
+      "isService": true
+    },
+    {
+      "code": "71000000",
+      "checkDigit": "8",
+      "fullCode": "71000000-8",
+      "description": "Architectural, construction, engineering",
+      "descriptionIt": "Architettura, costruzione, ingegneria",
+      "level": 1,
+      "isService": true
+    },
+    {
+      "code": "71200000",
+      "checkDigit": "0",
+      "fullCode": "71200000-0",
+      "description": "Architectural and related services",
+      "descriptionIt": "Servizi di architettura",
+      "level": 2,
+      "parentCode": "71000000",
+      "isService": true
+    },
+    {
+      "code": "71300000",
+      "checkDigit": "1",
+      "fullCode": "71300000-1",
+      "description": "Engineering services",
+      "descriptionIt": "Servizi di ingegneria",
+      "level": 2,
+      "parentCode": "71000000",
+      "isService": true
+    },
+    {
+      "code": "71310000",
+      "checkDigit": "4",
+      "fullCode": "71310000-4",
+      "description": "Consultative engineering",
+      "descriptionIt": "Consulenza ingegneristica",
+      "level": 3,
+      "parentCode": "71300000",
+      "isService": true
+    },
+    {
+      "code": "71320000",
+      "checkDigit": "7",
+      "fullCode": "71320000-7",
+      "description": "Engineering design services",
+      "descriptionIt": "Progettazione ingegneristica",
+      "level": 3,
+      "parentCode": "71300000",
+      "isService": true
+    }
+  ]
+}

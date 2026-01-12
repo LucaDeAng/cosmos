@@ -1,0 +1,95 @@
+{
+  "vendor": "Salesforce",
+  "catalog_name": "Salesforce Enterprise CRM Solutions",
+  "last_updated": "2026-01-07",
+  "version": "1.0",
+  "products": [
+    {
+      "id": "sf-sales-cloud",
+      "name": "Sales Cloud",
+      "vendor": "Salesforce",
+      "category": "CRM",
+      "subcategory": "Sales Management",
+      "description": "Complete CRM solution for sales teams with lead management, forecasting, and Einstein AI",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 165,
+        "currency": "USD",
+        "unit": "user/month"
+      },
+      "deployment": "saas",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Lead Management",
+        "Opportunity Tracking",
+        "Sales Forecasting",
+        "Pipeline Management"
+      ],
+      "tags": ["salesforce", "crm", "sales", "enterprise", "ai"],
+      "specifications": {
+        "users": "Concurrent seat-based",
+        "storage": "Data storage included",
+        "api_calls": "100k API calls/day"
+      }
+    },
+    {
+      "id": "sf-service-cloud",
+      "name": "Service Cloud",
+      "vendor": "Salesforce",
+      "category": "CRM",
+      "subcategory": "Customer Service",
+      "description": "Omnichannel customer service platform with AI-powered support automation",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 165,
+        "currency": "USD",
+        "unit": "user/month"
+      },
+      "deployment": "saas",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Support Ticketing",
+        "Knowledge Management",
+        "Live Chat",
+        "Omnichannel Support"
+      ],
+      "tags": ["salesforce", "service", "support", "customer-service"],
+      "specifications": {
+        "channels": "Email, Phone, Chat, Social",
+        "ai": "Einstein Service Cloud",
+        "kb": "Knowledge base included"
+      }
+    },
+    {
+      "id": "sf-commerce-cloud",
+      "name": "Commerce Cloud",
+      "vendor": "Salesforce",
+      "category": "E-Commerce",
+      "subcategory": "Retail Platform",
+      "description": "B2B and B2C commerce platform with unified storefront, inventory, and order management",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 500,
+        "currency": "USD",
+        "unit": "month"
+      },
+      "deployment": "saas",
+      "lifecycle_stage": "growth",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "E-Commerce Storefronts",
+        "Inventory Management",
+        "Order Processing",
+        "Personalization"
+      ],
+      "tags": ["salesforce", "commerce", "ecommerce", "retail"],
+      "specifications": {
+        "transactions": "Unlimited orders",
+        "storage": "Scalable",
+        "integration": "CRM native"
+      }
+    }
+  ]
+}

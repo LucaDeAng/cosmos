@@ -1,0 +1,104 @@
+{
+  "catalog_name": "Manufacturing & Industrial Solutions",
+  "catalog_type": "industrial",
+  "last_updated": "2026-01-07",
+  "version": "1.0",
+  "products": [
+    {
+      "id": "siemens-plm",
+      "name": "Siemens Product Lifecycle Management",
+      "vendor": "Siemens",
+      "category": "Manufacturing",
+      "subcategory": "PLM",
+      "description": "Digital enterprise software for managing product development, manufacturing, and supply chain",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise"
+      },
+      "deployment": "on_premise",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise_manufacturing",
+      "use_cases": [
+        "Product Design",
+        "Manufacturing Planning",
+        "Quality Management",
+        "Compliance"
+      ],
+      "tags": ["siemens", "plm", "manufacturing"]
+    },
+    {
+      "id": "dassault-catia",
+      "name": "Dassault CATIA Design",
+      "vendor": "Dassault Systèmes",
+      "category": "Design",
+      "subcategory": "CAD",
+      "description": "Advanced 3D design and engineering software for aerospace, automotive, and industrial",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "seat/year"
+      },
+      "deployment": "desktop",
+      "lifecycle_stage": "maturity",
+      "target_segment": "engineering_teams",
+      "use_cases": [
+        "Product Design",
+        "Engineering Analysis",
+        "Simulation",
+        "Visualization"
+      ],
+      "tags": ["dassault", "catia", "cad", "design"]
+    },
+    {
+      "id": "ge-predix",
+      "name": "GE Predix Industrial IoT",
+      "vendor": "GE Digital",
+      "category": "IoT",
+      "subcategory": "Industrial IoT",
+      "description": "Industrial IoT platform for asset performance management and predictive analytics",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise_manufacturing",
+      "use_cases": [
+        "Predictive Maintenance",
+        "Asset Monitoring",
+        "Operational Analytics",
+        "Connected Equipment"
+      ],
+      "tags": ["ge", "predix", "iot", "manufacturing"]
+    },
+    {
+      "id": "rockwell-automation",
+      "name": "Rockwell FactoryTalk",
+      "vendor": "Rockwell Automation",
+      "category": "Manufacturing",
+      "subcategory": "Automation",
+      "description": "Industrial automation software and control systems for manufacturing operations",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise"
+      },
+      "deployment": "hybrid",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise_manufacturing",
+      "use_cases": [
+        "Production Control",
+        "Real-time Monitoring",
+        "Quality Control",
+        "Data Analytics"
+      ],
+      "tags": ["rockwell", "automation", "manufacturing"]
+    }
+  ]
+}

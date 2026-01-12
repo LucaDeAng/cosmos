@@ -1,0 +1,124 @@
+{
+  "vendor": "AWS",
+  "catalog_name": "Amazon Web Services - Cloud Computing",
+  "last_updated": "2026-01-07",
+  "version": "1.0",
+  "products": [
+    {
+      "id": "aws-ec2",
+      "name": "Amazon EC2",
+      "vendor": "AWS",
+      "category": "Compute",
+      "subcategory": "Virtual Machines",
+      "description": "Scalable virtual computing capacity with on-demand, reserved, and spot pricing options",
+      "pricing_model": "pay_as_you_go",
+      "pricing_details": {
+        "amount": "varies",
+        "currency": "USD",
+        "unit": "per hour/instance"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Application Hosting",
+        "Web Servers",
+        "Development/Testing",
+        "Batch Processing"
+      ],
+      "tags": ["aws", "compute", "cloud", "vm", "infrastructure"],
+      "specifications": {
+        "instance_types": "50+",
+        "os_support": "Linux, Windows, macOS",
+        "scaling": "Auto-scaling groups"
+      }
+    },
+    {
+      "id": "aws-s3",
+      "name": "Amazon S3",
+      "vendor": "AWS",
+      "category": "Storage",
+      "subcategory": "Object Storage",
+      "description": "Scalable object storage with 99.999999999% durability and multi-region replication",
+      "pricing_model": "pay_as_you_go",
+      "pricing_details": {
+        "amount": "0.023",
+        "currency": "USD",
+        "unit": "per GB/month"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Data Lakes",
+        "Backup/Archive",
+        "Static Websites",
+        "Media Storage"
+      ],
+      "tags": ["aws", "storage", "s3", "object-storage"],
+      "specifications": {
+        "durability": "99.999999999%",
+        "availability": "99.99%",
+        "regions": "30+ AWS regions"
+      }
+    },
+    {
+      "id": "aws-rds",
+      "name": "Amazon RDS",
+      "vendor": "AWS",
+      "category": "Database",
+      "subcategory": "Managed Database",
+      "description": "Managed relational database supporting MySQL, PostgreSQL, Oracle, SQL Server, MariaDB",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "varies",
+        "currency": "USD",
+        "unit": "per instance/hour"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Application Databases",
+        "Data Warehousing",
+        "Analytics",
+        "Transaction Processing"
+      ],
+      "tags": ["aws", "database", "rds", "managed"],
+      "specifications": {
+        "engines": "MySQL, PostgreSQL, Oracle, SQL Server",
+        "backup": "Automated backups",
+        "replication": "Multi-AZ available"
+      }
+    },
+    {
+      "id": "aws-lambda",
+      "name": "AWS Lambda",
+      "vendor": "AWS",
+      "category": "Compute",
+      "subcategory": "Serverless",
+      "description": "Run code without provisioning servers, pay only for compute time used",
+      "pricing_model": "pay_as_you_go",
+      "pricing_details": {
+        "amount": "0.0000002",
+        "currency": "USD",
+        "unit": "per GB-second"
+      },
+      "deployment": "serverless",
+      "lifecycle_stage": "growth",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "API Backends",
+        "Event Processing",
+        "Real-time Processing",
+        "Scheduled Tasks"
+      ],
+      "tags": ["aws", "serverless", "lambda", "compute"],
+      "specifications": {
+        "memory": "128 MB - 10,240 MB",
+        "timeout": "Up to 15 minutes",
+        "languages": "Python, Node.js, Java, Go, .NET, Ruby"
+      }
+    }
+  ]
+}

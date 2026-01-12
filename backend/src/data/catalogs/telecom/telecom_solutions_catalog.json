@@ -1,0 +1,104 @@
+{
+  "catalog_name": "Telecommunications Solutions",
+  "catalog_type": "telecom",
+  "last_updated": "2026-01-07",
+  "version": "1.0",
+  "products": [
+    {
+      "id": "cisco-networking",
+      "name": "Cisco Networking Solutions",
+      "vendor": "Cisco",
+      "category": "Networking",
+      "subcategory": "Enterprise Networks",
+      "description": "Enterprise networking hardware and software for secure connectivity and operations",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise"
+      },
+      "deployment": "on_premise",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise_telecom",
+      "use_cases": [
+        "Network Infrastructure",
+        "Security",
+        "Collaboration",
+        "Cloud Connectivity"
+      ],
+      "tags": ["cisco", "networking", "enterprise"]
+    },
+    {
+      "id": "nokia-telecom",
+      "name": "Nokia Telecom Solutions",
+      "vendor": "Nokia",
+      "category": "Telecommunications",
+      "subcategory": "Network Infrastructure",
+      "description": "Telecom infrastructure and software for service providers and enterprises",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise"
+      },
+      "deployment": "hybrid",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise_telecom",
+      "use_cases": [
+        "5G Networks",
+        "Network Operations",
+        "Service Management",
+        "Cloud RAN"
+      ],
+      "tags": ["nokia", "telecom", "infrastructure"]
+    },
+    {
+      "id": "ericsson-5g",
+      "name": "Ericsson 5G Solutions",
+      "vendor": "Ericsson",
+      "category": "Telecommunications",
+      "subcategory": "5G Networks",
+      "description": "5G network infrastructure and management solutions for telecom operators",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise"
+      },
+      "deployment": "on_premise",
+      "lifecycle_stage": "growth",
+      "target_segment": "telecom_operators",
+      "use_cases": [
+        "5G Deployment",
+        "Network Slicing",
+        "Edge Computing",
+        "RAN Management"
+      ],
+      "tags": ["ericsson", "5g", "telecom"]
+    },
+    {
+      "id": "juniper-security",
+      "name": "Juniper Security Platform",
+      "vendor": "Juniper Networks",
+      "category": "Security",
+      "subcategory": "Network Security",
+      "description": "Network and security solutions for service providers and enterprises",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise"
+      },
+      "deployment": "on_premise",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise_telecom",
+      "use_cases": [
+        "Threat Prevention",
+        "DDoS Protection",
+        "Intrusion Detection",
+        "Network Segmentation"
+      ],
+      "tags": ["juniper", "security", "networking"]
+    }
+  ]
+}

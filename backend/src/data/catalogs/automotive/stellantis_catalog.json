@@ -1,0 +1,248 @@
+{
+  "catalog_name": "Stellantis Automotive Catalog",
+  "catalog_type": "automotive",
+  "last_updated": "2025-12-19",
+  "products": [
+    {
+      "name": "Fiat 500e",
+      "brand": "Fiat",
+      "category": "Electric Vehicles",
+      "subcategory": "Battery Electric Vehicles (BEV)",
+      "segment": "Automotive",
+      "description": "City car elettrica iconica, design italiano, zero emissioni",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "growth",
+      "target_segment": "Urban consumers, eco-conscious drivers",
+      "tags": ["elettrico", "bev", "city car", "fiat", "stellantis"],
+      "specifications": {
+        "powertrain": "BEV",
+        "range_km": 320,
+        "power_kw": 87
+      }
+    },
+    {
+      "name": "Fiat Panda",
+      "brand": "Fiat",
+      "category": "Passenger Vehicles",
+      "subcategory": "Hatchbacks",
+      "segment": "Automotive",
+      "description": "City car compatta, versatile, economica",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "maturity",
+      "target_segment": "First-time buyers, city commuters",
+      "tags": ["utilitaria", "city car", "fiat", "stellantis", "economica"],
+      "specifications": {
+        "powertrain": "Hybrid",
+        "engine": "1.0 FireFly"
+      }
+    },
+    {
+      "name": "Fiat Grande Panda",
+      "brand": "Fiat",
+      "category": "Passenger Vehicles",
+      "subcategory": "Crossovers",
+      "segment": "Automotive",
+      "description": "Nuovo crossover compatto basato su piattaforma STLA Small",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "introduction",
+      "target_segment": "Young families, urban professionals",
+      "tags": ["crossover", "bev", "mhev", "fiat", "stellantis"],
+      "specifications": {
+        "powertrain": "BEV/MHEV",
+        "platform": "STLA Small"
+      }
+    },
+    {
+      "name": "Fiat Tipo",
+      "brand": "Fiat",
+      "category": "Passenger Vehicles",
+      "subcategory": "Sedans",
+      "segment": "Automotive",
+      "description": "Berlina compatta, spazio e comfort a prezzo accessibile",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "maturity",
+      "target_segment": "Families, business users",
+      "tags": ["berlina", "sedan", "fiat", "stellantis"],
+      "specifications": {
+        "powertrain": "ICE/Hybrid"
+      }
+    },
+    {
+      "name": "Fiat Topolino",
+      "brand": "Fiat",
+      "category": "Passenger Vehicles",
+      "subcategory": "Quadricycles",
+      "segment": "Automotive",
+      "description": "Quadriciclo elettrico per mobilità urbana, guidabile dai 14 anni",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "growth",
+      "target_segment": "Urban youth, micro-mobility",
+      "tags": ["quadriciclo", "elettrico", "microcar", "fiat", "stellantis"],
+      "specifications": {
+        "powertrain": "BEV",
+        "max_speed_kmh": 45,
+        "range_km": 75
+      }
+    },
+    {
+      "name": "Fiat 600",
+      "brand": "Fiat",
+      "category": "Passenger Vehicles",
+      "subcategory": "Crossovers",
+      "segment": "Automotive",
+      "description": "Crossover B-SUV, disponibile elettrico e ibrido",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "growth",
+      "target_segment": "Young professionals, small families",
+      "tags": ["crossover", "b-suv", "bev", "mhev", "fiat", "stellantis"],
+      "specifications": {
+        "powertrain": "BEV/MHEV",
+        "platform": "e-CMP"
+      }
+    },
+    {
+      "name": "Fiat Doblo",
+      "brand": "Fiat",
+      "category": "Commercial Vehicles",
+      "subcategory": "Vans",
+      "segment": "Automotive",
+      "description": "Van compatto per famiglie e professionisti",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "maturity",
+      "target_segment": "Large families, small businesses",
+      "tags": ["van", "furgone", "commerciale", "fiat", "stellantis"],
+      "specifications": {
+        "powertrain": "ICE/BEV",
+        "cargo_volume_liters": 4000
+      }
+    },
+    {
+      "name": "Alfa Romeo Giulia",
+      "brand": "Alfa Romeo",
+      "category": "Passenger Vehicles",
+      "subcategory": "Sedans",
+      "segment": "Automotive",
+      "description": "Berlina sportiva premium italiana, driving dynamics excellence",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "maturity",
+      "target_segment": "Driving enthusiasts, premium buyers",
+      "tags": ["berlina", "sportiva", "premium", "alfa romeo", "stellantis"],
+      "specifications": {
+        "powertrain": "ICE/MHEV",
+        "platform": "Giorgio"
+      }
+    },
+    {
+      "name": "Alfa Romeo Stelvio",
+      "brand": "Alfa Romeo",
+      "category": "Passenger Vehicles",
+      "subcategory": "SUVs & Crossovers",
+      "segment": "Automotive",
+      "description": "SUV premium sportivo italiano",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "maturity",
+      "target_segment": "Premium SUV buyers, families",
+      "tags": ["suv", "sportivo", "premium", "alfa romeo", "stellantis"],
+      "specifications": {
+        "powertrain": "ICE/MHEV",
+        "platform": "Giorgio"
+      }
+    },
+    {
+      "name": "Alfa Romeo Tonale",
+      "brand": "Alfa Romeo",
+      "category": "Passenger Vehicles",
+      "subcategory": "SUVs & Crossovers",
+      "segment": "Automotive",
+      "description": "C-SUV premium compatto, ibrido plug-in",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "growth",
+      "target_segment": "Young premium buyers",
+      "tags": ["suv", "compatto", "phev", "premium", "alfa romeo", "stellantis"],
+      "specifications": {
+        "powertrain": "PHEV/MHEV",
+        "platform": "CMP"
+      }
+    },
+    {
+      "name": "Alfa Romeo Junior",
+      "brand": "Alfa Romeo",
+      "category": "Passenger Vehicles",
+      "subcategory": "SUVs & Crossovers",
+      "segment": "Automotive",
+      "description": "B-SUV entry level premium, elettrico e ibrido",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "introduction",
+      "target_segment": "Entry premium buyers",
+      "tags": ["b-suv", "entry", "bev", "mhev", "alfa romeo", "stellantis"],
+      "specifications": {
+        "powertrain": "BEV/MHEV",
+        "platform": "e-CMP"
+      }
+    },
+    {
+      "name": "Jeep Renegade",
+      "brand": "Jeep",
+      "category": "Passenger Vehicles",
+      "subcategory": "SUVs & Crossovers",
+      "segment": "Automotive",
+      "description": "SUV compatto con capacità off-road",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "maturity",
+      "target_segment": "Adventure seekers, young buyers",
+      "tags": ["suv", "compatto", "off-road", "4x4", "jeep", "stellantis"],
+      "specifications": {
+        "powertrain": "ICE/PHEV",
+        "4wd": true
+      }
+    },
+    {
+      "name": "Jeep Compass",
+      "brand": "Jeep",
+      "category": "Passenger Vehicles",
+      "subcategory": "SUVs & Crossovers",
+      "segment": "Automotive",
+      "description": "SUV medio con versatilità on/off road",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "maturity",
+      "target_segment": "Families, adventure lovers",
+      "tags": ["suv", "medio", "off-road", "4x4", "jeep", "stellantis"],
+      "specifications": {
+        "powertrain": "ICE/PHEV",
+        "4wd": true
+      }
+    },
+    {
+      "name": "Lancia Ypsilon",
+      "brand": "Lancia",
+      "category": "Passenger Vehicles",
+      "subcategory": "Hatchbacks",
+      "segment": "Automotive",
+      "description": "City car elegante italiana, nuovo modello elettrico",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "introduction",
+      "target_segment": "Style-conscious urbanites",
+      "tags": ["city car", "elegante", "bev", "lancia", "stellantis"],
+      "specifications": {
+        "powertrain": "BEV/MHEV",
+        "platform": "e-CMP"
+      }
+    },
+    {
+      "name": "Maserati Grecale",
+      "brand": "Maserati",
+      "category": "Passenger Vehicles",
+      "subcategory": "SUVs & Crossovers",
+      "segment": "Automotive",
+      "description": "SUV luxury sportivo del Tridente",
+      "pricing_model": "one_time",
+      "lifecycle_stage": "growth",
+      "target_segment": "Luxury buyers, brand enthusiasts",
+      "tags": ["suv", "luxury", "sportivo", "maserati", "stellantis"],
+      "specifications": {
+        "powertrain": "ICE/MHEV/BEV",
+        "platform": "Giorgio"
+      }
+    }
+  ]
+}

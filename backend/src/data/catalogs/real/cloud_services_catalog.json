@@ -1,0 +1,143 @@
+{
+  "catalog_name": "Cloud Services Real Catalog",
+  "catalog_type": "real_cloud_services",
+  "last_updated": "2026-01-07",
+  "version": "1.0",
+  "description": "Real cloud services and platforms used in production environments",
+  "source": "Public Service Offerings",
+  "products": [
+    {
+      "id": "aws-ec2",
+      "name": "Amazon EC2",
+      "vendor": "Amazon Web Services",
+      "category": "Compute",
+      "subcategory": "Virtual Machines",
+      "description": "Secure, resizable compute capacity in the cloud. On-demand compute instances",
+      "url": "https://aws.amazon.com/ec2/",
+      "pricing_model": "pay_as_you_go",
+      "pricing_details": {
+        "estimate": "0.0116 USD per hour (t3.micro)",
+        "currency": "USD",
+        "unit": "per instance hour"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "sla": "99.99%"
+    },
+    {
+      "id": "aws-rds",
+      "name": "Amazon RDS",
+      "vendor": "Amazon Web Services",
+      "category": "Database",
+      "subcategory": "Managed SQL",
+      "description": "Managed relational database service supporting MySQL, PostgreSQL, MariaDB, Oracle, SQL Server",
+      "url": "https://aws.amazon.com/rds/",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "estimate": "0.017 USD per hour (db.t3.micro)",
+        "currency": "USD",
+        "unit": "per instance hour"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "sla": "99.95%"
+    },
+    {
+      "id": "gcp-cloud-run",
+      "name": "Google Cloud Run",
+      "vendor": "Google Cloud",
+      "category": "Compute",
+      "subcategory": "Serverless Containers",
+      "description": "Fully managed compute platform for containerized applications and APIs",
+      "url": "https://cloud.google.com/run",
+      "pricing_model": "pay_as_you_go",
+      "pricing_details": {
+        "estimate": "0.00002400 USD per vCPU-second",
+        "currency": "USD",
+        "unit": "per compute unit"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "growth",
+      "target_segment": "enterprise",
+      "sla": "99.95%"
+    },
+    {
+      "id": "azure-app-service",
+      "name": "Azure App Service",
+      "vendor": "Microsoft Azure",
+      "category": "Compute",
+      "subcategory": "Web Apps",
+      "description": "Fully managed service for building web and mobile apps",
+      "url": "https://azure.microsoft.com/services/app-service/",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "estimate": "13 USD per month",
+        "currency": "USD",
+        "unit": "per app instance (Basic tier)"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "enterprise",
+      "sla": "99.95%"
+    },
+    {
+      "id": "vercel-deployment",
+      "name": "Vercel",
+      "vendor": "Vercel Inc.",
+      "category": "Deployment Platform",
+      "subcategory": "Hosting",
+      "description": "The platform for frontend developers - serverless functions and edge deployment",
+      "url": "https://vercel.com/",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 20,
+        "currency": "USD",
+        "unit": "per month (Pro tier)"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "maturity",
+      "target_segment": "developers",
+      "sla": "99.95%"
+    },
+    {
+      "id": "railway-deployment",
+      "name": "Railway",
+      "vendor": "Railway",
+      "category": "Deployment Platform",
+      "subcategory": "Hosting",
+      "description": "Modern cloud infrastructure platform - deploy anything in seconds",
+      "url": "https://railway.app/",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 5,
+        "currency": "USD",
+        "unit": "per month (free credits)"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "growth",
+      "target_segment": "startups",
+      "sla": "99.9%"
+    },
+    {
+      "id": "supabase-postgres",
+      "name": "Supabase",
+      "vendor": "Supabase",
+      "category": "Backend-as-a-Service",
+      "subcategory": "PostgreSQL Database",
+      "description": "Open source Firebase alternative - PostgreSQL database with real-time APIs",
+      "url": "https://supabase.com/",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": 25,
+        "currency": "USD",
+        "unit": "per month (Pro tier)"
+      },
+      "deployment": "cloud",
+      "lifecycle_stage": "growth",
+      "target_segment": "developers",
+      "sla": "99.9%"
+    }
+  ]
+}

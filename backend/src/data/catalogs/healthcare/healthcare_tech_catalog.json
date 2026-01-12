@@ -1,0 +1,80 @@
+{
+  "catalog_name": "Healthcare Technology Solutions",
+  "catalog_type": "healthcare",
+  "last_updated": "2026-01-07",
+  "version": "1.0",
+  "products": [
+    {
+      "id": "epic-emr",
+      "name": "Epic Electronic Medical Record",
+      "vendor": "Epic Systems",
+      "category": "Healthcare IT",
+      "subcategory": "Electronic Health Records",
+      "description": "Comprehensive EHR system for hospitals and health systems with clinical, financial, and administrative modules",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "enterprise"
+      },
+      "deployment": "on_premise",
+      "lifecycle_stage": "maturity",
+      "target_segment": "healthcare_enterprise",
+      "use_cases": [
+        "Patient Records",
+        "Clinical Documentation",
+        "Billing/Revenue Cycle",
+        "Pharmacy Management"
+      ],
+      "tags": ["epic", "emr", "ehr", "healthcare"]
+    },
+    {
+      "id": "teladoc-virtual-care",
+      "name": "Teladoc Virtual Care Platform",
+      "vendor": "Teladoc Health",
+      "category": "Healthcare Services",
+      "subcategory": "Telemedicine",
+      "description": "Virtual care platform connecting patients with licensed healthcare providers",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "varies",
+        "currency": "USD",
+        "unit": "per visit"
+      },
+      "deployment": "saas",
+      "lifecycle_stage": "growth",
+      "target_segment": "healthcare_enterprise",
+      "use_cases": [
+        "Remote Consultations",
+        "Chronic Care Management",
+        "Mental Health Services",
+        "Urgent Care"
+      ],
+      "tags": ["teladoc", "telemedicine", "virtual-care", "healthcare"]
+    },
+    {
+      "id": "philips-monitoring",
+      "name": "Philips Remote Monitoring Solutions",
+      "vendor": "Philips Healthcare",
+      "category": "Healthcare Devices",
+      "subcategory": "Patient Monitoring",
+      "description": "Connected healthcare solutions for remote patient monitoring and diagnostics",
+      "pricing_model": "subscription",
+      "pricing_details": {
+        "amount": "custom",
+        "currency": "USD",
+        "unit": "per patient/month"
+      },
+      "deployment": "hybrid",
+      "lifecycle_stage": "maturity",
+      "target_segment": "healthcare_enterprise",
+      "use_cases": [
+        "Remote Monitoring",
+        "Cardiology",
+        "Respiratory",
+        "Sleep Management"
+      ],
+      "tags": ["philips", "monitoring", "devices", "healthcare"]
+    }
+  ]
+}

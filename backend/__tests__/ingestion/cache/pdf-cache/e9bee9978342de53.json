@@ -1,0 +1,83 @@
+[
+  {
+    "id": "pdf-1-xjg3fh",
+    "name": "EC2 Instance",
+    "type": "service",
+    "description": "t3.medium, 4GB RAM, 20GB SSD",
+    "confidence": 0.85,
+    "price": 10,
+    "metadata": {
+      "ServiceProvider": "AWS",
+      "Monthly Cost": "$10-50"
+    }
+  },
+  {
+    "id": "pdf-2-w3karm",
+    "name": "Cloud SQL",
+    "type": "service",
+    "description": "PostgreSQL, 1TB Storage, HA",
+    "confidence": 0.85,
+    "price": 15,
+    "metadata": {
+      "ServiceProvider": "GCP",
+      "Monthly Cost": "$15-100"
+    }
+  },
+  {
+    "id": "pdf-3-i3gfrd",
+    "name": "App Service",
+    "type": "service",
+    "description": "Custom Domain, SSL, Auto-scale",
+    "confidence": 0.85,
+    "price": 13,
+    "metadata": {
+      "ServiceProvider": "Azure",
+      "Monthly Cost": "$13-99"
+    }
+  },
+  {
+    "id": "pdf-4-ltfxwj",
+    "name": "Cloud Run",
+    "type": "service",
+    "description": "Containers, Auto-scaling, 2M/month free",
+    "confidence": 0.85,
+    "metadata": {
+      "ServiceProvider": "GCP",
+      "Monthly Cost": "Pay-as-you-go"
+    }
+  },
+  {
+    "id": "pdf-5-ma4xt7",
+    "name": "RDS Database",
+    "type": "service",
+    "description": "Managed, Automated Backups, Multi-AZ",
+    "confidence": 0.85,
+    "price": 15,
+    "metadata": {
+      "ServiceProvider": "AWS",
+      "Monthly Cost": "$15-200"
+    }
+  },
+  {
+    "id": "pdf-6-6tid3z",
+    "name": "Lambda Functions",
+    "type": "service",
+    "description": "1M requests/month free",
+    "confidence": 0.85,
+    "metadata": {
+      "ServiceProvider": "AWS",
+      "Monthly Cost": "Pay-as-you-go"
+    }
+  },
+  {
+    "id": "pdf-7-27o9dy",
+    "name": "Cloud Functions",
+    "type": "service",
+    "description": "Event-driven, Serverless",
+    "confidence": 0.85,
+    "metadata": {
+      "ServiceProvider": "GCP",
+      "Monthly Cost": "Pay-as-you-go"
+    }
+  }
+]

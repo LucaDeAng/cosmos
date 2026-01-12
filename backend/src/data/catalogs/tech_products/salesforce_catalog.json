@@ -1,0 +1,548 @@
+{
+  "vendor": "Salesforce",
+  "last_updated": "2026-01-03",
+  "version": "1.0",
+  "products": [
+    {
+      "id": "sf-sales-cloud",
+      "name": "Salesforce Sales Cloud",
+      "vendor": "Salesforce",
+      "category": "Customer Relationship Management",
+      "subcategory": "Sales Automation",
+      "description": "AI-powered CRM for sales teams. Lead management, opportunity tracking, forecasting, and sales analytics.",
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Lead Management",
+        "Opportunity Tracking",
+        "Sales Forecasting",
+        "Pipeline Management"
+      ],
+      "integrations": [
+        "Outlook",
+        "Gmail",
+        "Slack",
+        "LinkedIn",
+        "DocuSign"
+      ],
+      "industry_tags": [
+        "All Industries",
+        "B2B Sales",
+        "B2C Sales"
+      ],
+      "aliases": [
+        "Sales Cloud",
+        "Salesforce CRM",
+        "SFDC",
+        "Salesforce Sales Cloud",
+        "SAP SuccessFactors",
+        "SuccessFactors",
+        "SF",
+        "SAP SF"
+      ],
+      "keywords": [
+        "Salesforce",
+        "Salesforce Salesforce Sales Cloud",
+        "SSC"
+      ]
+    },
+    {
+      "id": "sf-service-cloud",
+      "name": "Salesforce Service Cloud",
+      "vendor": "Salesforce",
+      "category": "Customer Relationship Management",
+      "subcategory": "Customer Service",
+      "description": "Omnichannel customer service platform with case management, knowledge base, and field service.",
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Case Management",
+        "Live Chat",
+        "Knowledge Base",
+        "Field Service"
+      ],
+      "integrations": [
+        "CTI",
+        "Chatbots",
+        "WhatsApp",
+        "Social Media"
+      ],
+      "industry_tags": [
+        "Retail",
+        "Telecom",
+        "Healthcare",
+        "Financial Services"
+      ],
+      "aliases": [
+        "Service Cloud",
+        "Salesforce Service Cloud",
+        "SAP SuccessFactors",
+        "SuccessFactors",
+        "SF",
+        "SAP SF"
+      ],
+      "keywords": [
+        "Salesforce",
+        "Salesforce Salesforce Service Cloud",
+        "SSC"
+      ]
+    },
+    {
+      "id": "sf-marketing-cloud",
+      "name": "Salesforce Marketing Cloud",
+      "vendor": "Salesforce",
+      "category": "Marketing Software",
+      "subcategory": "Marketing Automation",
+      "description": "Complete digital marketing platform for email, mobile, social, advertising, and web personalization.",
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Email Marketing",
+        "Journey Builder",
+        "Social Media",
+        "Advertising"
+      ],
+      "integrations": [
+        "Sales Cloud",
+        "Service Cloud",
+        "Data Cloud",
+        "Google Ads"
+      ],
+      "industry_tags": [
+        "Retail",
+        "B2C",
+        "Media",
+        "Travel"
+      ],
+      "aliases": [
+        "Marketing Cloud",
+        "SFMC",
+        "ExactTarget",
+        "Salesforce Marketing Cloud",
+        "SAP SuccessFactors",
+        "SuccessFactors",
+        "SF",
+        "SAP SF"
+      ],
+      "keywords": [
+        "Salesforce",
+        "Salesforce Salesforce Marketing Cloud",
+        "SMC"
+      ]
+    },
+    {
+      "id": "sf-commerce-cloud",
+      "name": "Salesforce Commerce Cloud",
+      "vendor": "Salesforce",
+      "category": "Ecommerce Platform",
+      "subcategory": "B2B/B2C Commerce",
+      "description": "Unified commerce platform for B2B and B2C digital commerce with AI-powered personalization.",
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "B2C Ecommerce",
+        "B2B Commerce",
+        "Order Management",
+        "Personalization"
+      ],
+      "integrations": [
+        "Sales Cloud",
+        "Service Cloud",
+        "MuleSoft",
+        "Payment Gateways"
+      ],
+      "industry_tags": [
+        "Retail",
+        "Consumer Goods",
+        "Manufacturing"
+      ],
+      "aliases": [
+        "SAP SuccessFactors",
+        "SuccessFactors",
+        "SF",
+        "SAP SF"
+      ],
+      "keywords": [
+        "Salesforce",
+        "Salesforce Salesforce Commerce Cloud",
+        "SCC"
+      ]
+    },
+    {
+      "id": "sf-experience-cloud",
+      "name": "Salesforce Experience Cloud",
+      "vendor": "Salesforce",
+      "category": "Digital Experience Platform",
+      "subcategory": "Portal & Community",
+      "description": "Build portals, websites, and communities for customers, partners, and employees.",
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Partner Portal",
+        "Customer Community",
+        "Self-Service Portal",
+        "Help Center"
+      ],
+      "integrations": [
+        "Sales Cloud",
+        "Service Cloud",
+        "CMS"
+      ],
+      "industry_tags": [
+        "B2B",
+        "Financial Services",
+        "Healthcare"
+      ],
+      "aliases": [
+        "SAP SuccessFactors",
+        "SuccessFactors",
+        "SF",
+        "SAP SF"
+      ],
+      "keywords": [
+        "Salesforce",
+        "Salesforce Salesforce Experience Cloud",
+        "SEC"
+      ]
+    },
+    {
+      "id": "sf-platform",
+      "name": "Salesforce Platform",
+      "vendor": "Salesforce",
+      "category": "Low-Code Platform",
+      "subcategory": "Application Development",
+      "description": "Low-code platform for building custom applications on Salesforce infrastructure.",
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Custom Apps",
+        "Process Automation",
+        "App Integration",
+        "Mobile Apps"
+      ],
+      "integrations": [
+        "All Salesforce Clouds",
+        "Heroku",
+        "MuleSoft"
+      ],
+      "industry_tags": [
+        "All Industries"
+      ],
+      "aliases": [
+        "SAP SuccessFactors",
+        "SuccessFactors",
+        "SF",
+        "SAP SF"
+      ],
+      "keywords": [
+        "Salesforce",
+        "Salesforce Salesforce Platform",
+        "SP"
+      ]
+    },
+    {
+      "id": "sf-tableau",
+      "name": "Tableau",
+      "vendor": "Salesforce",
+      "category": "Analytics & BI",
+      "subcategory": "Data Visualization",
+      "description": "Leading visual analytics platform for business intelligence and data exploration.",
+      "pricing_model": "subscription",
+      "deployment": "hybrid",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Data Visualization",
+        "Business Intelligence",
+        "Self-Service Analytics",
+        "Dashboards"
+      ],
+      "integrations": [
+        "Salesforce",
+        "Snowflake",
+        "AWS",
+        "Azure",
+        "Google Cloud"
+      ],
+      "industry_tags": [
+        "All Industries"
+      ],
+      "keywords": [
+        "Salesforce",
+        "Salesforce Tableau"
+      ]
+    },
+    {
+      "id": "sf-mulesoft",
+      "name": "MuleSoft Anypoint Platform",
+      "vendor": "Salesforce",
+      "category": "Integration Platform",
+      "subcategory": "iPaaS",
+      "description": "Enterprise integration platform for connecting applications, data, and devices with APIs.",
+      "pricing_model": "subscription",
+      "deployment": "hybrid",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "API Management",
+        "Application Integration",
+        "Data Integration",
+        "B2B Integration"
+      ],
+      "integrations": [
+        "Salesforce",
+        "SAP",
+        "Workday",
+        "AWS",
+        "Azure"
+      ],
+      "industry_tags": [
+        "Enterprise",
+        "Financial Services",
+        "Healthcare"
+      ],
+      "keywords": [
+        "Salesforce",
+        "Salesforce MuleSoft Anypoint Platform",
+        "MAP"
+      ]
+    },
+    {
+      "id": "sf-slack",
+      "name": "Slack",
+      "vendor": "Salesforce",
+      "category": "Collaboration Software",
+      "subcategory": "Team Messaging",
+      "description": "Business communication platform with channels, messaging, and workflow automation.",
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "all",
+      "use_cases": [
+        "Team Communication",
+        "Project Collaboration",
+        "File Sharing",
+        "Workflow Automation"
+      ],
+      "integrations": [
+        "Salesforce",
+        "Google Workspace",
+        "Microsoft 365",
+        "Jira",
+        "Asana"
+      ],
+      "industry_tags": [
+        "All Industries",
+        "Tech",
+        "Startups"
+      ],
+      "aliases": [
+        "Slack Enterprise",
+        "Slack Business+"
+      ],
+      "keywords": [
+        "Salesforce",
+        "Salesforce Slack"
+      ]
+    },
+    {
+      "id": "sf-data-cloud",
+      "name": "Salesforce Data Cloud",
+      "vendor": "Salesforce",
+      "category": "Customer Data Platform",
+      "subcategory": "CDP",
+      "description": "Real-time customer data platform for unified customer profiles and personalization.",
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Customer 360",
+        "Data Unification",
+        "Identity Resolution",
+        "Personalization"
+      ],
+      "integrations": [
+        "All Salesforce Clouds",
+        "AWS",
+        "Google Cloud",
+        "Snowflake"
+      ],
+      "industry_tags": [
+        "Retail",
+        "Financial Services",
+        "Healthcare"
+      ],
+      "aliases": [
+        "SAP SuccessFactors",
+        "SuccessFactors",
+        "SF",
+        "SAP SF"
+      ],
+      "keywords": [
+        "Salesforce",
+        "Salesforce Salesforce Data Cloud",
+        "SDC"
+      ]
+    },
+    {
+      "id": "sf-einstein",
+      "name": "Salesforce Einstein AI",
+      "vendor": "Salesforce",
+      "category": "AI & Machine Learning",
+      "subcategory": "AI Platform",
+      "description": "AI layer for Salesforce with predictions, recommendations, and automation across all clouds.",
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Lead Scoring",
+        "Predictive Analytics",
+        "Natural Language Processing",
+        "Recommendations"
+      ],
+      "integrations": [
+        "All Salesforce Clouds"
+      ],
+      "industry_tags": [
+        "All Industries"
+      ],
+      "aliases": [
+        "SAP SuccessFactors",
+        "SuccessFactors",
+        "SF",
+        "SAP SF",
+        "Oracle NetSuite",
+        "NetSuite",
+        "NS"
+      ],
+      "keywords": [
+        "Salesforce",
+        "Salesforce Salesforce Einstein AI",
+        "SEA"
+      ]
+    },
+    {
+      "id": "sf-heroku",
+      "name": "Heroku",
+      "vendor": "Salesforce",
+      "category": "Cloud Computing",
+      "subcategory": "PaaS",
+      "description": "Cloud platform for building, running, and scaling applications.",
+      "pricing_model": "usage_based",
+      "deployment": "paas",
+      "target_segment": "all",
+      "use_cases": [
+        "Web Applications",
+        "Mobile Backends",
+        "API Services",
+        "Microservices"
+      ],
+      "integrations": [
+        "Salesforce",
+        "GitHub",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "industry_tags": [
+        "Tech",
+        "Startups",
+        "Enterprise"
+      ],
+      "keywords": [
+        "Salesforce",
+        "Salesforce Heroku"
+      ]
+    },
+    {
+      "id": "sf-pardot",
+      "name": "Salesforce Marketing Cloud Account Engagement (Pardot)",
+      "vendor": "Salesforce",
+      "category": "Marketing Software",
+      "subcategory": "B2B Marketing Automation",
+      "description": "B2B marketing automation for lead generation, nurturing, and sales alignment.",
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Lead Generation",
+        "Email Marketing",
+        "Lead Scoring",
+        "Sales Enablement"
+      ],
+      "integrations": [
+        "Sales Cloud",
+        "CRM Analytics",
+        "Google Ads"
+      ],
+      "industry_tags": [
+        "B2B",
+        "Technology",
+        "Manufacturing",
+        "Financial Services"
+      ],
+      "aliases": [
+        "Marketing Cloud",
+        "SFMC",
+        "ExactTarget",
+        "Salesforce Marketing Cloud",
+        "Salesforce Pardot",
+        "Pardot",
+        "Marketing Cloud Account Engagement",
+        "SAP SuccessFactors",
+        "SuccessFactors",
+        "SF",
+        "SAP SF",
+        "Adobe Creative Cloud",
+        "Creative Cloud",
+        "CC",
+        "Adobe CC"
+      ],
+      "keywords": [
+        "Salesforce",
+        "Salesforce Salesforce Marketing Cloud Account Engagement (Pardot)"
+      ]
+    },
+    {
+      "id": "sf-field-service",
+      "name": "Salesforce Field Service",
+      "vendor": "Salesforce",
+      "category": "Field Service Management",
+      "subcategory": "Workforce Management",
+      "description": "Field service management for scheduling, dispatching, and mobile workforce optimization.",
+      "pricing_model": "subscription",
+      "deployment": "saas",
+      "target_segment": "enterprise",
+      "use_cases": [
+        "Work Order Management",
+        "Scheduling",
+        "Mobile Workforce",
+        "Asset Management"
+      ],
+      "integrations": [
+        "Service Cloud",
+        "IoT",
+        "Maps"
+      ],
+      "industry_tags": [
+        "Utilities",
+        "Manufacturing",
+        "Telecom",
+        "Healthcare"
+      ],
+      "aliases": [
+        "SAP SuccessFactors",
+        "SuccessFactors",
+        "SF",
+        "SAP SF"
+      ],
+      "keywords": [
+        "Salesforce",
+        "Salesforce Salesforce Field Service",
+        "SFS"
+      ]
+    }
+  ]
+}

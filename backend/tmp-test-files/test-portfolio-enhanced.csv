@@ -1,0 +1,8 @@
+Nome,Descrizione,Tipo,Budget,Stato,Priorita,Owner,Tecnologie
+Cloud Digital Transformation Platform,Migrazione completa dell'infrastruttura on-premise verso AWS con modernizzazione applicativa e containerizzazione,Prodotto,350000,In Corso,Alta,Cloud Team,"AWS, Docker, Kubernetes"
+Managed Security Services 24/7,Servizio di monitoraggio e risposta continua per cybersecurity con SOC dedicato,Servizio,180000,Attivo,Critica,Security Team,"SIEM, EDR, Firewall"
+Microsoft 365 Enterprise,Suite produttività aziendale con Office apps Teams SharePoint e OneDrive,Prodotto,120000,Attivo,Media,IT Team,"Office365, Teams, SharePoint"
+Help Desk Support,Supporto tecnico utenti con gestione ticket,Servizio,90000,Attivo,Media,Support Team,"ServiceNow, Zendesk"
+Innovation Lab Platform,Piattaforma sperimentale per prototipazione rapida e testing nuove tecnologie,Prodotto,80000,Pianificato,Bassa,Innovation Team,"React, Node.js, Python"
+Customer Portal Web,Portale self-service clienti,Prodotto,,Proposto,,Digital Team,
+Basic IT Maintenance,,Servizio,,,,,

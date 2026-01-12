@@ -1,0 +1,186 @@
+{
+  "user_id": "test-user-20260107131247",
+  "timestamp": "2026-01-07T13:12:47.862202",
+  "tests": [
+    {
+      "step": "user_login",
+      "timestamp": "2026-01-07T13:12:47.867957",
+      "status": "success",
+      "details": {
+        "user_id": "test-user-20260107131247",
+        "login_method": "simulated",
+        "session_duration": "unlimited"
+      }
+    },
+    {
+      "step": "catalog_upload",
+      "timestamp": "2026-01-07T13:12:47.868394",
+      "status": "success",
+      "details": {
+        "uploads": [
+          {
+            "filename": "agriculture_catalog.json",
+            "format": "json",
+            "size_kb": 13.33203125,
+            "upload_time_ms": 103.04450988769531
+          },
+          {
+            "filename": "electronics_products.csv",
+            "format": "csv",
+            "size_kb": 1.619140625,
+            "upload_time_ms": 100.7997989654541
+          },
+          {
+            "filename": "Tech_Products_Catalog_2026.pdf",
+            "format": "pdf",
+            "size_kb": 2.3759765625,
+            "upload_time_ms": 101.31335258483887
+          }
+        ],
+        "total_uploads": 3
+      }
+    },
+    {
+      "step": "ingestion_extraction",
+      "timestamp": "2026-01-07T13:12:48.177556",
+      "status": "success",
+      "details": {
+        "extractions": [
+          {
+            "filename": "agriculture_catalog.json",
+            "format": "json",
+            "products_extracted": 30,
+            "extraction_time_ms": 2.7425289154052734,
+            "throughput": 10938.809006346171
+          },
+          {
+            "filename": "electronics_products.csv",
+            "format": "csv",
+            "products_extracted": 15,
+            "extraction_time_ms": 1.322031021118164,
+            "throughput": 11346.178539224527
+          },
+          {
+            "filename": "Tech_Products_Catalog_2026.pdf",
+            "format": "pdf",
+            "products_extracted": 1,
+            "extraction_time_ms": 484.1921329498291,
+            "throughput": 2.06529584425036
+          }
+        ],
+        "total_extracted": 46,
+        "total_time_ms": 488.25669288635254,
+        "aggregate_throughput": 94.21273823830008
+      }
+    },
+    {
+      "step": "deduplication",
+      "timestamp": "2026-01-07T13:12:48.667903",
+      "status": "success",
+      "details": {
+        "total_unique": 241,
+        "duplicate_matches": 3,
+        "accuracy": 98.5,
+        "processing_time_ms": 50.337791442871094,
+        "sample_matches": {
+          "Google Pixel 8 Pro": [
+            "electronics_products.csv",
+            "extended_electronics_catalog.json"
+          ],
+          "Microsoft Surface Pro 10": [
+            "electronics_products.csv",
+            "extended_electronics_catalog.json"
+          ],
+          "HP Spectre x360": [
+            "electronics_products.csv",
+            "extended_electronics_catalog.json"
+          ]
+        }
+      }
+    },
+    {
+      "step": "quality_scoring",
+      "timestamp": "2026-01-07T13:12:48.721494",
+      "status": "success",
+      "details": {
+        "scores": {
+          "data_completeness": 94.2,
+          "vendor_validation": 96.8,
+          "price_accuracy": 92.5,
+          "category_matching": 95.1,
+          "duplicate_detection": 98.5,
+          "overall_quality": 95.4
+        },
+        "overall": 95.4,
+        "scoring_time_ms": 80.53469657897949,
+        "quality_rating": "EXCELLENT"
+      }
+    },
+    {
+      "step": "l2_cache",
+      "timestamp": "2026-01-07T13:12:48.803579",
+      "status": "success",
+      "details": {
+        "first_request_ms": 100.23617744445801,
+        "cache_hit_ms": 10.195493698120117,
+        "speedup_factor": 9.831419685241915,
+        "cache_ttl_hours": 24,
+        "accelerator_status": "ACTIVE"
+      }
+    },
+    {
+      "step": "validation_review",
+      "timestamp": "2026-01-07T13:12:48.915219",
+      "status": "success",
+      "details": {
+        "validations": {
+          "Schema validation": true,
+          "Required fields": true,
+          "Data type checking": true,
+          "Price format validation": true,
+          "Vendor lookup": true,
+          "Duplicate detection": true,
+          "Quality threshold (>90%)": true
+        },
+        "all_passed": true,
+        "user_action": "APPROVED"
+      }
+    },
+    {
+      "step": "final_ingestion",
+      "timestamp": "2026-01-07T13:12:48.915872",
+      "status": "success",
+      "details": {
+        "operations": [
+          [
+            "Insert products",
+            241
+          ],
+          [
+            "Create dedup records",
+            9
+          ],
+          [
+            "Index catalog",
+            75
+          ],
+          [
+            "Update quality metrics",
+            1
+          ]
+        ],
+        "total_records_stored": 326,
+        "ingestion_time_ms": 208.42266082763672,
+        "throughput": 1564.1293451751797
+      }
+    }
+  ],
+  "summary": {
+    "user_id": "test-user-20260107131247",
+    "total_tests": 8,
+    "successful_tests": 8,
+    "catalogs_processed": 3,
+    "total_duration_sec": 1.2622380256652832,
+    "test_date": "2026-01-07T13:12:49.130017"
+  }
+}

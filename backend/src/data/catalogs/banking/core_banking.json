@@ -1,0 +1,12 @@
+{
+  "category": "Banking & Finance",
+  "subcategory": "Core Banking Systems",
+  "products": [
+    {"id": "bank-001", "name": "Temenos T24", "vendor": "Temenos", "category": "Banking", "subcategory": "Core Banking", "description": "Core banking platform for retail and corporate banking", "pricing_model": "license", "deployment": "hybrid", "target_segment": "enterprise", "keywords": ["temenos", "t24", "core banking"]},
+    {"id": "bank-002", "name": "FIS Profile", "vendor": "FIS", "category": "Banking", "subcategory": "Core Banking", "description": "Retail banking platform", "pricing_model": "license", "deployment": "on_premise", "target_segment": "enterprise", "keywords": ["fis", "profile", "banking"]},
+    {"id": "bank-003", "name": "Finastra Fusion", "vendor": "Finastra", "category": "Banking", "subcategory": "Core Banking", "description": "Modern core banking platform", "pricing_model": "subscription", "deployment": "saas", "target_segment": "enterprise", "keywords": ["finastra", "fusion", "core banking"]},
+    {"id": "payment-001", "name": "ACI Worldwide", "vendor": "ACI", "category": "Banking", "subcategory": "Payment Processing", "description": "Payment systems and digital banking", "pricing_model": "license", "deployment": "hybrid", "target_segment": "enterprise", "keywords": ["aci", "payments", "digital banking"]},
+    {"id": "wealth-001", "name": "SS&C Black Diamond", "vendor": "SS&C Technologies", "category": "Banking", "subcategory": "Wealth Management", "description": "Wealth management platform", "pricing_model": "subscription", "deployment": "saas", "target_segment": "enterprise", "keywords": ["black diamond", "wealth management"]},
+    {"id": "lending-001", "name": "nCino", "vendor": "nCino", "category": "Banking", "subcategory": "Lending", "description": "Cloud banking and lending platform", "pricing_model": "subscription", "deployment": "saas", "target_segment": "enterprise", "keywords": ["ncino", "lending", "loan origination"]}
+  ]
+}
