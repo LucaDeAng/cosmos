@@ -31,6 +31,14 @@ export class OrchestratorAgent {
   }
 
   /**
+   * Escape curly braces for LangChain PromptTemplate.
+   * Single { becomes {{ and single } becomes }} to prevent template variable interpretation.
+   */
+  private escapeTemplateChars(str: string): string {
+    return str.replace(/\{/g, '{{').replace(/\}/g, '}}');
+  }
+
+  /**
    * Interpret a user message and decide whether to call a subagent or answer directly.
    * Returns a programmatic action conforming to OrchestratorActionSchema.
    */
@@ -39,7 +47,9 @@ export class OrchestratorAgent {
     const contextText = context ? `CONTEXT:\n${JSON.stringify(context, null, 2)}\n\n` : '';
     const promptStr = `${this.systemPrompt}\n\n${contextText}USER MESSAGE:\n${userMessage}\n\n${this.parser.getFormatInstructions()}`;
 
-    const runPrompt = new PromptTemplate({ template: promptStr, inputVariables: [] });
+    // Escape curly braces to prevent LangChain template variable interpretation
+    const escapedPrompt = this.escapeTemplateChars(promptStr);
+    const runPrompt = new PromptTemplate({ template: escapedPrompt, inputVariables: [] });
     const formatted = await runPrompt.format({});
 
     const response = await this.model.invoke(formatted);
@@ -54,7 +64,9 @@ export class OrchestratorAgent {
   private async runOrchestratorOnce(userMessage: string, context?: Record<string, unknown>) {
     const contextText = context ? `CONTEXT:\n${JSON.stringify(context, null, 2)}\n\n` : '';
     const promptStr = `${this.systemPrompt}\n\n${contextText}USER MESSAGE:\n${userMessage}\n\n${this.parser.getFormatInstructions()}`;
-    const runPrompt = new PromptTemplate({ template: promptStr, inputVariables: [] });
+    // Escape curly braces to prevent LangChain template variable interpretation
+    const escapedPrompt = this.escapeTemplateChars(promptStr);
+    const runPrompt = new PromptTemplate({ template: escapedPrompt, inputVariables: [] });
     const formatted = await runPrompt.format({});
     const response = await this.model.invoke(formatted);
     const content = typeof response.content === 'string' ? response.content : JSON.stringify(response.content);
