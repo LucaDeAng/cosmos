@@ -7,9 +7,16 @@ on:
       - 'backend/**'
       - '.github/workflows/deploy-backend.yml'
   workflow_dispatch:
+    inputs:
+      skip_tests:
+        description: 'Skip tests and deploy directly'
+        required: false
+        default: true
+        type: boolean
 
 jobs:
   test:
+    if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.skip_tests != true)
     runs-on: ubuntu-latest
     env:
       NODE_ENV: test
@@ -35,8 +42,8 @@ jobs:
         continue-on-error: false
 
   deploy:
-    needs: test
-    if: always() && (needs.test.result == 'success' || github.event_name == 'workflow_dispatch')
+    needs: [test]
+    if: always() && (needs.test.result == 'success' || needs.test.result == 'skipped')
     runs-on: ubuntu-latest
     environment: production
     steps:
@@ -57,7 +64,7 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     environment: production
-    if: ${{ vars.RUN_MIGRATIONS == 'true' }}
+    if: vars.RUN_MIGRATIONS == 'true'
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
