@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd backend
-          npm ci
+          npm ci --legacy-peer-deps
 
       - name: Build backend
         run: |
