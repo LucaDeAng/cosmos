@@ -58,7 +58,8 @@ jobs:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
         run: |
           cd backend
-          railway up --service themis-backend
+          railway link --project themis-backend --environment production || true
+          railway up
 
   migrate:
     needs: deploy
