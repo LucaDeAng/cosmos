@@ -23,6 +23,16 @@ import type {
   PriorityScore,
   TriageResult,
 } from '../schemas/prioritizationSchema';
+import type {
+  ScoreFactor,
+  ScoreBreakdown,
+  AllScoreBreakdowns,
+} from '../schemas/explainabilitySchema';
+import {
+  createEmptyScoreBreakdown,
+  calculateOverallFromFactors,
+  generateExplanationFromFactors,
+} from '../schemas/explainabilitySchema';
 
 // Re-export defaults
 export { DEFAULT_SCORING_WEIGHTS } from './types';
@@ -465,6 +475,453 @@ export function determineRecommendation(
   return 'eliminate';
 }
 
+// === EXPLAINABILITY GENERATION ===
+
+/**
+ * Generate detailed score breakdown for strategic fit dimension
+ */
+function generateStrategicFitBreakdown(
+  item: PortfolioItemInput,
+  wsjf: WSJFScore,
+  retention: RetentionIndex
+): ScoreBreakdown {
+  const factors: ScoreFactor[] = [];
+  const missingData: string[] = [];
+  const assumptions: string[] = [];
+
+  // Strategic Alignment Factor
+  if (item.strategicAlignment !== undefined) {
+    factors.push({
+      factor: 'strategic_alignment',
+      impact: (item.strategicAlignment - 5) * 4, // -20 to +20
+      weight: 0.35,
+      explanation: item.strategicAlignment >= 7
+        ? `Alto allineamento strategico (${item.strategicAlignment}/10)`
+        : item.strategicAlignment >= 4
+        ? `Allineamento strategico medio (${item.strategicAlignment}/10)`
+        : `Basso allineamento strategico (${item.strategicAlignment}/10)`,
+      dataSource: 'portfolio_item',
+      confidence: 0.9
+    });
+  } else {
+    missingData.push('strategicAlignment');
+    assumptions.push('Allineamento strategico stimato come medio (5/10)');
+  }
+
+  // Business Value Factor
+  if (item.businessValue !== undefined) {
+    factors.push({
+      factor: 'business_value',
+      impact: (wsjf.businessValue - 5) * 3, // -15 to +15
+      weight: 0.30,
+      explanation: wsjf.businessValue >= 7
+        ? `Alto valore di business (${wsjf.businessValue}/10)`
+        : `Valore di business nella media (${wsjf.businessValue}/10)`,
+      dataSource: 'wsjf_calculation',
+      confidence: 0.85
+    });
+  } else {
+    missingData.push('businessValue');
+  }
+
+  // Lifecycle Factor
+  if (item.lifecycle) {
+    const lifecycleImpact = {
+      'growth': 15,
+      'mature': 5,
+      'introduction': 10,
+      'decline': -10,
+      'end_of_life': -20
+    };
+    factors.push({
+      factor: 'lifecycle_stage',
+      impact: lifecycleImpact[item.lifecycle as keyof typeof lifecycleImpact] || 0,
+      weight: 0.20,
+      explanation: `Fase del ciclo di vita: ${item.lifecycle}`,
+      dataSource: 'portfolio_item',
+      confidence: 0.8
+    });
+  }
+
+  // Competitive Position Factor
+  factors.push({
+    factor: 'competitive_position',
+    impact: (retention.competitivePosition - 0.5) * 30, // -15 to +15
+    weight: 0.15,
+    explanation: retention.competitivePosition >= 0.7
+      ? 'Posizione competitiva forte'
+      : retention.competitivePosition >= 0.4
+      ? 'Posizione competitiva media'
+      : 'Posizione competitiva debole',
+    dataSource: 'retention_index',
+    confidence: 0.7
+  });
+
+  const value = calculateOverallFromFactors(factors, 50);
+  const explanation = generateExplanationFromFactors(factors, 'Strategic Fit');
+
+  return {
+    value,
+    factors,
+    explanation,
+    missingData,
+    assumptions
+  };
+}
+
+/**
+ * Generate detailed score breakdown for value delivery dimension
+ */
+function generateValueDeliveryBreakdown(
+  item: PortfolioItemInput,
+  wsjf: WSJFScore,
+  ice: ICEScore
+): ScoreBreakdown {
+  const factors: ScoreFactor[] = [];
+  const missingData: string[] = [];
+  const assumptions: string[] = [];
+
+  // ROI Factor
+  if (item.roi !== undefined) {
+    factors.push({
+      factor: 'roi',
+      impact: Math.min(25, Math.max(-25, item.roi / 10)),
+      weight: 0.30,
+      explanation: item.roi >= 50
+        ? `ROI elevato (${item.roi}%)`
+        : item.roi >= 0
+        ? `ROI positivo (${item.roi}%)`
+        : `ROI negativo (${item.roi}%)`,
+      dataSource: 'portfolio_item',
+      confidence: 0.85
+    });
+  } else {
+    missingData.push('roi');
+  }
+
+  // Impact Factor (from ICE)
+  factors.push({
+    factor: 'impact',
+    impact: (ice.impact - 5) * 4,
+    weight: 0.35,
+    explanation: ice.impact >= 7
+      ? `Impatto atteso elevato (${ice.impact}/10)`
+      : `Impatto atteso nella media (${ice.impact}/10)`,
+    dataSource: 'ice_calculation',
+    confidence: 0.8
+  });
+
+  // Time to Value Factor
+  if (item.timeToValue !== undefined) {
+    const ttv = item.timeToValue;
+    factors.push({
+      factor: 'time_to_value',
+      impact: ttv <= 3 ? 15 : ttv <= 6 ? 5 : ttv <= 12 ? -5 : -15,
+      weight: 0.20,
+      explanation: ttv <= 3
+        ? `Valore rapido (${ttv} mesi)`
+        : ttv <= 6
+        ? `Valore a medio termine (${ttv} mesi)`
+        : `Valore a lungo termine (${ttv} mesi)`,
+      dataSource: 'portfolio_item',
+      confidence: 0.75
+    });
+  } else {
+    missingData.push('timeToValue');
+    assumptions.push('Time to value stimato come medio (6-12 mesi)');
+  }
+
+  // Financial Impact (from Retention)
+  factors.push({
+    factor: 'financial_impact',
+    impact: (wsjf.businessValue - 5) * 3,
+    weight: 0.15,
+    explanation: `Impatto finanziario basato sul valore di business`,
+    dataSource: 'wsjf_calculation',
+    confidence: 0.7
+  });
+
+  const value = calculateOverallFromFactors(factors, 50);
+  const explanation = generateExplanationFromFactors(factors, 'Value Delivery');
+
+  return {
+    value,
+    factors,
+    explanation,
+    missingData,
+    assumptions
+  };
+}
+
+/**
+ * Generate detailed score breakdown for risk-adjusted return dimension
+ */
+function generateRiskAdjustedBreakdown(
+  item: PortfolioItemInput,
+  wsjf: WSJFScore,
+  ice: ICEScore,
+  retention: RetentionIndex
+): ScoreBreakdown {
+  const factors: ScoreFactor[] = [];
+  const missingData: string[] = [];
+  const assumptions: string[] = [];
+
+  // Risk Level Factor
+  const riskImpact: Record<string, number> = {
+    'low': 20,
+    'medium': 0,
+    'high': -15,
+    'critical': -30
+  };
+  factors.push({
+    factor: 'risk_level',
+    impact: riskImpact[item.riskLevel || 'medium'] || 0,
+    weight: 0.40,
+    explanation: item.riskLevel === 'low'
+      ? 'Basso rischio di implementazione'
+      : item.riskLevel === 'critical'
+      ? 'Rischio critico - richiede mitigazione'
+      : `Livello di rischio: ${item.riskLevel || 'medium'}`,
+    dataSource: 'portfolio_item',
+    confidence: item.riskLevel ? 0.85 : 0.5
+  });
+
+  if (!item.riskLevel) {
+    missingData.push('riskLevel');
+    assumptions.push('Livello di rischio stimato come medio');
+  }
+
+  // Confidence Factor (from ICE)
+  factors.push({
+    factor: 'estimate_confidence',
+    impact: (ice.confidence - 5) * 3,
+    weight: 0.25,
+    explanation: ice.confidence >= 7
+      ? `Alta confidenza nelle stime (${ice.confidence}/10)`
+      : `Confidenza nelle stime nella media (${ice.confidence}/10)`,
+    dataSource: 'ice_calculation',
+    confidence: 0.75
+  });
+
+  // Risk Reduction/Opportunity Factor (from WSJF)
+  factors.push({
+    factor: 'risk_reduction_opportunity',
+    impact: (wsjf.riskReduction - 5) * 2.5,
+    weight: 0.20,
+    explanation: wsjf.riskReduction >= 7
+      ? 'Alto potenziale di riduzione rischi'
+      : 'Potenziale di riduzione rischi nella media',
+    dataSource: 'wsjf_calculation',
+    confidence: 0.7
+  });
+
+  // Dependencies Factor
+  const depCount = item.dependencies?.length || 0;
+  factors.push({
+    factor: 'dependencies',
+    impact: depCount === 0 ? 10 : depCount <= 2 ? 0 : depCount <= 4 ? -10 : -20,
+    weight: 0.15,
+    explanation: depCount === 0
+      ? 'Nessuna dipendenza - implementazione indipendente'
+      : `${depCount} dipendenze identificate`,
+    dataSource: 'portfolio_item',
+    confidence: 0.8
+  });
+
+  const value = calculateOverallFromFactors(factors, 50);
+  const explanation = generateExplanationFromFactors(factors, 'Risk-Adjusted Return');
+
+  return {
+    value,
+    factors,
+    explanation,
+    missingData,
+    assumptions
+  };
+}
+
+/**
+ * Generate detailed score breakdown for resource efficiency dimension
+ */
+function generateResourceEfficiencyBreakdown(
+  item: PortfolioItemInput,
+  wsjf: WSJFScore,
+  ice: ICEScore,
+  retention: RetentionIndex
+): ScoreBreakdown {
+  const factors: ScoreFactor[] = [];
+  const missingData: string[] = [];
+  const assumptions: string[] = [];
+
+  // Job Size Factor (from WSJF - inverse)
+  factors.push({
+    factor: 'job_size',
+    impact: (5 - wsjf.jobSize) * 3, // Smaller is better
+    weight: 0.30,
+    explanation: wsjf.jobSize <= 3
+      ? 'Effort contenuto - rapida implementazione'
+      : wsjf.jobSize <= 6
+      ? 'Effort medio'
+      : 'Effort elevato - richiede risorse significative',
+    dataSource: 'wsjf_calculation',
+    confidence: 0.8
+  });
+
+  // Ease of Implementation Factor (from ICE)
+  factors.push({
+    factor: 'ease_of_implementation',
+    impact: (ice.ease - 5) * 3,
+    weight: 0.25,
+    explanation: ice.ease >= 7
+      ? `Implementazione facilitata (${ice.ease}/10)`
+      : `Complessità di implementazione media (${ice.ease}/10)`,
+    dataSource: 'ice_calculation',
+    confidence: 0.75
+  });
+
+  // Complexity Factor
+  const complexityImpact: Record<string, number> = {
+    'low': 15,
+    'medium': 0,
+    'high': -20
+  };
+  factors.push({
+    factor: 'complexity',
+    impact: complexityImpact[item.complexity || 'medium'] || 0,
+    weight: 0.25,
+    explanation: `Complessità: ${item.complexity || 'medium'}`,
+    dataSource: 'portfolio_item',
+    confidence: item.complexity ? 0.85 : 0.5
+  });
+
+  if (!item.complexity) {
+    missingData.push('complexity');
+    assumptions.push('Complessità stimata come media');
+  }
+
+  // Resource Requirements Factor (from Retention)
+  factors.push({
+    factor: 'resource_requirements',
+    impact: (retention.resourceRequirements - 0.5) * 30,
+    weight: 0.20,
+    explanation: retention.resourceRequirements >= 0.7
+      ? 'Basso fabbisogno di risorse'
+      : 'Fabbisogno di risorse nella media',
+    dataSource: 'retention_index',
+    confidence: 0.7
+  });
+
+  const value = calculateOverallFromFactors(factors, 50);
+  const explanation = generateExplanationFromFactors(factors, 'Resource Efficiency');
+
+  return {
+    value,
+    factors,
+    explanation,
+    missingData,
+    assumptions
+  };
+}
+
+/**
+ * Generate detailed score breakdown for market timing dimension
+ */
+function generateMarketTimingBreakdown(
+  item: PortfolioItemInput,
+  wsjf: WSJFScore,
+  triageResult?: TriageResult
+): ScoreBreakdown {
+  const factors: ScoreFactor[] = [];
+  const missingData: string[] = [];
+  const assumptions: string[] = [];
+
+  // Time Criticality Factor (from WSJF)
+  factors.push({
+    factor: 'time_criticality',
+    impact: (wsjf.timeCriticality - 5) * 4,
+    weight: 0.40,
+    explanation: wsjf.timeCriticality >= 8
+      ? 'Timing critico - finestra di opportunità limitata'
+      : wsjf.timeCriticality >= 5
+      ? 'Timing importante ma flessibile'
+      : 'Bassa urgenza temporale',
+    dataSource: 'wsjf_calculation',
+    confidence: 0.8
+  });
+
+  // Triage Category Factor
+  if (triageResult) {
+    const triageImpact: Record<string, number> = {
+      'MUST': 25,
+      'SHOULD': 10,
+      'COULD': -5,
+      'WONT': -25
+    };
+    factors.push({
+      factor: 'triage_priority',
+      impact: triageImpact[triageResult.category] || 0,
+      weight: 0.30,
+      explanation: `Triage: ${triageResult.category} (confidenza ${Math.round(triageResult.confidence * 100)}%)`,
+      dataSource: 'triage_result',
+      confidence: triageResult.confidence
+    });
+  } else {
+    assumptions.push('Nessun risultato di triage disponibile');
+  }
+
+  // Market Potential Factor
+  if (item.lifecycle) {
+    const marketPotential: Record<string, number> = {
+      'introduction': 15,
+      'growth': 20,
+      'mature': 0,
+      'decline': -15,
+      'end_of_life': -25
+    };
+    factors.push({
+      factor: 'market_potential',
+      impact: marketPotential[item.lifecycle] || 0,
+      weight: 0.30,
+      explanation: `Potenziale di mercato basato sulla fase: ${item.lifecycle}`,
+      dataSource: 'portfolio_item',
+      confidence: 0.75
+    });
+  } else {
+    missingData.push('lifecycle');
+    assumptions.push('Fase di mercato non specificata');
+  }
+
+  const value = calculateOverallFromFactors(factors, 50);
+  const explanation = generateExplanationFromFactors(factors, 'Market Timing');
+
+  return {
+    value,
+    factors,
+    explanation,
+    missingData,
+    assumptions
+  };
+}
+
+/**
+ * Generate complete score breakdowns for all dimensions
+ */
+export function generateAllScoreBreakdowns(
+  item: PortfolioItemInput,
+  wsjf: WSJFScore,
+  ice: ICEScore,
+  retention: RetentionIndex,
+  triageResult?: TriageResult
+): AllScoreBreakdowns {
+  return {
+    strategicFit: generateStrategicFitBreakdown(item, wsjf, retention),
+    valueDelivery: generateValueDeliveryBreakdown(item, wsjf, ice),
+    riskAdjustedReturn: generateRiskAdjustedBreakdown(item, wsjf, ice, retention),
+    resourceEfficiency: generateResourceEfficiencyBreakdown(item, wsjf, ice, retention),
+    marketTiming: generateMarketTimingBreakdown(item, wsjf, triageResult)
+  };
+}
+
 // === MAIN SCORING FUNCTION ===
 
 /**
@@ -568,6 +1025,9 @@ export async function scoreItems(
     if (triageResult && triageResult.confidence > 0.7) confidence += 0.1;
     confidence = Math.min(1, confidence);
 
+    // Generate detailed score breakdowns for explainability
+    const scoreBreakdowns = generateAllScoreBreakdowns(item, wsjf, ice, retention, triageResult);
+
     results.push({
       itemId: item.id,
       itemName: item.name,
@@ -591,6 +1051,7 @@ export async function scoreItems(
         retention_strategic: retention.strategicFit,
         retention_risk: retention.riskLevel,
       },
+      scoreBreakdowns, // Detailed explainability breakdowns
       reasoning,
       recommendation,
     });
@@ -672,4 +1133,4 @@ export async function scoreSingleItem(
   };
 }
 
-export default { scoreItems, scoreSingleItem };
+export default { scoreItems, scoreSingleItem, generateAllScoreBreakdowns };

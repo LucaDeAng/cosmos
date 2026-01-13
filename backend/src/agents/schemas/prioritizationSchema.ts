@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { AllScoreBreakdownsSchema } from './explainabilitySchema';
 
 // ============================================
 // PRIORITIZATION SCHEMA
@@ -107,6 +108,7 @@ export const PriorityScoreSchema = z.object({
   moscowRationale: z.string(),
   confidence: z.number().min(0).max(1),
   breakdown: z.record(z.string(), z.number()).optional(),
+  scoreBreakdowns: AllScoreBreakdownsSchema.optional(), // Detailed explainability breakdowns
   reasoning: z.array(z.string()),
   recommendation: z.enum(['invest', 'maintain', 'optimize', 'eliminate']),
 });

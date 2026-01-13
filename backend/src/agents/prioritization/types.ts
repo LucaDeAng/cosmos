@@ -51,6 +51,7 @@ export interface PortfolioItemInput {
   estimatedCost?: number;
   actualCost?: number;
   roi?: number;
+  timeToValue?: number; // Months to realize value
 
   // Risk and complexity
   riskLevel?: 'low' | 'medium' | 'high' | 'critical';

@@ -14,6 +14,7 @@ import { normalizeTenantId } from '../utils/tenant';
 // Continuous Learning
 import { LearningService } from '../services/learningService';
 import { MetricsService } from '../services/metricsService';
+import { getRAGTrainingService } from '../services/ragTrainingService';
 
 // HITL Ingestion Service
 import { getHITLIngestionService } from '../services/hitlIngestionService';
@@ -1679,10 +1680,12 @@ router.post('/ingest/save', async (req: Request, res: Response) => {
     // ========================================================================
     let correctionsRecorded = 0;
     let learningTriggered = false;
+    let ragTrainingTriggered = false;
 
     if (originalItems && Array.isArray(originalItems) && originalItems.length > 0) {
       console.log(`\n📝 Recording corrections for continuous learning...`);
       const learningService = new LearningService();
+      const ragTrainingService = getRAGTrainingService();
 
       for (let i = 0; i < Math.min(items.length, originalItems.length); i++) {
         const original = originalItems[i];
@@ -1700,7 +1703,21 @@ router.post('/ingest/save', async (req: Request, res: Response) => {
               'user_save',
               { batchId }
             );
-            if (result.fieldsChanged > 0) correctionsRecorded++;
+            if (result.fieldsChanged > 0) {
+              correctionsRecorded++;
+              // Trigger RAG training for this correction
+              try {
+                await ragTrainingService.onUserCorrection(
+                  tenantId,
+                  { id: matchingOriginal.id || '', name: matchingOriginal.name || '', type: matchingOriginal.type || 'product', ...matchingOriginal },
+                  { id: corrected.id || '', name: corrected.name || '', type: corrected.type || 'product', ...corrected },
+                  'user_save_correction'
+                );
+                ragTrainingTriggered = true;
+              } catch (ragErr) {
+                console.warn('[RAGTraining] Error during correction training:', ragErr);
+              }
+            }
             if (result.learningTriggered) learningTriggered = true;
           }
         } else {
@@ -1712,7 +1729,21 @@ router.post('/ingest/save', async (req: Request, res: Response) => {
             'user_save',
             { batchId }
           );
-          if (result.fieldsChanged > 0) correctionsRecorded++;
+          if (result.fieldsChanged > 0) {
+            correctionsRecorded++;
+            // Trigger RAG training for this correction
+            try {
+              await ragTrainingService.onUserCorrection(
+                tenantId,
+                { id: original.id || '', name: original.name || '', type: original.type || 'product', ...original },
+                { id: corrected.id || '', name: corrected.name || '', type: corrected.type || 'product', ...corrected },
+                'user_save_correction'
+              );
+              ragTrainingTriggered = true;
+            } catch (ragErr) {
+              console.warn('[RAGTraining] Error during correction training:', ragErr);
+            }
+          }
           if (result.learningTriggered) learningTriggered = true;
         }
       }
@@ -1720,6 +1751,9 @@ router.post('/ingest/save', async (req: Request, res: Response) => {
       console.log(`   📊 Corrections recorded: ${correctionsRecorded}`);
       if (learningTriggered) {
         console.log(`   🎓 Learning was triggered!`);
+      }
+      if (ragTrainingTriggered) {
+        console.log(`   🧠 RAG training was triggered!`);
       }
     }
 
@@ -1783,6 +1817,7 @@ router.post('/ingest/save', async (req: Request, res: Response) => {
       learning: {
         correctionsRecorded,
         learningTriggered,
+        ragTrainingTriggered,
       },
     });
 
@@ -2026,9 +2061,11 @@ router.post('/feedback', async (req: Request, res: Response) => {
 
     const safeTenantId = normalizeTenantId(tenantId);
     const learningService = new LearningService();
+    const ragTrainingService = getRAGTrainingService();
 
     const results = [];
     let patternsCreated = 0;
+    let ragTrainingTriggered = false;
 
     for (const correction of corrections) {
       // Build original and corrected items from the correction
@@ -2038,6 +2075,12 @@ router.post('/feedback', async (req: Request, res: Response) => {
       if (correction.field && correction.original !== undefined && correction.corrected !== undefined) {
         originalItem[correction.field] = correction.original;
         correctedItem[correction.field] = correction.corrected;
+
+        // If we have itemId, add it to both items
+        if (itemId) {
+          originalItem.id = itemId;
+          correctedItem.id = itemId;
+        }
 
         const result = await learningService.recordCorrection(
           safeTenantId,
@@ -2052,6 +2095,21 @@ router.post('/feedback', async (req: Request, res: Response) => {
         if (result.learningTriggered) {
           patternsCreated++;
         }
+
+        // Trigger RAG training for this correction
+        if (result.fieldsChanged > 0) {
+          try {
+            await ragTrainingService.onUserCorrection(
+              safeTenantId,
+              { id: itemId || '', name: originalItem.name as string || '', type: itemType || 'product', ...originalItem },
+              { id: itemId || '', name: correctedItem.name as string || '', type: itemType || 'product', ...correctedItem },
+              `feedback_${correction.field}`
+            );
+            ragTrainingTriggered = true;
+          } catch (ragErr) {
+            console.warn('[RAGTraining] Error during feedback training:', ragErr);
+          }
+        }
       }
     }
 
@@ -2061,6 +2119,7 @@ router.post('/feedback', async (req: Request, res: Response) => {
       success: true,
       correctionsRecorded,
       patternsCreated,
+      ragTrainingTriggered,
       message: patternsCreated > 0
         ? `Learned ${patternsCreated} new pattern(s) from your corrections!`
         : correctionsRecorded > 0
@@ -2072,6 +2131,75 @@ router.post('/feedback', async (req: Request, res: Response) => {
     console.error('❌ Feedback error:', error);
     res.status(500).json({
       error: 'Failed to record feedback',
+      details: error instanceof Error ? error.message : 'Unknown error',
+    });
+  }
+});
+
+/**
+ * GET /api/portfolio/rag-training/stats/:tenantId
+ * Get RAG training statistics for a tenant
+ */
+router.get('/rag-training/stats/:tenantId', async (req: Request, res: Response) => {
+  console.log('📊 GET /api/portfolio/rag-training/stats');
+
+  try {
+    const { tenantId } = req.params;
+
+    if (!tenantId) {
+      return res.status(400).json({ error: 'tenantId è richiesto' });
+    }
+
+    const safeTenantId = normalizeTenantId(tenantId);
+    const ragTrainingService = getRAGTrainingService();
+
+    const stats = await ragTrainingService.getTrainingStats(safeTenantId);
+
+    res.json({
+      success: true,
+      stats,
+    });
+
+  } catch (error) {
+    console.error('❌ RAG training stats error:', error);
+    res.status(500).json({
+      error: 'Failed to get RAG training stats',
+      details: error instanceof Error ? error.message : 'Unknown error',
+    });
+  }
+});
+
+/**
+ * POST /api/portfolio/rag-training/trigger/:tenantId
+ * Manually trigger RAG training for a tenant
+ */
+router.post('/rag-training/trigger/:tenantId', async (req: Request, res: Response) => {
+  console.log('🧠 POST /api/portfolio/rag-training/trigger');
+
+  try {
+    const { tenantId } = req.params;
+
+    if (!tenantId) {
+      return res.status(400).json({ error: 'tenantId è richiesto' });
+    }
+
+    const safeTenantId = normalizeTenantId(tenantId);
+    const ragTrainingService = getRAGTrainingService();
+
+    await ragTrainingService.triggerManualTraining(safeTenantId);
+
+    const stats = await ragTrainingService.getTrainingStats(safeTenantId);
+
+    res.json({
+      success: true,
+      message: 'RAG training triggered successfully',
+      stats,
+    });
+
+  } catch (error) {
+    console.error('❌ RAG training trigger error:', error);
+    res.status(500).json({
+      error: 'Failed to trigger RAG training',
       details: error instanceof Error ? error.message : 'Unknown error',
     });
   }
