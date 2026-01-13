@@ -46,3 +46,18 @@ export type {
   CacheStats,
   DedupStats,
 } from './ingestionAcceleratorAgent';
+
+// Azure Document Intelligence Agent (optional - for enhanced table extraction)
+export {
+  extractWithAzure,
+  tablesToRawItems,
+  isAzureConfigured,
+  shouldUseAzure,
+} from './azureDocIntelligenceAgent';
+export type {
+  AzureExtractionResult,
+  ExtractedTable,
+  TableRow,
+  TableCell,
+  AzureAgentInput,
+} from './azureDocIntelligenceAgent';

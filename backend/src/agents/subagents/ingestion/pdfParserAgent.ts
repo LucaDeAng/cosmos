@@ -16,6 +16,14 @@ import { z } from 'zod';
 import pLimit from 'p-limit';
 import { spawnSync } from 'child_process';
 
+// Azure Document Intelligence (optional - for enhanced table extraction)
+import {
+  extractWithAzure,
+  tablesToRawItems,
+  isAzureConfigured,
+  shouldUseAzure,
+} from './azureDocIntelligenceAgent';
+
 // ==================== Model Provider Configuration ====================
 type ModelProvider = 'openai' | 'gemini';
 const PDF_MODEL_PROVIDER: ModelProvider = (process.env.PDF_MODEL_PROVIDER as ModelProvider) || 'openai';
@@ -1588,6 +1596,76 @@ export async function parsePDF(input: PDFParserInput): Promise<PDFParserOutput> 
     }
     let chunksProcessed = 1;
     let documentMetadata: Record<string, unknown> = { ...info };
+
+    // Step 1.5: Try Azure Document Intelligence for table extraction (if configured)
+    const useAzure = process.env.AZURE_DOC_INTELLIGENCE_ENABLED === 'true' || process.env.AZURE_DOC_INTELLIGENCE_ENABLED === '1';
+    if (useAzure && isAzureConfigured()) {
+      // Check if document likely contains tables
+      const isTableDoc = containsTables(text);
+
+      if (isTableDoc || shouldUseAzure(text, 0.5)) {
+        console.log(`🔷 Attempting Azure Document Intelligence extraction...`);
+
+        const azureResult = await extractWithAzure({
+          fileBuffer: input.fileBuffer,
+          fileName: input.fileName,
+          extractTables: true,
+          extractText: false, // We already have text
+          useFreeTier: true,
+        });
+
+        if (azureResult.success && azureResult.tables.length > 0) {
+          const azureItems = tablesToRawItems(azureResult.tables);
+
+          if (azureItems.length >= PDF_TABLE_MIN_ITEMS) {
+            // Azure found good data - use it
+            const { filtered, removedCount } = filterNoiseItems(azureItems);
+            const deduped = deduplicateItems(filtered);
+
+            if (deduped.length >= PDF_TABLE_MIN_ITEMS) {
+              const itemsWithIds = deduped.map(item => ({
+                ...item,
+                id: uuidv4(),
+              })) as RawExtractedItem[];
+
+              const azureNotes = [
+                `Used Azure Document Intelligence (${azureResult.tables.length} tables, ${azureResult.pageCount} pages)`,
+                ...(removedCount > 0 ? [`Filtered ${removedCount} noise items`] : []),
+                ...azureResult.warnings,
+              ];
+
+              const result: PDFParserOutput = {
+                success: true,
+                items: itemsWithIds,
+                rawText: text,
+                pageCount: numPages,
+                documentMetadata: {
+                  ...info,
+                  extractedWith: 'azure-doc-intelligence',
+                  azureTables: azureResult.tables.length,
+                  azureConfidence: azureResult.confidence,
+                  tableExtraction: true,
+                },
+                extractionNotes: azureNotes,
+                confidence: Math.max(azureResult.confidence, 0.85),
+                processingTime: Date.now() - startTime,
+                chunksProcessed: 1,
+                totalChars: text.length,
+              };
+
+              writePdfCache(input.fileBuffer, result, cacheKey);
+              console.log(`✅ Azure extraction successful: ${itemsWithIds.length} items from ${azureResult.tables.length} tables`);
+              return result;
+            }
+          }
+
+          // Azure found some items but not enough - add to notes and continue
+          notes.push(`Azure found ${azureItems.length} items (below threshold), using LLM extraction`);
+        } else if (!azureResult.success) {
+          notes.push(...azureResult.warnings);
+        }
+      }
+    }
 
     // Step 2: Decide extraction strategy based on document size
     const useChunking = text.length > PDF_CHUNKING_CONFIG.minTextForChunking;
